@@ -1,0 +1,43 @@
+# 🚀 Introdução a Frameworks Back-end & Express.js
+
+> **Disciplina / Conteúdo baseado na aula do Prof. Me. Deivison S. Takatu** (Fatec)
+
+Este repositório contém os conceitos fundamentais de desenvolvimento Back-end com Node.js e Express.js, além de um guia prático para criação, consumo e deploy de APIs RESTful.
+
+---
+
+## 📌 Sumário
+1. [Conceitos do Back-end](#1-conceitos-do-back-end)
+2. [Arquiteturas & Padrões de Projeto](#2-arquiteturas--padrões-de-projeto)
+3. [Estudo de Caso: Monolito vs. Microsserviços](#3-estudo-de-caso-monolito-vs-microsserviços)
+4. [Framework Express.js](#4-framework-expressjs)
+5. [Fundamentos de API REST e HTTP](#5-fundamentos-de-api-rest-e-http)
+6. [Estrutura do JSON](#6-estrutura-do-json)
+7. [Guia Prático: Criando a API com Express](#7-guia-prático-criando-a-api-com-express)
+8. [Deploy no Render](#8-deploy-no-render)
+9. [Exercício Prático / Atividade](#9-exercício-prático--atividade)
+
+---
+
+## 1. Conceitos do Back-end
+
+Um **framework back-end** é um conjunto de ferramentas, bibliotecas e convenções pré-definidas que padronizam a criação de servidores, regras de negócio, rotas e banco de dados.
+
+### ⚖️ Sem Framework vs. Com Framework
+
+| Aspecto | Sem Framework (Código Puro) | Com Framework (ex: Express, Django) |
+| :--- | :--- | :--- |
+| **Código** | Escrito manualmente, redundante | Padronizado e estruturado |
+| **Configuração** | Trabalhosa e repetitiva | Simplificada por abstrações e middlewares |
+| **Segurança** | Maior exposição a falhas manuais | Proteções embutidas (ex: sanilização, CORS, Auth) |
+| **Escalabilidade** | Dificuldade para organizar à medida que cresce | Estrutura modular (MVC ou em Camadas) |
+
+---
+
+## 2. Arquiteturas & Padrões de Projeto
+
+### 🏢 Padrão MVC (Model - View - Controller)
+O **MVC** divide as responsabilidades do sistema em três pilares principais:
+* **Model (Modelo):** Gerencia os dados e regras de negócio. Interage diretamente com a Base de Dados.
+* **View (Visão):** Interface gráfica apresentada ao usuário.
+* **Controller (Controlador):** Intermediário que recebe a solicitação do usuário (View), aciona a regra de negócio/dados (Model) e retorna a resposta formatada.
