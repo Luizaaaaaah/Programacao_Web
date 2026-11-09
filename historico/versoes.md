@@ -3,15 +3,22 @@
 **Repositório:** [Programacao_Web](https://github.com/Luizaaaaaah/Programacao_Web)  
 **Branch principal:** main
 
-## Estado anterior à reorganização
+## Estado encontrado antes da reorganização
 
-Na consulta ao repositório, foi observada uma branch principal main e um commit anterior com a mensagem “Add files via upload”, datado de 06/10/2026. Os READMEs de releases não apresentavam releases publicados. As tags Git não foram confirmadas nesta auditoria e, por isso, não são listadas como existentes.
+A branch principal era main. O commit anterior observado tinha a mensagem “Add files via upload”, datado de 06/10/2026. Não foi localizada uma release publicada. As tags Git não foram confirmadas na consulta e, por isso, não são listadas como existentes.
+
+## Registro de commits desta organização
+
+| Data | Commit | Descrição |
+|---|---|---|
+| 09/11/2026 | [4aa92e0](https://github.com/Luizaaaaaah/Programacao_Web/commit/4aa92e02e57658b244e4bb47fa15ccdd5582abc5) | docs: organiza portfólio acadêmico das aulas 01 a 09 |
+| 09/11/2026 | [5934e26](https://github.com/Luizaaaaaah/Programacao_Web/commit/5934e26dbc8deb48fb719d63c66c733f7413d0be) | docs: adiciona atalhos para documentos anteriores |
 
 ## Versões documentadas
 
 | Tag | Descrição | Situação |
 |---|---|---|
-| v1.0.0 | Organização inicial do portfólio: índices, resumos, relatórios de atividades e histórico | Planejada; publicar após revisar o commit no GitHub |
+| v1.0.0 | Organização inicial do portfólio: índices, resumos, relatórios de atividades e histórico | Planejada; a tag ainda deve ser criada e publicada |
 
 ## Convenção SemVer
 
@@ -23,7 +30,7 @@ O padrão MAJOR.MINOR.PATCH foi apresentado na Aula 03:
 
 ## Como criar uma tag anotada
 
-Após conferir as alterações, enviar o commit e confirmar que a branch está atualizada, executar dentro da pasta local:
+Após conferir as alterações, enviar os commits e confirmar que a branch está atualizada, executar dentro da pasta local:
 
 ~~~bash
 git pull origin main
