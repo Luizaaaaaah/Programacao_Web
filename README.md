@@ -41,8 +41,8 @@ Os códigos permanecem nos repositórios próprios. Este repositório principal 
 | Aula 03 — versionamento | [Versionamento](https://github.com/Luizaaaaaah/Versionamento) | Página HTML simples de lista de tarefas. |
 | Aula 03 — versionamento | [Versionamento-II](https://github.com/Luizaaaaaah/Versionamento-II) | Página inicial do projeto EcoTech. |
 | Aula 03 — versionamento | [Versionamento-III](https://github.com/Luizaaaaaah/Versionamento-III) | Tela de login com HTML, CSS e JavaScript. |
-| Aula 05 — React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | O código contém as cinco funcionalidades solicitadas: tarefas, contador, jogo da velha, calculadora e consulta de CEP. |
-| Aula 06 — Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | O código contém contador, dado e jogo de adivinhação. |
+| Aula 05 — React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Código com as cinco funcionalidades solicitadas: tarefas, contador, jogo da velha, calculadora e consulta de CEP. |
+| Aula 06 — Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Código com contador, dado e jogo de adivinhação. |
 | Aula 06 — Vue / template | [vue-project](https://github.com/Luizaaaaaah/vue-project) | Aplicação HoennDex com pesquisa e filtro; conferir se foi o template importado para a atividade. |
 | Aula 06 — Vue | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Repositório existe, mas está vazio na consulta. |
 | Aula 07 — Express | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | API PurpleMood; a finalidade difere da rota de data e hora descrita no slide. |
@@ -80,7 +80,13 @@ Programacao_Web/
     └── versoes.md
 ~~~
 
-Os documentos que já existiam na raiz foram mantidos para preservar o histórico. Os novos materiais organizam a navegação sem apagar os registros anteriores.
+## Documentos anteriores mantidos
+
+Os documentos que já estavam na raiz foram preservados para não perder o histórico:
+
+- [Resumo anterior da Aula 05](exercicio_react%20%28aula_5%29.md)
+- [Resumo anterior da Aula 06](exercicio_angular_vue%20%28aula_6%29.md.md)
+- [Anotações de Express](exercicio_express)
 
 ## Critério de registro
 
