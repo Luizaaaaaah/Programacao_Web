@@ -278,7 +278,9 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Resultado:** abertura e renderização inicial da página confirmadas visualmente. A captura foi compartilhada nesta conversa, mas ainda não foi anexada à pasta `prints/` no GitHub.
 
-**Teste 2 — Explorar Pokédex:** após clicar no botão **Explorar Pokédex**, a estudante apresentou a seção **Pokémon de Hoenn**. A imagem mostra o campo de pesquisa, o seletor de tipos em **Todos** e os cartões de **Treecko (#252)**, **Grovyle (#253)**, **Sceptile (#254)** e **Torchic (#255)** com imagens, nomes, tipos e atributos **HP, ATK e DEF**. A navegação até o catálogo e a renderização dos cartões foram confirmadas visualmente. A pesquisa por nome, o filtro por tipo e o comportamento responsivo ainda precisam ser testados. O print permanece nesta conversa, sem upload ao GitHub.
+**Teste 2 — Explorar Pokédex:** após clicar no botão **Explorar Pokédex**, a estudante apresentou a seção **Pokémon de Hoenn**. A imagem mostra o campo de pesquisa, o seletor de tipos em **Todos** e os cartões de **Treecko (#252)**, **Grovyle (#253)**, **Sceptile (#254)** e **Torchic (#255)** com imagens, nomes, tipos e atributos **HP, ATK e DEF**. A navegação até o catálogo e a renderização dos cartões foram confirmadas visualmente. O print permanece nesta conversa, sem upload ao GitHub.
+
+**Teste 3 — Pesquisa por nome:** com o termo **Torchic** digitado no campo de busca e o filtro de tipo em **Todos**, a captura mostrou somente o cartão **Torchic (#255)**, com imagem, tipo **Fogo** e atributos HP **45**, ATK **60** e DEF **40**. Os demais Pokémon deixaram de aparecer, confirmando visualmente o filtro por nome. A captura está nesta conversa e ainda precisa ser anexada ao GitHub. O filtro por tipo e o comportamento responsivo ainda precisam ser testados.
 
 ## 10. Situação da atividade
 
