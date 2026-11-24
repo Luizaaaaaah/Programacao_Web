@@ -200,7 +200,9 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 2 — Incrementar contador:** após a estudante clicar três vezes no botão `+`, a captura mostrou o contador alterado de **0** para **3**, confirmando o funcionamento da operação de incremento. A imagem está nesta conversa e ainda não foi anexada ao repositório.
 
-Ainda precisam ser verificados os botões de diminuir e zerar o contador, o sorteio do dado e o jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
+**Teste 3 — Decrementar contador:** após um clique no botão `−`, a captura mostrou a redução do contador de **3** para **2**, confirmando o decremento. O print foi enviado nesta conversa e ainda não foi anexado ao GitHub.
+
+Ainda precisam ser verificados o botão de zerar o contador, o sorteio do dado e o jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
 
