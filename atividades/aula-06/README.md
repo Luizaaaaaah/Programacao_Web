@@ -16,7 +16,7 @@ Este relatório aproveita o código existente nos repositórios já desenvolvido
 |---|---|---|
 | Projeto React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação com cinco funcionalidades, também documentada na Aula 05; confirmar seu reaproveitamento nesta aula |
 | Projeto Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Código Angular identificado e analisado |
-| Projeto Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; execução e deploy ainda pendentes |
+| Projeto Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; execução no navegador ainda pendente; deploy Vercel `READY` confirmado |
 | Projeto Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex desenvolvida em Vue com pesquisa, filtros e design próprio |
 
 **Trabalho em conjunto:** também foi encontrado o repositório [pokedex_vue, do Rafael](https://github.com/RafaelRachidd/pokedex_vue), com código Vue. Esse material pode ser consultado como referência do trabalho compartilhado, sem atribuir a ele automaticamente o papel de quarto projeto ou de template utilizado.
@@ -101,7 +101,7 @@ A aplicação chamada **Organizador de Estudos** permite cadastrar tarefas acad�
 
 O código utiliza os recursos **ref**, **computed**, **watch**, **v-model** e **v-for**, além de estilos responsivos. Os arquivos principais são [src/App.vue](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/App.vue) e [src/style.css](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/style.css).
 
-Este projeto foi criado para completar a prática e **não é apresentado como entrega originalmente produzida na data da aula**. Seu funcionamento ainda precisa ser testado e publicado na Vercel.
+Este projeto foi criado para completar a prática e **não é apresentado como entrega originalmente produzida na data da aula**. Seu deploy foi criado na Vercel e recebeu status `READY`; o funcionamento no navegador ainda precisa ser testado.
 
 ## 5. Projeto React
 
@@ -121,12 +121,12 @@ O repositório **exercicio_vue** estava vazio na conferência original e recebeu
 
 | Projeto | Código | URL de produção |
 |---|---|---|
-| React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Não confirmada |
-| Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Não confirmada |
-| Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — código criado como complementação | Não confirmada |
-| Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | Não confirmada |
+| React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | [exercicio-react-ecru.vercel.app](https://exercicio-react-ecru.vercel.app) — `READY` |
+| Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | [exercicioangular.vercel.app](https://exercicioangular.vercel.app) — `READY` |
+| Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — complementação em 24/11/2026 | [exercicio-vue-fawn.vercel.app](https://exercicio-vue-fawn.vercel.app) — `READY` |
+| Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | [vue-project-alpha-peach.vercel.app](https://vue-project-alpha-peach.vercel.app) — `READY` |
 
-Não foram inventados endereços da Vercel. A execução local, os quatro deploys e o vínculo exato com o template dependem de validação.
+Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`, mas **não foi validado** o funcionamento das interfaces no navegador, o acesso por terceiros nem a origem do template.
 
 ## 8. Evidências
 
@@ -151,7 +151,8 @@ Capturas reais a incluir na pasta [prints](prints/README.md):
 - [x] Criar implementação básica em Vue no repositório anteriormente vazio (complementação em 24/11/2026).
 - [ ] Identificar o template original e registrar as modificações.
 - [ ] Executar e testar os projetos no navegador.
-- [ ] Confirmar/publicar os quatro projetos na Vercel.
+- [x] Identificar e registrar os quatro deploys no painel da Vercel (`READY`).
+- [ ] Testar funcionamento e acesso público de cada interface.
 - [ ] Adicionar os prints reais.
 
 ## 10. Conclusão
