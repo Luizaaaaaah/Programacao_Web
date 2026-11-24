@@ -329,4 +329,4 @@ A atividade permitiu estudar a relação entre planejamento, prototipação e ex
 
 O protótipo Capítulo Digital demonstra uma proposta de interface de autenticação com identidade visual definida e adaptação para desktop e dispositivos móveis.
 
-O material existente foi reaproveitado como registro da etapa de prototipação. A pesquisa comparativa de aplicações, a arquitetura completa e a organização no Trello ainda precisam ser verificadas ou complementadas para atender integralmente ao enunciado.
+O material existente foi reaproveitado como registro da etapa de prototipação. A pesquisa documental de aplicações semelhantes foi incorporada, três histórias de usuário foram propostas e o quadro Trello existente foi conferido. A arquitetura apresentada é um sitemap conceitual: as telas além do login e os fluxos completos ainda precisam de validação no protótipo ou na aplicação, antes de serem apresentados como implementados.
