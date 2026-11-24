@@ -126,7 +126,7 @@ O repositório **exercicio_vue** estava vazio na conferência original e recebeu
 | Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — complementação em 24/11/2026 | [exercicio-vue-fawn.vercel.app](https://exercicio-vue-fawn.vercel.app) — `READY` |
 | Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | [vue-project-alpha-peach.vercel.app](https://vue-project-alpha-peach.vercel.app) — `READY` |
 
-Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`. **O Vue básico teve suas principais funcionalidades validadas por prints enviados pela estudante**; os demais projetos ainda precisam de teste no navegador, assim como o acesso por terceiros e a origem do template.
+Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`. **Vue básico e Angular tiveram suas principais funcionalidades validadas por prints enviados pela estudante**; os demais projetos ainda precisam de teste no navegador, assim como o acesso por terceiros e a origem do template.
 
 ## 8. Evidências
 
@@ -198,29 +198,79 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Resultado:** abertura e renderização inicial da página confirmadas visualmente.
 
-**Teste 2 — Incrementar contador:** após a estudante clicar três vezes no botão `+`, a captura mostrou o contador alterado de **0** para **3**, confirmando o funcionamento da operação de incremento. A imagem está nesta conversa e ainda não foi anexada ao repositório.
+**Teste 2 — Incrementar contador:** após a estudante clicar três vezes no botão `+`, a captura mostrou o contador alterado de **0** para **3**, confirmando o funcionamento da operação de incremento. A captura está anexada ao GitHub.
 
-**Teste 3 — Decrementar contador:** após um clique no botão `−`, a captura mostrou a redução do contador de **3** para **2**, confirmando o decremento. O print foi enviado nesta conversa e ainda não foi anexado ao GitHub.
+**Teste 3 — Decrementar contador:** após um clique no botão `−`, a captura mostrou a redução do contador de **3** para **2**, confirmando o decremento. A captura está anexada ao GitHub.
 
-**Teste 4 — Reset do contador:** após clicar no botão **Reset**, a captura da interface mostrou o contador novamente em **0**, conforme o comportamento esperado. A evidência foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
+**Teste 4 — Reset do contador:** após clicar no botão **Reset**, a captura da interface mostrou o contador novamente em **0**, conforme o comportamento esperado. A captura está anexada ao GitHub.
 
-**Teste 5 — Rolar dado:** após a sequência de cliques solicitada, a captura enviada mostra o dado com valor **6**, diferente do valor **1** observado na captura inicial. O resultado está dentro da faixa de **1 a 6** prevista na implementação. A imagem comprova o valor final apresentado; os resultados individuais de cada clique não foram registrados. A captura ainda precisa ser anexada à pasta `prints/`.
+**Teste 5 — Rolar dado:** após a sequência de cliques solicitada, a captura enviada mostra o dado com valor **6**, diferente do valor **1** observado na captura inicial. O resultado está dentro da faixa de **1 a 6** prevista na implementação. A imagem comprova o valor final apresentado; os resultados individuais de cada clique não foram registrados. A captura está anexada à pasta `prints/`.
 
 **Teste 6 — Adivinhe o Número (primeiro palpite):** após inserir **25** e clicar em **Tentar**, a interface mostrou a mensagem **“Tente um número menor!”** e atualizou o indicador para **Tentativas: 1**. O resultado confirma o processamento do primeiro palpite e a orientação para um valor inferior a 25. As demais condições do jogo ainda precisam ser testadas.
 
 **Teste 7 — Segundo palpite:** a estudante informou **12** e a tela exibiu novamente **“Tente um número menor!”**, com **Tentativas: 2**. O jogo processou o palpite, manteve a orientação e incrementou corretamente o contador. Como ambos os palpites foram altos, o número secreto está abaixo de **12**. A vitória ainda não foi testada.
 
-**Teste 8 — Terceiro palpite:** ao informar **6**, a captura exibiu novamente **“Tente um número menor!”** e **Tentativas: 3**, confirmando que o palpite foi processado e o contador incrementado. O número secreto, nessa rodada, ficou restrito a **1–5**; a vitória ainda não foi verificada. A imagem foi fornecida nesta conversa, mas ainda não foi anexada ao GitHub.
+**Teste 8 — Terceiro palpite:** ao informar **6**, a captura exibiu novamente **“Tente um número menor!”** e **Tentativas: 3**, confirmando que o palpite foi processado e o contador incrementado. O número secreto, nessa rodada, ficou restrito a **1–5**; a vitória ainda não foi verificada. A imagem está anexada ao GitHub.
 
-**Teste 9 — Quarto palpite:** ao informar **3**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 4**. Com a orientação anterior de que o número era menor que 6, o valor secreto nessa rodada ficou restrito a **4 ou 5**. A vitória ainda não foi comprovada, e o print permanece na conversa, sem upload ao GitHub.
+**Teste 9 — Quarto palpite:** ao informar **3**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 4**. Com a orientação anterior de que o número era menor que 6, o valor secreto nessa rodada ficou restrito a **4 ou 5**. A vitória ainda não foi comprovada, e o print está anexado ao GitHub.
 
-**Teste 10 — Quinto palpite:** ao informar **4**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 5**. Considerando que a rodada já havia indicado um número **menor que 6**, restou **5** como único valor possível. A vitória ainda depende do próximo palpite e a imagem permanece nesta conversa, sem upload ao GitHub.
+**Teste 10 — Quinto palpite:** ao informar **4**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 5**. Considerando que a rodada já havia indicado um número **menor que 6**, restou **5** como único valor possível. A vitória ainda depende do próximo palpite e a imagem está anexada ao GitHub.
 
-**Teste 11 — Vitória no jogo de adivinhação:** após informar **5**, a captura mostrou a mensagem **“Acertou! O número era 5. Tentativas: 6”** e o botão **Jogar Novamente**. O teste confirmou a identificação do número correto e a contagem de seis palpites. A imagem foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
+**Teste 11 — Vitória no jogo de adivinhação:** após informar **5**, a captura mostrou a mensagem **“Acertou! O número era 5. Tentativas: 6”** e o botão **Jogar Novamente**. O teste confirmou a identificação do número correto e a contagem de seis palpites. A imagem está anexada ao GitHub.
 
-**Teste 12 — Reinício da partida:** após clicar em **Jogar Novamente**, a imagem mostra novamente o formulário de palpite, a mensagem inicial **“Tente adivinhar um número entre 1 e 50!”** e o indicador **Tentativas: 0**. O reinício visual e a zeragem do contador foram confirmados; o novo número secreto não foi testado. O print está nesta conversa e ainda não foi anexado ao GitHub.
+**Teste 12 — Reinício da partida:** após clicar em **Jogar Novamente**, a imagem mostra novamente o formulário de palpite, a mensagem inicial **“Tente adivinhar um número entre 1 e 50!”** e o indicador **Tentativas: 0**. O reinício visual e a zeragem do contador foram confirmados; o novo número secreto não foi testado. O print está anexado ao GitHub.
 
-As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
+As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do GitHub e estão disponíveis abaixo.
+
+### Galeria das evidências do Angular
+
+**Página inicial do Angular**
+
+![Página inicial do Angular](prints/02-projeto-angular.png)
+
+**Contador incrementado para 3**
+
+![Contador incrementado para 3](prints/15-angular-contador-3.png)
+
+**Contador reduzido para 2**
+
+![Contador reduzido para 2](prints/16-angular-contador-2.png)
+
+**Contador zerado pelo Reset**
+
+![Contador zerado pelo Reset](prints/17-angular-contador-reset.png)
+
+**Dado exibindo o valor 6**
+
+![Dado exibindo o valor 6](prints/18-angular-dado-6.png)
+
+**Primeiro palpite: 25**
+
+![Primeiro palpite: 25](prints/19-angular-palpite-25.png)
+
+**Segundo palpite: 12**
+
+![Segundo palpite: 12](prints/20-angular-palpite-12.png)
+
+**Terceiro palpite: 6**
+
+![Terceiro palpite: 6](prints/21-angular-palpite-6.png)
+
+**Quarto palpite: 3**
+
+![Quarto palpite: 3](prints/22-angular-palpite-3.png)
+
+**Quinto palpite: 4**
+
+![Quinto palpite: 4](prints/23-angular-palpite-4.png)
+
+**Vitória no sexto palpite: 5**
+
+![Vitória no sexto palpite: 5](prints/24-angular-vitoria.png)
+
+**Partida reiniciada com zero tentativas**
+
+![Partida reiniciada com zero tentativas](prints/25-angular-jogar-novamente.png)
 
 ## 10. Situação da atividade
 
@@ -237,7 +287,8 @@ As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram a
 - [x] Validar exclusão de tarefa no Vue básico com print de lista vazia e contadores zerados.
 - [ ] Testar funcionamento e acesso público das demais interfaces.
 - [x] Anexar ao GitHub as sete capturas reais de validação do Vue básico.
-- [ ] Adicionar os prints de React, Angular, HoennDex e os demais requisitos da aula.
+- [x] Anexar os 12 prints reais dos testes do Angular.
+- [ ] Adicionar os prints de React, HoennDex e dos demais requisitos da aula.
 
 ## 11. Conclusão
 
