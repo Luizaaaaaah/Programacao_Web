@@ -143,7 +143,9 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 
 **Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura ainda está na conversa e **não foi anexada ao GitHub**. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
 
-**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Ainda não foi testado o cadastro, a conclusão ou a remoção de tarefas. A captura foi recebida nesta conversa e ainda precisa ser anexada ao GitHub.
+**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Nesse momento, o cadastro, a conclusão e a remoção ainda não tinham sido testados. A captura foi recebida nesta conversa e ainda precisa ser anexada ao GitHub.
+
+**Teste 3 — Cadastro no To-Do List:** a estudante digitou **“Estudar React”** e clicou em **Adicionar**. A captura mostra a tarefa cadastrada, o campo de entrada novamente vazio e o botão **Remover** ao lado da tarefa. O cadastro foi confirmado visualmente; a conclusão e a exclusão ainda precisam ser verificadas. A imagem está na conversa e ainda não foi anexada à pasta `prints/` do GitHub.
 
 ## 9. Verificação da atividade
 
