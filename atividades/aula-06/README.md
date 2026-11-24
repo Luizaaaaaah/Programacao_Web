@@ -206,7 +206,7 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 5 — Rolar dado:** após a sequência de cliques solicitada, a captura enviada mostra o dado com valor **6**, diferente do valor **1** observado na captura inicial. O resultado está dentro da faixa de **1 a 6** prevista na implementação. A imagem comprova o valor final apresentado; os resultados individuais de cada clique não foram registrados. A captura ainda precisa ser anexada à pasta `prints/`.
 
-**Teste 6 — Adivinhe o Número (primeiro palpite):** após inserir **25** e clicar em **Tentar**, a interface mostrou a mensagem **“Tente um número menor!”** e atualizou o indicador para **Tentativas: 1**. O resultado confirma o processamento do primeiro palpite e a orientação para um valor inferior a 25. A conclusão da rodada e as demais condições do jogo ainda precisam ser testadas.
+**Teste 6 — Adivinhe o Número (primeiro palpite):** após inserir **25** e clicar em **Tentar**, a interface mostrou a mensagem **“Tente um número menor!”** e atualizou o indicador para **Tentativas: 1**. O resultado confirma o processamento do primeiro palpite e a orientação para um valor inferior a 25. As demais condições do jogo ainda precisam ser testadas.
 
 **Teste 7 — Segundo palpite:** a estudante informou **12** e a tela exibiu novamente **“Tente um número menor!”**, com **Tentativas: 2**. O jogo processou o palpite, manteve a orientação e incrementou corretamente o contador. Como ambos os palpites foram altos, o número secreto está abaixo de **12**. A vitória ainda não foi testada.
 
@@ -215,6 +215,8 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 **Teste 9 — Quarto palpite:** ao informar **3**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 4**. Com a orientação anterior de que o número era menor que 6, o valor secreto nessa rodada ficou restrito a **4 ou 5**. A vitória ainda não foi comprovada, e o print permanece na conversa, sem upload ao GitHub.
 
 **Teste 10 — Quinto palpite:** ao informar **4**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 5**. Considerando que a rodada já havia indicado um número **menor que 6**, restou **5** como único valor possível. A vitória ainda depende do próximo palpite e a imagem permanece nesta conversa, sem upload ao GitHub.
+
+**Teste 11 — Vitória no jogo de adivinhação:** após informar **5**, a captura mostrou a mensagem **“Acertou! O número era 5. Tentativas: 6”** e o botão **Jogar Novamente**. O teste confirmou a identificação do número correto e a contagem de seis palpites. O reinício da partida ainda não foi testado. A imagem foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
 
 As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
 
