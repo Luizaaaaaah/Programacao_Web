@@ -272,6 +272,12 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 ![Partida reiniciada com zero tentativas](prints/25-angular-jogar-novamente.png)
 
+### Validação manual da HoennDex — 24/11/2026
+
+**Teste 1 — Abertura da página:** a estudante abriu [HoennDex na Vercel](https://vue-project-alpha-peach.vercel.app) e enviou uma captura da página inicial. Estão visíveis o cabeçalho **HOENNDex**, os links **Início**, **Pokédex** e **Sobre Hoenn**, o título **Explore a região de Hoenn**, uma imagem de Rayquaza, o botão **Explorar Pokédex** e o início da seção do catálogo.
+
+**Resultado:** abertura e renderização inicial da página confirmadas visualmente. O botão, a navegação, os filtros e o comportamento responsivo ainda precisam ser testados. A captura foi compartilhada nesta conversa, mas ainda não foi anexada à pasta `prints/` no GitHub.
+
 ## 10. Situação da atividade
 
 - [x] Código do projeto Angular analisado e documentado.
