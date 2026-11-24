@@ -288,6 +288,8 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Teste 6 — Visualização móvel (etapa inicial):** a estudante ativou o modo responsivo do Chrome e ajustou a largura para **390 px**; a captura mostra o título e o texto da apresentação reorganizados em linhas menores e o cabeçalho visível sem corte horizontal aparente nessa região. A altura estava definida como **390 px**, por isso parte do botão de navegação ficou fora da área visível verticalmente. Essa captura confirma apenas a adaptação inicial da seção de abertura, e ainda não comprova o comportamento de toda a página, dos filtros ou da navegação em dispositivo móvel. O print permanece nesta conversa e não foi anexado à pasta `prints/`.
 
+**Teste 7 — Visualização móvel em 390 × 844 px:** a estudante ajustou a simulação do Chrome para **390 px de largura** e **844 px de altura**. A captura mostra o cabeçalho, o título **Explore a região de Hoenn**, o texto explicativo, o botão **Explorar Pokédex** e a ilustração do Rayquaza reorganizados verticalmente, sem corte horizontal aparente na seção inicial. A barra de navegação desktop não aparece nesse tamanho, conforme as regras responsivas identificadas no CSS. **Resultado:** apresentação inicial validada visualmente nessa dimensão; ainda é necessário inspecionar os cartões, a pesquisa e os filtros na versão móvel. O print está nesta conversa e ainda não foi anexado ao GitHub.
+
 ## 10. Situação da atividade
 
 - [x] Código do projeto Angular analisado e documentado.
