@@ -137,16 +137,33 @@ As alterações estão **propostas, não mescladas à main**, e não foram execu
 
 ## 9. Publicação
 
+### Back-end existente no Render
+
+A conta Render já possui um serviço gratuito conectado ao repositório **exercicio_express1**, com deploy da branch **main**, anterior aos ajustes propostos no PR #1.
+
+- **URL da API:** [https://exercicio-express1.onrender.com](https://exercicio-express1.onrender.com)
+- **Endpoint previsto no código:** [https://exercicio-express1.onrender.com/api/notes](https://exercicio-express1.onrender.com/api/notes)
+- **Painel do serviço:** [Render — exercicio_express1](https://dashboard.render.com/web/srv-dap9bgo0cd8s73c7040g)
+- **Deploy:** `dep-dap9bh00cd8s73c70510`; commit `5680a121`; concluído em **22/09/2026**; status `live` na consulta de 24/11/2026.
+
+**Importante:** o serviço existente usa a branch `main` do back-end, portanto **não contém ainda as alterações do PR de rascunho**. O deploy aparece como `live` no painel, mas o funcionamento atual do endpoint, os métodos de escrita e o CORS com o front-end não foram comprovados por testes nesta conferência.
+
+### Utilização da API no Postman e React
+
+A coleção Postman contém a variável `baseUrl`, que pode ser configurada como `https://exercicio-express1.onrender.com` para apontar para o Render. Execute as operações de escrita somente em dados de teste: cadastrar, alterar e excluir modifica o arquivo do serviço.
+
+Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_URL` com o valor `https://exercicio-express1.onrender.com/api/notes`, após o código ser revisado e integrado.
+
 | Entrega | Situação |
 |---|---|
 | API no GitHub | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) |
 | Front-end no GitHub | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) |
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
-| URL Render | Não confirmada |
+| URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` no painel desde 22/09/2026; endpoints ainda não testados |
 | URL Vercel | Não confirmada |
 | Integração em produção | Pendente de teste e correção de configuração |
 
-Não foram inventadas URLs de produção.
+A URL do Render foi obtida diretamente da conta conectada. A URL do front-end Vercel permanece sem confirmação.
 
 ## 10. Evidências
 
@@ -173,11 +190,12 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [x] Questões técnicas respondidas.
 - [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
 - [ ] Importar e executar a coleção Postman.
-- [ ] Confirmar URLs públicas da API e da interface.
+- [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
+- [ ] Confirmar URL pública e funcionamento da interface React na Vercel.
 - [ ] Adicionar evidências reais.
 
 ## 12. Conclusão
 
 O projeto permite estudar o fluxo completo de uma aplicação baseada em API: interface React, requisições HTTP, rotas Express e armazenamento JSON.
 
-A documentação identifica os recursos que já existem e os cuidados técnicos necessários para a publicação. A coleção Postman foi preparada para acelerar a validação, sem apresentar testes não executados como concluídos.
+A documentação identifica os recursos que já existem, registra a API previamente publicada no Render e os cuidados técnicos para sua integração ao React. A coleção Postman foi preparada para acelerar a validação, sem apresentar testes não executados como concluídos.
