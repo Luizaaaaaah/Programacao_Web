@@ -152,11 +152,12 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 | Cadastro de tarefa | Foi criada a tarefa **Revisar componentes Vue** com prioridade **Alta** |
 | Contadores após cadastro | Total: **1**, pendentes: **1**, concluídas: **0** |
 | Conclusão da tarefa | Checkbox marcado, texto riscado e contadores atualizados |
+| Filtro de concluídas | Ao selecionar **Concluídas**, a tarefa finalizada permaneceu visível, com o filtro ativo e contadores coerentes |
 | Contadores após conclusão | Total: **1**, pendentes: **0**, concluídas: **1** |
 
-**Resultados:** os três passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
+**Resultados:** os quatro passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
 
-**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. Os demais testes (filtros, exclusão, persistência após atualização e telas menores) continuam pendentes.
+**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. Os demais testes (filtro de pendentes, exclusão, persistência após atualização e telas menores) continuam pendentes.
 
 ## 10. Situação da atividade
 
