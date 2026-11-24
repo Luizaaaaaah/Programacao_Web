@@ -100,16 +100,28 @@ Também foi removida a página padrão de exemplo do WordPress, simplificando a 
 | Yoast SEO | Instalado e ativo |
 | Página de exemplo | Removida |
 | Link do site | Registrado |
-| Capturas de tela | A anexar na pasta `prints/` |
+| Capturas de tela | Quatro imagens anexadas na pasta de evidências |
 
 ### Capturas de tela
 
-Arquivos previstos na pasta `prints/`:
+Os quatro arquivos foram localizados na pasta **prints** deste relatório:
 
-- `01-pantheon-site.png` — ambiente criado no Pantheon.
-- `02-painel-cms.png` — painel administrativo do WordPress.
-- `03-plugins-instalados.png` — lista de plugins ativos.
-- `04-pagina-inicial.png` — página inicial personalizada.
+**Ambiente criado no Pantheon**
+
+![Painel Pantheon](prints/01-pantheon-site.png)
+
+**Painel administrativo do WordPress**
+
+![Painel WordPress](prints/02-painel-cms.png)
+
+**Plugins instalados e ativados**
+
+![Plugins WordPress](prints/03-plugins-instalados.png)
+
+**Página inicial do OrganizaFácil**
+
+![Página inicial](prints/04-pagina-inicial.png)
+
 
 ## 10. Conclusão
 
