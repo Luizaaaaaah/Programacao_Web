@@ -35,7 +35,8 @@ Este repositório reúne os **resumos das nove aulas**, a documentação dos exe
 | 04 | [OrganizaFácil CMS](https://dev-organizafacil-cms1.pantheonsite.io/) | Site WordPress em ambiente Dev/Sandbox do Pantheon; tema Twenty Twenty-Five e plugins |
 | 05 | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação React com cinco funcionalidades; deploy não confirmado |
 | 06 | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Mini Jogos em Angular com três funcionalidades |
-| 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue; projeto Vue básico e quatro deploys pendentes de verificação |
+| 06 | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; teste e deploy pendentes |
+| 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue, possível projeto personalizado; comprovar template original e quatro deploys |
 | 07 | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | PurpleMood: atividade prática alternativa orientada pelo professor em sala, conforme relato da estudante |
 | 08 | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) e [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | API CRUD e interface React; [coleção Postman preparada](atividades/aula-08/postman/notas-crud.postman_collection.json) |
 | 09 | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | Projeto ConectaAção no Lovable, com quiz de voluntariado; repositório privado e publicação ainda não confirmada |
