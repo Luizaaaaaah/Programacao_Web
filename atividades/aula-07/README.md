@@ -78,6 +78,17 @@ Essa sequência descreve como o código pode ser executado. A execução e os re
 
 ## 6. Evidências e publicação
 
+### Serviço já publicado no Render
+
+O painel da conta Render confirmou que o repositório **exercicio_express** já estava vinculado a um serviço web gratuito, com branch **main**, em setembro de 2026.
+
+- **URL da API:** [https://exercicio-express-bokp.onrender.com](https://exercicio-express-bokp.onrender.com)
+- **Rota de listagem prevista no código:** [https://exercicio-express-bokp.onrender.com/humores](https://exercicio-express-bokp.onrender.com/humores)
+- **Painel do serviço:** [Render — exercicio_express](https://dashboard.render.com/web/srv-dakm2lrm8hqs73f2r150)
+- **Deploy verificado no painel:** `dep-dakm2mbm8hqs73f2r340`, commit `dc09e4fd`, concluído em **15/09/2026**, status `live` na consulta de 24/11/2026.
+
+**Limite da verificação:** a plataforma informa o deploy como `live`, mas a resposta HTTP atual dos endpoints não pôde ser testada nesta conferência. A publicação foi identificada, e não foi criado outro serviço.
+
 | Evidência | Situação |
 |---|---|
 | Código da API Express | Localizado |
@@ -86,7 +97,7 @@ Essa sequência descreve como o código pode ser executado. A execução e os re
 | Rota de frases | Identificada |
 | Print da execução local | Não anexado |
 | Testes HTTP documentados | Não confirmados |
-| URL de deploy no Render | Não confirmada |
+| URL de deploy no Render | Confirmada no painel: [exercicio-express-bokp.onrender.com](https://exercicio-express-bokp.onrender.com); status do deploy `live` |
 | Front-end separado | Não identificado; verificar se integrou a orientação prática desta turma |
 
 Capturas recomendadas para a pasta [prints](prints/README.md):
@@ -112,11 +123,12 @@ A atividade mostra que os conhecimentos de Express podem ser aplicados a um tema
 - [x] Código-fonte e funcionalidades analisados.
 - [x] Métodos e rotas documentados.
 - [ ] Adicionar capturas reais do funcionamento.
-- [ ] Confirmar testes locais e eventual publicação.
+- [x] Confirmar publicação no painel Render (deploy `live` em 15/09/2026).
+- [ ] Executar testes HTTP atuais nas rotas do serviço e anexar as respostas.
 - [ ] Revisar dependências versionadas caso o repositório seja preparado para produção.
 
 ## 9. Conclusão
 
 O PurpleMood é uma API didática construída com Express para consultar e administrar registros de humor. Ela atende à proposta prática alternativa informada pela estudante e permite demonstrar funcionalidades típicas do desenvolvimento back-end.
 
-A documentação descreve o código existente sem afirmar deploys, testes ou persistência que não foram confirmados.
+A documentação descreve o código existente e registra o serviço Render já encontrado na conta. A publicação foi confirmada pelo histórico de deploys, mas os testes HTTP atuais e a persistência dos dados não foram comprovados.
