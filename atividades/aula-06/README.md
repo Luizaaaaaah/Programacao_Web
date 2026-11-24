@@ -202,7 +202,9 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 3 — Decrementar contador:** após um clique no botão `−`, a captura mostrou a redução do contador de **3** para **2**, confirmando o decremento. O print foi enviado nesta conversa e ainda não foi anexado ao GitHub.
 
-Ainda precisam ser verificados o botão de zerar o contador, o sorteio do dado e o jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
+**Teste 4 — Reset do contador:** após clicar no botão **Reset**, a captura da interface mostrou o contador novamente em **0**, conforme o comportamento esperado. A evidência foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
+
+Ainda precisam ser verificados o sorteio do dado e o jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
 
