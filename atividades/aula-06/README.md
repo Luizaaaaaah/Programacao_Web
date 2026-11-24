@@ -204,7 +204,9 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 4 — Reset do contador:** após clicar no botão **Reset**, a captura da interface mostrou o contador novamente em **0**, conforme o comportamento esperado. A evidência foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
 
-Ainda precisam ser verificados o sorteio do dado e o jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
+**Teste 5 — Rolar dado:** após a sequência de cliques solicitada, a captura enviada mostra o dado com valor **6**, diferente do valor **1** observado na captura inicial. O resultado está dentro da faixa de **1 a 6** prevista na implementação. A imagem comprova o valor final apresentado; os resultados individuais de cada clique não foram registrados. A captura ainda precisa ser anexada à pasta `prints/`.
+
+O jogo **Adivinhe o Número** ainda precisa ser testado. As capturas do Angular foram apresentadas nesta conversa e ainda não foram anexadas à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
 
