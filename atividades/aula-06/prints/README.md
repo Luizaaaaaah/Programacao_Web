@@ -37,35 +37,34 @@ As 12 capturas reais abaixo foram enviadas pela estudante e **confirmadas nesta 
 
 O upload dos 12 arquivos foi confirmado e o [relatório principal](../README.md) inclui as imagens.
 
-## Evidências da HoennDex preparadas para upload
+## Evidências anexadas da HoennDex
 
-Foram reunidas **7 capturas reais** da versão publicada da HoennDex, incluindo a visualização responsiva em 390 × 844 px. O arquivo ZIP foi disponibilizado na conversa. **As imagens abaixo ainda não foram enviadas para esta pasta do GitHub.**
+As **7 capturas reais** da versão publicada da HoennDex foram enviadas e confirmadas nesta pasta da branch `reorganizacao`, incluindo duas evidências em 390 × 844 px.
 
-| Nome do arquivo | Evidência |
+| Arquivo anexado | Evidência |
 |---|---|
-| `26-hoenndex-pagina-inicial.png` | Página inicial, cabeçalho e Rayquaza |
-| `27-hoenndex-catalogo.png` | Seção da Pokédex com cartões |
-| `28-hoenndex-pesquisa-torchic.png` | Busca pelo nome Torchic |
-| `29-hoenndex-filtro-fogo.png` | Filtro Fogo e três Pokémon |
-| `30-hoenndex-sobre-hoenn.png` | Seção Sobre Hoenn |
-| `31-hoenndex-mobile-inicio.png` | Layout da página inicial em 390 × 844 px |
-| `32-hoenndex-mobile-catalogo.png` | Catálogo na largura móvel de 390 px |
+| [26-hoenndex-pagina-inicial.png](26-hoenndex-pagina-inicial.png) | Página inicial, cabeçalho e Rayquaza |
+| [27-hoenndex-catalogo.png](27-hoenndex-catalogo.png) | Seção da Pokédex com cartões |
+| [28-hoenndex-pesquisa-torchic.png](28-hoenndex-pesquisa-torchic.png) | Busca pelo nome Torchic |
+| [29-hoenndex-filtro-fogo.png](29-hoenndex-filtro-fogo.png) | Filtro Fogo e três Pokémon |
+| [30-hoenndex-sobre-hoenn.png](30-hoenndex-sobre-hoenn.png) | Seção Sobre Hoenn |
+| [31-hoenndex-mobile-inicio.png](31-hoenndex-mobile-inicio.png) | Layout da página inicial em 390 × 844 px |
+| [32-hoenndex-mobile-catalogo.png](32-hoenndex-mobile-catalogo.png) | Catálogo na largura móvel de 390 px |
 
-Após o upload, confirmar os sete arquivos nesta pasta e inserir as imagens no relatório principal.
+O upload foi conferido diretamente no repositório e o [relatório principal](../README.md) já apresenta as sete imagens.
 
 ## Demais evidências previstas da atividade
 
 - `01-projeto-react.png` — interface React
-- `03-projeto-vue.png` — interface Vue
 - `04-template-original.png` — template antes da personalização
 - `05-template-personalizado.png` — template depois da personalização
 - `06-quatro-repositorios.png` — quatro repositórios
 - `07-quatro-deploys.png` — quatro publicações
 
-Essas evidências adicionais não foram anexadas até o momento.
+Essas evidências adicionais não foram anexadas até o momento; a documentação da HoennDex já utiliza capturas específicas e reais.
 
 ## Padrão de nomeação
 
 Utilize dois dígitos no início, letras minúsculas e hífens. Evite espaços e caracteres acentuados. Não inclua dados pessoais sensíveis nas capturas.
 
-Os arquivos do Vue e do Angular já foram enviados; utilize esta mesma pasta na branch `reorganizacao` para os demais projetos.
+Os arquivos do Vue básico, Angular e HoennDex já foram enviados; utilize esta mesma pasta na branch `reorganizacao` para os demais projetos.
