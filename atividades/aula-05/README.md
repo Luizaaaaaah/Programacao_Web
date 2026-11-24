@@ -143,6 +143,8 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 
 **Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura ainda está na conversa e **não foi anexada ao GitHub**. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
 
+**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Ainda não foi testado o cadastro, a conclusão ou a remoção de tarefas. A captura foi recebida nesta conversa e ainda precisa ser anexada ao GitHub.
+
 ## 9. Verificação da atividade
 
 - [x] Repositório e estrutura do projeto identificados.
