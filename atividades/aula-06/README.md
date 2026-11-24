@@ -286,6 +286,8 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Teste 5 — Navegação para Sobre Hoenn:** após selecionar **Sobre Hoenn** no menu superior, a captura mostrou a seção **Região de Hoenn**, o título **“Uma nova geração de aventuras”**, o texto de apresentação da terceira geração, o destaque **“135 Novos Pokémon”** e o rodapé **“HoennDex — Projeto desenvolvido em Vue.js”**. A navegação e a renderização dessa seção foram confirmadas visualmente. A captura foi recebida nesta conversa, mas ainda precisa ser anexada à pasta `prints/`.
 
+**Teste 6 — Visualização móvel (etapa inicial):** a estudante ativou o modo responsivo do Chrome e ajustou a largura para **390 px**; a captura mostra o título e o texto da apresentação reorganizados em linhas menores e o cabeçalho visível sem corte horizontal aparente nessa região. A altura estava definida como **390 px**, por isso parte do botão de navegação ficou fora da área visível verticalmente. Essa captura confirma apenas a adaptação inicial da seção de abertura, e ainda não comprova o comportamento de toda a página, dos filtros ou da navegação em dispositivo móvel. O print permanece nesta conversa e não foi anexado à pasta `prints/`.
+
 ## 10. Situação da atividade
 
 - [x] Código do projeto Angular analisado e documentado.
