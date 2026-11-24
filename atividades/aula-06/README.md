@@ -216,7 +216,9 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 10 — Quinto palpite:** ao informar **4**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 5**. Considerando que a rodada já havia indicado um número **menor que 6**, restou **5** como único valor possível. A vitória ainda depende do próximo palpite e a imagem permanece nesta conversa, sem upload ao GitHub.
 
-**Teste 11 — Vitória no jogo de adivinhação:** após informar **5**, a captura mostrou a mensagem **“Acertou! O número era 5. Tentativas: 6”** e o botão **Jogar Novamente**. O teste confirmou a identificação do número correto e a contagem de seis palpites. O reinício da partida ainda não foi testado. A imagem foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
+**Teste 11 — Vitória no jogo de adivinhação:** após informar **5**, a captura mostrou a mensagem **“Acertou! O número era 5. Tentativas: 6”** e o botão **Jogar Novamente**. O teste confirmou a identificação do número correto e a contagem de seis palpites. A imagem foi enviada nesta conversa, mas ainda não foi anexada ao GitHub.
+
+**Teste 12 — Reinício da partida:** após clicar em **Jogar Novamente**, a imagem mostra novamente o formulário de palpite, a mensagem inicial **“Tente adivinhar um número entre 1 e 50!”** e o indicador **Tentativas: 0**. O reinício visual e a zeragem do contador foram confirmados; o novo número secreto não foi testado. O print está nesta conversa e ainda não foi anexado ao GitHub.
 
 As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
 
