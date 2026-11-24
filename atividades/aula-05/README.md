@@ -149,6 +149,8 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 
 **Teste 4 — Conclusão da tarefa:** após clicar no texto **Estudar React**, a captura mostra a tarefa com o texto riscado e o botão **Remover** ainda disponível. A alteração visual confirma que a tarefa foi marcada como concluída. A captura foi enviada nesta conversa e ainda não foi anexada à pasta `prints/` no GitHub; a remoção permanece pendente de teste.
 
+**Teste 5 — Remoção da tarefa:** após selecionar **Remover** na tarefa **Estudar React**, a captura mostrou novamente o estado vazio com a mensagem **“Nenhuma tarefa cadastrada.”** O desaparecimento da tarefa confirma visualmente a remoção. Esta captura foi enviada na conversa; o upload para `prints/` está pendente.
+
 ## 9. Verificação da atividade
 
 - [x] Repositório e estrutura do projeto identificados.
