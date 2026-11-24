@@ -206,7 +206,9 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 5 — Rolar dado:** após a sequência de cliques solicitada, a captura enviada mostra o dado com valor **6**, diferente do valor **1** observado na captura inicial. O resultado está dentro da faixa de **1 a 6** prevista na implementação. A imagem comprova o valor final apresentado; os resultados individuais de cada clique não foram registrados. A captura ainda precisa ser anexada à pasta `prints/`.
 
-O jogo **Adivinhe o Número** ainda precisa ser testado. As capturas do Angular foram apresentadas nesta conversa e ainda não foram anexadas à pasta `prints/` do GitHub.
+**Teste 6 — Adivinhe o Número (primeiro palpite):** após inserir **25** e clicar em **Tentar**, a interface mostrou a mensagem **“Tente um número menor!”** e atualizou o indicador para **Tentativas: 1**. O resultado confirma o processamento do primeiro palpite e a orientação para um valor inferior a 25. A conclusão da rodada e as demais condições do jogo ainda precisam ser testadas.
+
+As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
 
