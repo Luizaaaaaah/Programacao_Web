@@ -214,6 +214,8 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 9 — Quarto palpite:** ao informar **3**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 4**. Com a orientação anterior de que o número era menor que 6, o valor secreto nessa rodada ficou restrito a **4 ou 5**. A vitória ainda não foi comprovada, e o print permanece na conversa, sem upload ao GitHub.
 
+**Teste 10 — Quinto palpite:** ao informar **4**, a captura mostrou **“Tente um número maior!”** e **Tentativas: 5**. Considerando que a rodada já havia indicado um número **menor que 6**, restou **5** como único valor possível. A vitória ainda depende do próximo palpite e a imagem permanece nesta conversa, sem upload ao GitHub.
+
 As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
