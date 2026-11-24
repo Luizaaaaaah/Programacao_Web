@@ -103,7 +103,7 @@ O projeto também possui scripts para build e testes. Esta documentação foi el
 | Projeto no editor Lovable | [Abrir editor](https://lovable.dev/projects/827f8a9a-8919-4bbf-aa28-04b64bd48edd) — acesso pode exigir login |
 | Página principal | Identificada no código como ConectaAção |
 | Quiz de seis perguntas | Implementação localizada |
-| URL pública do site publicado | Não confirmada |
+| Deploy Vercel | [pixel-perfect-pixels-orcin.vercel.app](https://pixel-perfect-pixels-orcin.vercel.app) — deploy de produção `READY` no painel; acesso por terceiros a validar |
 | Testes de responsividade | Não documentados com evidências |
 
 **Importante:** o professor não conseguirá acessar o conteúdo de um repositório privado sem receber permissão. A alternativa é disponibilizar acesso autorizado ou uma publicação pública da aplicação. Nenhuma alteração de privacidade foi realizada.
@@ -132,7 +132,8 @@ Não incluir dados de acesso nas capturas.
 - [x] Quiz de seis perguntas e cinco perfis identificado.
 - [ ] Confirmar que este foi o projeto entregue na Aula 09.
 - [ ] Testar quiz e responsividade no navegador.
-- [ ] Confirmar URL pública de publicação.
+- [x] Confirmar deploy de produção `READY` e registrar domínio na Vercel.
+- [ ] Validar acesso sem login e funcionalidade do quiz no navegador.
 - [ ] Garantir ao professor acesso à entrega.
 - [ ] Anexar prints reais.
 
@@ -140,4 +141,4 @@ Não incluir dados de acesso nas capturas.
 
 O **ConectaAção** exemplifica a utilização de um Website Builder com IA para produzir uma página temática personalizada e uma experiência interativa.
 
-A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. A documentação separa o que foi verificado no repositório das etapas de acesso e publicação que ainda dependem de confirmação.
+A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, mas a página e o quiz ainda precisam ser validados no navegador e o acesso ao código privado deve ser resolvido para a avaliação.
