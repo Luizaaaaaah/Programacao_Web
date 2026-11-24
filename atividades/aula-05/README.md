@@ -147,6 +147,8 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 
 **Teste 3 — Cadastro no To-Do List:** a estudante digitou **“Estudar React”** e clicou em **Adicionar**. A captura mostra a tarefa cadastrada, o campo de entrada novamente vazio e o botão **Remover** ao lado da tarefa. O cadastro foi confirmado visualmente; a conclusão e a exclusão ainda precisam ser verificadas. A imagem está na conversa e ainda não foi anexada à pasta `prints/` do GitHub.
 
+**Teste 4 — Conclusão da tarefa:** após clicar no texto **Estudar React**, a captura mostra a tarefa com o texto riscado e o botão **Remover** ainda disponível. A alteração visual confirma que a tarefa foi marcada como concluída. A captura foi enviada nesta conversa e ainda não foi anexada à pasta `prints/` no GitHub; a remoção permanece pendente de teste.
+
 ## 9. Verificação da atividade
 
 - [x] Repositório e estrutura do projeto identificados.
