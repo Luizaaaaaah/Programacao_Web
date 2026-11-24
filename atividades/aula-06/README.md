@@ -16,7 +16,7 @@ Este relatório aproveita o código existente nos repositórios já desenvolvido
 |---|---|---|
 | Projeto React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação com cinco funcionalidades, também documentada na Aula 05; confirmar seu reaproveitamento nesta aula |
 | Projeto Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Código Angular identificado e analisado |
-| Projeto Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Repositório existe, mas não contém arquivos consultáveis |
+| Projeto Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; execução e deploy ainda pendentes |
 | Projeto Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex desenvolvida em Vue com pesquisa, filtros e design próprio |
 
 **Trabalho em conjunto:** também foi encontrado o repositório [pokedex_vue, do Rafael](https://github.com/RafaelRachidd/pokedex_vue), com código Vue. Esse material pode ser consultado como referência do trabalho compartilhado, sem atribuir a ele automaticamente o papel de quarto projeto ou de template utilizado.
@@ -93,6 +93,16 @@ npm run dev
 
 Para compilação de produção, o projeto define **npm run build**. Ainda é necessário registrar uma execução real e o link de publicação.
 
+### 4.4. Projeto Vue básico — Organizador de Estudos
+
+O repositório [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue), inicialmente vazio, recebeu em **24/11/2026** uma implementação complementar em Vue 3 e Vite, separada da HoennDex.
+
+A aplicação chamada **Organizador de Estudos** permite cadastrar tarefas acadêmicas, escolher prioridades, marcar atividades concluídas, excluir itens, filtrar a lista e armazenar dados no **localStorage**.
+
+O código utiliza os recursos **ref**, **computed**, **watch**, **v-model** e **v-for**, além de estilos responsivos. Os arquivos principais são [src/App.vue](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/App.vue) e [src/style.css](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/style.css).
+
+Este projeto foi criado para completar a prática e **não é apresentado como entrega originalmente produzida na data da aula**. Seu funcionamento ainda precisa ser testado e publicado na Vercel.
+
 ## 5. Projeto React
 
 O projeto [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) utiliza React e contém **To-Do List, contador de cliques, jogo da velha, calculadora e buscador de CEP**.
@@ -105,7 +115,7 @@ O enunciado pede um quarto repositório derivado de um template pesquisado e per
 
 A aplicação HoennDex possui estrutura e personalizações identificáveis no código, mas **não foi localizado o endereço do template original, o procedimento de importação nem uma comparação antes/depois**. Portanto, não é possível afirmar que todas as exigências da importação foram comprovadas apenas pelo código final.
 
-O repositório **exercicio_vue** permanece vazio na conferência; ele não deve ser classificado como um projeto Vue completo.
+O repositório **exercicio_vue** estava vazio na conferência original e recebeu posteriormente uma implementação básica própria, o **Organizador de Estudos**, em 24/11/2026. A HoennDex continua sendo um projeto Vue distinto; a fonte do template importado ainda precisa ser confirmada.
 
 ## 7. Publicação e entrega
 
@@ -113,7 +123,7 @@ O repositório **exercicio_vue** permanece vazio na conferência; ele não deve 
 |---|---|---|
 | React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Não confirmada |
 | Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Não confirmada |
-| Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — vazio | Não confirmada |
+| Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — código criado como complementação | Não confirmada |
 | Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | Não confirmada |
 
 Não foram inventados endereços da Vercel. A execução local, os quatro deploys e o vínculo exato com o template dependem de validação.
@@ -138,7 +148,7 @@ Capturas reais a incluir na pasta [prints](prints/README.md):
 - [x] Código do projeto HoennDex em Vue analisado e documentado.
 - [x] Projeto React da Aula 05 localizado.
 - [ ] Confirmar o projeto React correspondente à Aula 06.
-- [ ] Recuperar ou desenvolver o projeto Vue básico do repositório vazio.
+- [x] Criar implementação básica em Vue no repositório anteriormente vazio (complementação em 24/11/2026).
 - [ ] Identificar o template original e registrar as modificações.
 - [ ] Executar e testar os projetos no navegador.
 - [ ] Confirmar/publicar os quatro projetos na Vercel.
