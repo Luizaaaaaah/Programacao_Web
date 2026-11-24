@@ -11,9 +11,9 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 |---|---|---|---|
 | 1 | 05 — React | Executar o projeto, testar as cinco funcionalidades, publicar na Vercel e fazer os prints | Código analisado e README atualizado; URL e imagens ausentes |
 | 2 | 06 — Angular e Vue | Testar os projetos, comprovar a origem do template e publicar os quatro deploys exigidos | React, Angular, Vue básico complementar e HoennDex possuem código; testes e deploys pendentes |
-| 3 | 08 — CRUD | Testar e revisar os PRs da API e do React, integrar as alterações aprovadas, configurar o deploy, executar Postman e registrar prints | Código, coleção de testes e ajustes de deploy preparados em PRs de rascunho |
+| 3 | 08 — CRUD | Validar API já publicada no Render, testar e revisar os PRs da API e do React, integrar as alterações aprovadas, publicar interface, executar Postman e registrar prints | API com URL Render e deploy `live` confirmados no painel; código e PRs em revisão |
 | 4 | 09 — ConectaAção | Confirmar que é a entrega da aula, disponibilizar site publicado e conferir acesso do professor | Código privado com quiz identificado; link público não confirmado |
-| 5 | 07 — PurpleMood | Executar API, capturar rotas e confirmar se há publicação | Projeto alternativo validado pelo relato da orientação em sala; código documentado |
+| 5 | 07 — PurpleMood | Testar endpoints da API publicada no Render e capturar respostas reais | URL Render e deploy `live` confirmados; testes HTTP pendentes |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
 | 7 | 01 e 02 — Planejamento | Confirmar abertura dos links do Miro, Figma e Trello em conta de terceiro; validar sitemap proposto | Links e imagens disponíveis |
 | 8 | 04 — CMS | Validar se o site Dev do Pantheon permanece acessível ao professor | WordPress, tema, plugins, homepage e quatro capturas registrados |
@@ -25,6 +25,8 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 **Coleção Postman pronta para importar:** [notas-crud.postman_collection.json](atividades/aula-08/postman/notas-crud.postman_collection.json). As quatro requisições existem no arquivo, mas os testes não foram executados aqui.
 
 **Publicação já registrada:** [OrganizaFácil da Aula 03](https://pwaula03versionamento.vercel.app/).
+
+**Publicações adicionais identificadas na conta Render:** [PurpleMood — Aula 07](https://exercicio-express-bokp.onrender.com) e [API de notas — Aula 08](https://exercicio-express1.onrender.com). Os respectivos deploys históricos estão marcados como `live`; as respostas HTTP atuais ainda não foram verificadas.
 
 **Ambiente de CMS:** [OrganizaFácil WordPress no Pantheon](https://dev-organizafacil-cms1.pantheonsite.io/) — Dev/Sandbox, sujeito às condições do provedor.
 
@@ -39,7 +41,7 @@ Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os
 
 ### Publicações
 
-O acesso às contas da Vercel, Render e Lovable, a confirmação de URLs de produção e a execução de interfaces web ainda dependem de credenciais ou interações nas plataformas. Os URLs não podem ser deduzidos a partir do nome dos projetos.
+A conta Render foi conectada e suas duas URLs de API já foram confirmadas. A Vercel está conectada, mas ainda requer autorização adicional ao escopo de projetos para consulta e publicação; a publicação das interfaces e o acesso ao Lovable podem exigir interações nas plataformas. Não é possível deduzir URLs de produção apenas pelo nome dos projetos.
 
 ### Capturas
 
