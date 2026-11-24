@@ -9,10 +9,10 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 | Prioridade | Aula | Ação necessária | Situação atual |
 |---|---|---|---|
-| 1 | 05 — React | Executar o projeto, testar as cinco funcionalidades, publicar na Vercel e fazer os prints | Código analisado e README atualizado; URL e imagens ausentes |
-| 2 | 06 — Angular e Vue | Testar os projetos, comprovar a origem do template e publicar os quatro deploys exigidos | React, Angular, Vue básico complementar e HoennDex possuem código; testes e deploys pendentes |
-| 3 | 08 — CRUD | Validar API já publicada no Render, testar e revisar os PRs da API e do React, integrar as alterações aprovadas, publicar interface, executar Postman e registrar prints | API com URL Render e deploy `live` confirmados no painel; código e PRs em revisão |
-| 4 | 09 — ConectaAção | Confirmar que é a entrega da aula, disponibilizar site publicado e conferir acesso do professor | Código privado com quiz identificado; link público não confirmado |
+| 1 | 05 — React | Testar cinco funcionalidades e acesso por terceiros; anexar prints | URL Vercel encontrada e deploy `READY`; testes e imagens pendentes |
+| 2 | 06 — Angular e Vue | Testar os quatro links e registrar prints; comprovar origem do template | Os quatro deploys foram identificados como `READY` na Vercel, incluindo Vue complementar |
+| 3 | 08 — CRUD | Testar API e CRUD, revisar os PRs e publicar versão aprovada em produção; anexar prints | Render `live`; React corrigido em preview `READY`, porém produção ainda `ERROR` |
+| 4 | 09 — ConectaAção | Confirmar entrega da aula; verificar site e quiz sem login e acesso do professor | Vercel registra deploy de produção `READY`; código privado |
 | 5 | 07 — PurpleMood | Testar endpoints da API publicada no Render e capturar respostas reais | URL Render e deploy `live` confirmados; testes HTTP pendentes |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
 | 7 | 01 e 02 — Planejamento | Confirmar abertura dos links do Miro, Figma e Trello em conta de terceiro; validar sitemap proposto | Links e imagens disponíveis |
@@ -24,7 +24,9 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 **Coleção Postman pronta para importar:** [notas-crud.postman_collection.json](atividades/aula-08/postman/notas-crud.postman_collection.json). As quatro requisições existem no arquivo, mas os testes não foram executados aqui.
 
-**Publicação já registrada:** [OrganizaFácil da Aula 03](https://pwaula03versionamento.vercel.app/).
+**Publicação registrada da Aula 03:** [OrganizaFácil](https://pwaula03versionamento.vercel.app/).
+
+**Deploys `READY` encontrados na Vercel:** [Aula 05 React](https://exercicio-react-ecru.vercel.app), [Aula 06 Angular](https://exercicioangular.vercel.app), [Aula 06 Vue básico](https://exercicio-vue-fawn.vercel.app), [Aula 06 Vue HoennDex](https://vue-project-alpha-peach.vercel.app) e [Aula 09 ConectaAção](https://pixel-perfect-pixels-orcin.vercel.app). **Aula 08:** [prévia React `READY`](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) na branch de revisão; produção da main ainda está em `ERROR`. Status de deploy não equivale a teste de interface.
 
 **Publicações adicionais identificadas na conta Render:** [PurpleMood — Aula 07](https://exercicio-express-bokp.onrender.com) e [API de notas — Aula 08](https://exercicio-express1.onrender.com). Os respectivos deploys históricos estão marcados como `live`; as respostas HTTP atuais ainda não foram verificadas.
 
@@ -41,7 +43,7 @@ Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os
 
 ### Publicações
 
-A conta Render foi conectada e suas duas URLs de API já foram confirmadas. A Vercel está conectada, mas ainda requer autorização adicional ao escopo de projetos para consulta e publicação; a publicação das interfaces e o acesso ao Lovable podem exigir interações nas plataformas. Não é possível deduzir URLs de produção apenas pelo nome dos projetos.
+As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos domínios foram consultados nas contas. Ainda dependem de validação o acesso público sem login, testes das interfaces, a integração CRUD de produção e, quando exigidas, as evidências capturadas no navegador. A autoria e a entrega da Aula 09 precisam ser confirmadas.
 
 ### Capturas
 
