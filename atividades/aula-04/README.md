@@ -1,66 +1,122 @@
-# Atividade 04 — Hospedagem e configuração de CMS
+# Atividade 04 — Servidores, Hospedagem e CMS
 
 **Disciplina:** Programação Web  
-**Professor:** Prof. Me. Deivison S. Takatu
+**Professor:** Prof. Me. Deivison S. Takatu  
+**Instituição:** Fatec Itapetininga  
+**Modalidade:** Individual
 
 ## 1. Objetivo
 
-Configurar um ambiente de hospedagem, instalar um CMS, verificar seu funcionamento e personalizar o site com temas, plugins e conteúdo próprio.
+Compreender o funcionamento dos sistemas de gerenciamento de conteúdo (CMS), explorando a criação de um site, a escolha de um tema, a instalação de plugins e a personalização da página inicial.
 
-## 2. O que foi solicitado
+## 2. Projeto desenvolvido
 
-1. Criar uma conta em um serviço de hospedagem e realizar a configuração inicial.
-2. Instalar um CMS de escolha e confirmar o acesso e as funcionalidades essenciais.
-3. Instalar temas e plugins adequados à proposta do site.
-4. Ajustar a página inicial, o layout, os textos e os elementos visuais.
-5. Organizar o processo em um documento e enviá-lo ao repositório no GitHub.
+**Nome:** OrganizaFácil
 
-Os slides sugerem o Pantheon como opção para experimentar a hospedagem.
+Para esta atividade, foi criada uma versão institucional do OrganizaFácil utilizando WordPress.
 
-## 3. Registro encontrado
+A proposta foi apresentar o projeto de gerenciamento de tarefas por meio de um CMS, sem a necessidade de desenvolver manualmente toda a estrutura da página.
 
-Na conferência dos repositórios acessíveis, não foi identificado com segurança um site WordPress/CMS ou um relatório específico desta atividade.
+**Endereço de desenvolvimento:** [OrganizaFácil CMS](https://dev-organizafacil-cms1.pantheonsite.io/)
 
-| Item | Link / situação |
+## 3. Tecnologias utilizadas
+
+| Tecnologia | Finalidade |
 |---|---|
-| Repositório principal | [Programacao_Web](https://github.com/Luizaaaaaah/Programacao_Web) |
-| Site CMS | Não localizado |
-| Painel de hospedagem | Não localizado |
-| Tema instalado | Não informado |
-| Plugins instalados | Não informados |
-| Documento/prints da atividade | Pendentes |
+| WordPress | Gerenciamento do conteúdo |
+| Pantheon | Ambiente de hospedagem e desenvolvimento |
+| Twenty Twenty-Five | Tema visual do site |
+| Contact Form 7 | Recursos para criação de formulários |
+| Yoast SEO | Recursos de otimização para mecanismos de busca |
 
-## 4. Estrutura recomendada para documentar a execução
+## 4. Criação do ambiente de hospedagem
 
-### Hospedagem e instalação
+Foi criada uma conta na plataforma Pantheon e configurado um espaço de trabalho profissional.
 
-Registrar o provedor, o tipo de plano, os passos de configuração, a URL administrativa e a confirmação de que o painel do CMS abriu corretamente. Não publicar senhas, tokens ou dados de acesso.
+Em seguida, foi criado o site `organizafacil-cms1`, utilizando o WordPress no ambiente de desenvolvimento.
 
-### Personalização
+A hospedagem foi configurada no plano Sandbox, destinado ao desenvolvimento e aos testes.
 
-Informar qual tema foi escolhido e por quê. Para cada plugin, descrever a finalidade e a funcionalidade adicionada. Documentar as mudanças na página inicial.
+## 5. Instalação do WordPress
 
-### Testes
+A instalação do WordPress foi realizada no ambiente disponibilizado pelo Pantheon.
 
-Verificar navegação, exibição em telas menores, acesso às páginas e funcionamento dos recursos instalados.
+Durante a configuração inicial, foram definidos o título OrganizaFácil e as credenciais administrativas.
 
-## 5. Evidências a anexar
+Após a instalação, foi possível acessar o painel de gerenciamento do WordPress e iniciar a personalização do site.
 
-| Arquivo sugerido | O que deve mostrar |
+## 6. Escolha e configuração do tema
+
+Foi selecionado e ativado o tema gratuito **Twenty Twenty-Five**.
+
+Esse tema disponibiliza recursos de edição visual por blocos, permitindo modificar páginas, estilos e elementos de navegação.
+
+Também foram cadastradas cores personalizadas, utilizando azul e roxo como referências à identidade visual do OrganizaFácil.
+
+## 7. Instalação dos plugins
+
+Foram instalados e ativados dois plugins.
+
+### Contact Form 7
+
+**Versão observada:** 6.2.6
+
+Plugin voltado à criação e ao gerenciamento de formulários de contato.
+
+### Yoast SEO
+
+**Versão observada:** 28.9
+
+Plugin que oferece ferramentas para configuração de informações de SEO e análise de conteúdo.
+
+No ambiente de desenvolvimento, a ferramenta informou que a otimização de dados de SEO não estava disponível para ambientes que não são de produção.
+
+Os plugins foram instalados e ativados, mas não foi realizada uma implementação completa de formulário ou configuração avançada de SEO.
+
+## 8. Personalização da página inicial
+
+Foi criada a página **Início — OrganizaFácil**, contendo:
+
+- Apresentação do projeto.
+- Descrição de sua finalidade.
+- Explicação das principais funcionalidades.
+- Referência à aplicação desenvolvida com HTML, CSS e JavaScript.
+- Informações sobre a atividade acadêmica.
+
+A página foi publicada no WordPress e configurada como página inicial estática.
+
+Também foi removida a página padrão de exemplo do WordPress, simplificando a navegação.
+
+## 9. Evidências da atividade
+
+| Evidência | Situação |
 |---|---|
-| 01-painel-hospedagem.png | Ambiente criado no provedor, sem credenciais |
-| 02-painel-cms.png | Painel administrativo do CMS |
-| 03-tema-instalado.png | Tema ativo |
-| 04-plugins-configurados.png | Lista de plugins e suas funções |
-| 05-home-personalizada.png | Página inicial antes/depois ou resultado final |
-| 06-site-responsivo.png | Site em visualização mobile |
+| Ambiente Pantheon | Criado |
+| WordPress | Instalado |
+| Painel administrativo | Acessado |
+| Tema Twenty Twenty-Five | Ativado |
+| Página inicial | Criada e publicada |
+| Contact Form 7 | Instalado e ativo |
+| Yoast SEO | Instalado e ativo |
+| Página de exemplo | Removida |
+| Link do site | Registrado |
+| Capturas de tela | A anexar na pasta `prints/` |
 
-As capturas devem ser colocadas em [prints/](prints/README.md).
+### Capturas de tela
 
-## 6. Situação desta documentação
+Arquivos previstos na pasta `prints/`:
 
-- [x] Resumo da Aula 04 incluído em aulas.
-- [ ] Identificar hospedagem e URL do CMS.
-- [ ] Registrar CMS, tema e plugins.
-- [ ] Testar e documentar a página inicial.
-- [ ] Anexar prints e relatório.
+- `01-pantheon-site.png` — ambiente criado no Pantheon.
+- `02-painel-cms.png` — painel administrativo do WordPress.
+- `03-plugins-instalados.png` — lista de plugins ativos.
+- `04-pagina-inicial.png` — página inicial personalizada.
+
+## 10. Conclusão
+
+A atividade permitiu conhecer as etapas necessárias para configurar um site utilizando um CMS.
+
+Foi possível criar um ambiente de hospedagem, instalar o WordPress, selecionar um tema, ativar plugins e personalizar uma página inicial.
+
+O OrganizaFácil foi utilizado para demonstrar como um sistema de gerenciamento de conteúdo facilita a criação e a organização de páginas web sem exigir o desenvolvimento manual de todos os componentes.
+
+O projeto permanece no ambiente de desenvolvimento do Pantheon, destinado a testes e atividades acadêmicas.
