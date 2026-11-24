@@ -208,6 +208,8 @@ A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e
 
 **Teste 6 — Adivinhe o Número (primeiro palpite):** após inserir **25** e clicar em **Tentar**, a interface mostrou a mensagem **“Tente um número menor!”** e atualizou o indicador para **Tentativas: 1**. O resultado confirma o processamento do primeiro palpite e a orientação para um valor inferior a 25. A conclusão da rodada e as demais condições do jogo ainda precisam ser testadas.
 
+**Teste 7 — Segundo palpite:** a estudante informou **12** e a tela exibiu novamente **“Tente um número menor!”**, com **Tentativas: 2**. O jogo processou o palpite, manteve a orientação e incrementou corretamente o contador. Como ambos os palpites foram altos, o número secreto está abaixo de **12**. A vitória ainda não foi testada.
+
 As capturas do Angular foram apresentadas nesta conversa, mas ainda não foram anexadas à pasta `prints/` do GitHub.
 
 ## 10. Situação da atividade
