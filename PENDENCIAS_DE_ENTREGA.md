@@ -11,7 +11,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 |---|---|---|---|
 | 1 | 05 — React | Executar o projeto, testar as cinco funcionalidades, publicar na Vercel e fazer os prints | Código analisado e README atualizado; URL e imagens ausentes |
 | 2 | 06 — Angular e Vue | Testar os projetos, comprovar a origem do template e publicar os quatro deploys exigidos | React, Angular, Vue básico complementar e HoennDex possuem código; testes e deploys pendentes |
-| 3 | 08 — CRUD | Adaptar a API para publicação, configurar CORS/porta, integrar o front ao Render, executar coleção Postman e registrar prints | Back-end, front-end e coleção de testes preparados |
+| 3 | 08 — CRUD | Testar e revisar os PRs da API e do React, integrar as alterações aprovadas, configurar o deploy, executar Postman e registrar prints | Código, coleção de testes e ajustes de deploy preparados em PRs de rascunho |
 | 4 | 09 — ConectaAção | Confirmar que é a entrega da aula, disponibilizar site publicado e conferir acesso do professor | Código privado com quiz identificado; link público não confirmado |
 | 5 | 07 — PurpleMood | Executar API, capturar rotas e confirmar se há publicação | Projeto alternativo validado pelo relato da orientação em sala; código documentado |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
@@ -27,6 +27,13 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 **Publicação já registrada:** [OrganizaFácil da Aula 03](https://pwaula03versionamento.vercel.app/).
 
 **Ambiente de CMS:** [OrganizaFácil WordPress no Pantheon](https://dev-organizafacil-cms1.pantheonsite.io/) — Dev/Sandbox, sujeito às condições do provedor.
+
+## Alterações prontas para revisão na Aula 08
+
+- [PR #1 — API de notas: preparação Render](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) — rascunho, não mesclado;
+- [PR #1 — Front-end React: URL configurável](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) — rascunho, não mesclado.
+
+Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os repositórios originais continuam com suas branches main preservadas.
 
 ## O que ainda exige participação da estudante
 
