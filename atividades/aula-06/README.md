@@ -155,11 +155,12 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 | Filtro de concluídas | Ao selecionar **Concluídas**, a tarefa finalizada permaneceu visível, com o filtro ativo e contadores coerentes |
 | Filtro de pendentes | Ao selecionar **Pendentes**, a lista mostrou mensagem de nenhuma tarefa; contadores mantidos em total **1**, pendentes **0**, concluídas **1** |
 | Persistência após atualização | Após o teste solicitado com **F5**, a captura apresentada mostra a tarefa **Revisar componentes Vue** ainda concluída, com prioridade **Alta** e contadores em **1/0/1**, compatível com dados preservados no localStorage |
+| Exclusão de tarefa | Após clicar em **Excluir**, a tarefa deixou de aparecer e os indicadores voltaram a total **0**, pendentes **0**, concluídas **0** |
 | Contadores após conclusão | Total: **1**, pendentes: **0**, concluídas: **1** |
 
-**Resultados:** os seis passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
+**Resultados:** os sete passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
 
-**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. Os demais testes (exclusão e telas menores) continuam pendentes.
+**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. A verificação em telas menores ainda está pendente.
 
 ## 10. Situação da atividade
 
@@ -173,7 +174,7 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 - [x] Identificar e registrar os quatro deploys no painel da Vercel (`READY`).
 - [x] Conferir abertura, cadastro e conclusão de tarefas no Vue básico por capturas da versão publicada.
 - [x] Validar visualmente os filtros e a persistência após atualização do Vue básico, por capturas enviadas pela estudante.
-- [ ] Testar a exclusão de tarefas no Vue básico.
+- [x] Validar exclusão de tarefa no Vue básico com print de lista vazia e contadores zerados.
 - [ ] Testar funcionamento e acesso público das demais interfaces.
 - [ ] Adicionar os prints reais.
 
