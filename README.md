@@ -33,13 +33,13 @@ Este repositório reúne os **resumos das nove aulas**, a documentação dos exe
 | 02 | [Capítulo Digital — protótipo](https://github.com/RafaelRachidd/Prototipo_figma) | Figma, telas desktop/mobile, três histórias de usuário e [Kanban no Trello](https://trello.com/b/6wQJ2B7i/projeto-capitulo-digital-demolay) |
 | 03 | [PW_Aula_03_Versionamento](https://github.com/Luizaaaaaah/PW_Aula_03_Versionamento) | OrganizaFácil HTML/CSS/JS, três commits, tags e [deploy Vercel](https://pwaula03versionamento.vercel.app/) |
 | 04 | [OrganizaFácil CMS](https://dev-organizafacil-cms1.pantheonsite.io/) | Site WordPress em ambiente Dev/Sandbox do Pantheon; tema Twenty Twenty-Five e plugins |
-| 05 | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação React com cinco funcionalidades; deploy não confirmado |
-| 06 | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Mini Jogos em Angular com três funcionalidades |
-| 06 | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; teste e deploy pendentes |
-| 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue, possível projeto personalizado; comprovar template original e quatro deploys |
+| 05 | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação React com cinco funcionalidades; [deploy Vercel `READY`](https://exercicio-react-ecru.vercel.app), testes de interface pendentes |
+| 06 | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Mini Jogos Angular com três funcionalidades; [deploy Vercel `READY`](https://exercicioangular.vercel.app) |
+| 06 | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; [deploy Vercel `READY`](https://exercicio-vue-fawn.vercel.app), teste de interface pendente |
+| 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue; [deploy Vercel `READY`](https://vue-project-alpha-peach.vercel.app); comprovar origem do template |
 | 07 | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | PurpleMood: atividade prática alternativa orientada pelo professor em sala; [API publicada no Render](https://exercicio-express-bokp.onrender.com) (respostas HTTP a validar) |
 | 08 | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) e [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | [API no Render](https://exercicio-express1.onrender.com), interface React, [coleção Postman](atividades/aula-08/postman/notas-crud.postman_collection.json) e [ajustes em revisão](atividades/aula-08/README.md#8-preparação-para-publicação-em-branches-de-revisão) |
-| 09 | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | Projeto ConectaAção no Lovable, com quiz de voluntariado; repositório privado e publicação ainda não confirmada |
+| 09 | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | ConectaAção no Lovable, com quiz; [deploy Vercel `READY`](https://pixel-perfect-pixels-orcin.vercel.app), repositório privado e acesso a validar |
 
 ## Estado das entregas
 
