@@ -114,8 +114,8 @@ O comando **npm start** inicia o servidor de desenvolvimento. Para gerar a vers�
 | Repositório GitHub | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) |
 | Código principal | [src/App.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.js) |
 | Estilos da interface | [src/index.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/index.css) |
-| Deploy na Vercel | **Pendente de confirmação:** não foi identificada uma URL de produção verificada |
-| Teste em navegador | **Pendente de confirmação** |
+| Deploy na Vercel | [exercicio-react-ecru.vercel.app](https://exercicio-react-ecru.vercel.app) — deploy de produção `READY` no painel Vercel, commit `2a4963f` |
+| Teste em navegador | **Pendente:** status `READY` não substitui teste das cinco funcionalidades nem comprova acesso sem login |
 
 Não foram atribuídas tags, releases ou endereços de publicação que não tenham sido confirmados no GitHub ou por execução real.
 
@@ -145,7 +145,8 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 - [x] Estilização e responsividade descritas com base no CSS.
 - [x] Referências para os arquivos do projeto adicionadas.
 - [ ] Executar a aplicação e testar as funcionalidades no navegador.
-- [ ] Confirmar e registrar a URL publicada na Vercel.
+- [x] Localizar URL de produção e confirmar deploy `READY` no painel da Vercel.
+- [ ] Validar funcionamento e acesso público no navegador.
 - [ ] Inserir capturas reais das cinco funcionalidades, do GitHub e do deploy.
 
 ## 10. Conclusão
