@@ -101,7 +101,7 @@ A aplicação chamada **Organizador de Estudos** permite cadastrar tarefas acad�
 
 O código utiliza os recursos **ref**, **computed**, **watch**, **v-model** e **v-for**, além de estilos responsivos. Os arquivos principais são [src/App.vue](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/App.vue) e [src/style.css](https://github.com/Luizaaaaaah/exercicio_vue/blob/main/src/style.css).
 
-Este projeto foi criado para completar a prática e **não é apresentado como entrega originalmente produzida na data da aula**. Seu deploy foi criado na Vercel e recebeu status `READY`; o funcionamento no navegador ainda precisa ser testado.
+Este projeto foi criado para completar a prática e **não é apresentado como entrega originalmente produzida na data da aula**. Seu deploy foi criado na Vercel e recebeu status `READY`; suas principais funcionalidades já foram validadas no navegador por prints, conforme a seção de testes.
 
 ## 5. Projeto React
 
@@ -126,7 +126,7 @@ O repositório **exercicio_vue** estava vazio na conferência original e recebeu
 | Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — complementação em 24/11/2026 | [exercicio-vue-fawn.vercel.app](https://exercicio-vue-fawn.vercel.app) — `READY` |
 | Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | [vue-project-alpha-peach.vercel.app](https://vue-project-alpha-peach.vercel.app) — `READY` |
 
-Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`, mas **não foi validado** o funcionamento das interfaces no navegador, o acesso por terceiros nem a origem do template.
+Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`. **O Vue básico teve suas principais funcionalidades validadas por prints enviados pela estudante**; os demais projetos ainda precisam de teste no navegador, assim como o acesso por terceiros e a origem do template.
 
 ## 8. Evidências
 
@@ -160,7 +160,37 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 
 **Resultados:** os sete passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
 
-**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. A verificação em telas menores ainda está pendente.
+**Evidências:** as sete capturas reais foram anexadas à pasta [prints](prints/) da branch `reorganizacao` e são exibidas abaixo. A verificação em telas menores ainda está pendente.
+
+### Capturas dos testes realizados
+
+**1. Página inicial do Organizador de Estudos**
+
+![Página inicial do Organizador de Estudos](prints/08-vue-pagina-inicial.png)
+
+**2. Cadastro de tarefa com prioridade alta**
+
+![Cadastro de tarefa com prioridade alta](prints/09-vue-tarefa-adicionada.png)
+
+**3. Tarefa concluída e contadores atualizados**
+
+![Tarefa concluída e contadores atualizados](prints/10-vue-tarefa-concluida.png)
+
+**4. Filtro de tarefas concluídas**
+
+![Filtro de tarefas concluídas](prints/11-vue-filtro-concluidas.png)
+
+**5. Filtro de tarefas pendentes**
+
+![Filtro de tarefas pendentes](prints/12-vue-filtro-pendentes.png)
+
+**6. Persistência da tarefa após atualizar**
+
+![Persistência da tarefa após atualizar](prints/13-vue-persistencia-f5.png)
+
+**7. Tarefa removida e contadores zerados**
+
+![Tarefa removida e contadores zerados](prints/14-vue-tarefa-excluida.png)
 
 ## 10. Situação da atividade
 
@@ -176,7 +206,8 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 - [x] Validar visualmente os filtros e a persistência após atualização do Vue básico, por capturas enviadas pela estudante.
 - [x] Validar exclusão de tarefa no Vue básico com print de lista vazia e contadores zerados.
 - [ ] Testar funcionamento e acesso público das demais interfaces.
-- [ ] Adicionar os prints reais.
+- [x] Anexar ao GitHub as sete capturas reais de validação do Vue básico.
+- [ ] Adicionar os prints de React, Angular, HoennDex e os demais requisitos da aula.
 
 ## 11. Conclusão
 
