@@ -1,100 +1,86 @@
-# Programação Web | Portfólio acadêmico
+# Programação Web — Portfólio acadêmico
 
-Repositório central para acompanhar os conteúdos, práticas e projetos desenvolvidos na disciplina Programação Web. A página inicial foi pensada como um painel de navegação: o professor pode localizar primeiro o resumo da aula e, em seguida, conferir o documento de atividade, o código-fonte e as evidências.
+**Disciplina:** Programação Web  
+**Professor:** Prof. Me. Deivison S. Takatu  
+**Curso:** Análise e Desenvolvimento de Sistemas — Fatec Itapetininga  
+**Ano:** 2026
 
-| Informação | Registro |
-|---|---|
-| Disciplina | Programação Web |
-| Professor | Prof. Me. Deivison S. Takatu |
-| Instituição | FATEC |
-| Período de referência | 2026 |
-| Repositório principal | [Luizaaaaaah/Programacao_Web](https://github.com/Luizaaaaaah/Programacao_Web) |
+Este repositório reúne os **resumos das nove aulas**, a documentação dos exercícios e os links dos projetos práticos. Os códigos dos projetos permanecem em seus repositórios próprios, para preservar o histórico individual de desenvolvimento.
 
-> Os links de repositórios foram conferidos no GitHub. Endereços de deploy, protótipos, coleções e capturas que ainda não foram localizados estão identificados como pendentes — não foram inventados.
+> **Acesso ao portfólio atualizado:** esta organização está na branch **reorganizacao**. A branch **main** original foi preservada até a revisão final.
 
-## Acesso rápido
+## Navegação
 
-- **[Índice das aulas](aulas/README.md)** — resumos, temas e conteúdo estudado.
-- **[Índice das atividades](atividades/README.md)** — enunciado resumido, projetos associados, entregas e evidências.
-- **[Histórico de versões](historico/versoes.md)** — branch, commits e orientações para tags SemVer.
-
-## Aulas e atividades
-
-| Aula | Assunto | Resumo | Relatório da atividade |
+| Aula | Tema | Resumo | Relatório |
 |---:|---|---|---|
-| 01 | Apresentação e introdução à Programação Web | [Resumo](aulas/aula-01-apresentacao-introducao.md) | [Atividade 01](atividades/aula-01/README.md) |
+| 01 | Apresentação e introdução | [Resumo](aulas/aula-01-apresentacao-introducao.md) | [Atividade 01](atividades/aula-01/README.md) |
 | 02 | Escopo, prototipação e UX | [Resumo](aulas/aula-02-escopo-prototipacao-ux.md) | [Atividade 02](atividades/aula-02/README.md) |
 | 03 | Versionamento e deploy | [Resumo](aulas/aula-03-versionamento-deploy.md) | [Atividade 03](atividades/aula-03/README.md) |
 | 04 | Servidores, hospedagem e CMS | [Resumo](aulas/aula-04-servidores-hospedagem-cms.md) | [Atividade 04](atividades/aula-04/README.md) |
-| 05 | Frameworks front-end | [Resumo](aulas/aula-05-frameworks-front-end.md) | [Atividade 05](atividades/aula-05/README.md) |
-| 06 | Projetos front-end | [Resumo](aulas/aula-06-projetos-front-end.md) | [Atividade 06](atividades/aula-06/README.md) |
-| 07 | Frameworks back-end | [Resumo](aulas/aula-07-frameworks-back-end.md) | [Atividade 07](atividades/aula-07/README.md) |
-| 08 | Projetos back-end | [Resumo](aulas/aula-08-projetos-back-end.md) | [Atividade 08](atividades/aula-08/README.md) |
-| 09 | Website Builders | [Resumo](aulas/aula-09-website-builders.md) | [Atividade 09](atividades/aula-09/README.md) |
+| 05 | Frameworks front-end e React | [Resumo](aulas/aula-05-frameworks-front-end.md) | [Atividade 05](atividades/aula-05/README.md) |
+| 06 | Projetos React, Angular e Vue | [Resumo](aulas/aula-06-projetos-front-end.md) | [Atividade 06](atividades/aula-06/README.md) |
+| 07 | Frameworks back-end e Express | [Resumo](aulas/aula-07-frameworks-back-end.md) | [Atividade 07](atividades/aula-07/README.md) |
+| 08 | API CRUD com Express e React | [Resumo](aulas/aula-08-projetos-back-end.md) | [Atividade 08](atividades/aula-08/README.md) |
+| 09 | Website Builders com IA | [Resumo](aulas/aula-09-website-builders.md) | [Atividade 09](atividades/aula-09/README.md) |
 
-## Projetos encontrados no GitHub
+**Índices adicionais:** [Aulas](aulas/README.md) · [Atividades e entregas](atividades/README.md) · [Histórico de versões](historico/versoes.md) · [Pendências verificáveis](PENDENCIAS_DE_ENTREGA.md)
 
-Os códigos permanecem nos repositórios próprios. Este repositório principal faz a ligação entre eles e documenta o contexto de cada entrega.
+## Projetos e atividades
 
-| Aula / finalidade | Projeto | Observação da conferência |
+| Aula | Projeto | Registro atual |
 |---|---|---|
-| Aula 03 — versionamento | [Versionamento](https://github.com/Luizaaaaaah/Versionamento) | Página HTML simples de lista de tarefas. |
-| Aula 03 — versionamento | [Versionamento-II](https://github.com/Luizaaaaaah/Versionamento-II) | Página inicial do projeto EcoTech. |
-| Aula 03 — versionamento | [Versionamento-III](https://github.com/Luizaaaaaah/Versionamento-III) | Tela de login com HTML, CSS e JavaScript. |
-| Aula 05 — React | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Código com as cinco funcionalidades solicitadas: tarefas, contador, jogo da velha, calculadora e consulta de CEP. |
-| Aula 06 — Angular | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Código com contador, dado e jogo de adivinhação. |
-| Aula 06 — Vue / template | [vue-project](https://github.com/Luizaaaaaah/vue-project) | Aplicação HoennDex com pesquisa e filtro; conferir se foi o template importado para a atividade. |
-| Aula 06 — Vue | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Repositório existe, mas está vazio na consulta. |
-| Aula 07 — Express | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | API PurpleMood; a finalidade difere da rota de data e hora descrita no slide. |
-| Aula 08 — API | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) | API Express de notas com operações CRUD. |
-| Aula 08 — interface | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | Interface React que consulta a API de notas em localhost. |
-| Aula 09 — Website Builder com IA | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | Projeto associado ao Lovable com componente de quiz; o repositório é privado. |
+| 01 | [OrganizaFácil — proposta individual](atividades/aula-01/README.md) | Pesquisa de Trello, Todoist e Microsoft To Do; quadro [Miro](https://miro.com/app/board/uXjVEK_PIAI=/?share_link_id=573565708268) e imagem anexada |
+| 02 | [Capítulo Digital — protótipo](https://github.com/RafaelRachidd/Prototipo_figma) | Figma, telas desktop/mobile, três histórias de usuário e [Kanban no Trello](https://trello.com/b/6wQJ2B7i/projeto-capitulo-digital-demolay) |
+| 03 | [PW_Aula_03_Versionamento](https://github.com/Luizaaaaaah/PW_Aula_03_Versionamento) | OrganizaFácil HTML/CSS/JS, três commits, tags e [deploy Vercel](https://pwaula03versionamento.vercel.app/) |
+| 04 | [OrganizaFácil CMS](https://dev-organizafacil-cms1.pantheonsite.io/) | Site WordPress em ambiente Dev/Sandbox do Pantheon; tema Twenty Twenty-Five e plugins |
+| 05 | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) | Aplicação React com cinco funcionalidades; deploy não confirmado |
+| 06 | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Mini Jogos em Angular com três funcionalidades |
+| 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue; projeto Vue básico e quatro deploys pendentes de verificação |
+| 07 | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | PurpleMood: atividade prática alternativa orientada pelo professor em sala, conforme relato da estudante |
+| 08 | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) e [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | API CRUD e interface React; [coleção Postman preparada](atividades/aula-08/postman/notas-crud.postman_collection.json) |
+| 09 | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | Projeto ConectaAção no Lovable, com quiz de voluntariado; repositório privado e publicação ainda não confirmada |
 
-### Publicação dos projetos
+## Estado das entregas
 
-Os endereços públicos de produção do Vercel/Render não foram encontrados nos arquivos consultados nem nos READMEs dos projetos. Os relatórios deixam espaço para incluí-los após confirmação. Para a avaliação, os links de produção devem ser testados em janela anônima.
+O código encontrado no GitHub e a documentação correspondente **não substituem** os testes práticos e os prints exigidos na aula. Os relatórios distinguem:
 
-## Como navegar nesta documentação
+- **Confirmado:** arquivo, código, imagem ou link efetivamente localizado.
+- **Documentado:** descrição elaborada a partir do material e dos códigos disponíveis.
+- **Pendente:** etapa que precisa de execução, teste, imagem real, link de deploy ou permissão de acesso.
 
-1. Abra o resumo da aula para revisar os conceitos.
-2. Entre no relatório da atividade correspondente.
-3. Consulte os repositórios de código associados.
-4. Confira a seção de evidências para saber quais capturas ainda devem ser anexadas.
+Consulte [PENDENCIAS_DE_ENTREGA.md](PENDENCIAS_DE_ENTREGA.md) para identificar rapidamente o que ainda falta.
 
-## Estrutura de pastas
+## Estrutura
 
 ~~~text
 Programacao_Web/
 ├── README.md
-├── .gitignore
+├── PENDENCIAS_DE_ENTREGA.md
 ├── aulas/
 │   ├── README.md
-│   └── aula-XX-*.md
+│   └── aula-01 ... aula-09 (resumos Markdown)
 ├── atividades/
 │   ├── README.md
-│   └── aula-XX/
+│   └── aula-01 ... aula-09/
 │       ├── README.md
-│       └── prints/
-│           └── README.md
+│       ├── prints/
+│       └── postman/ (na Aula 08)
 └── historico/
-    └── versoes.md
+    ├── versoes.md
+    └── documentos-antigos/
 ~~~
 
-## Documentos anteriores mantidos
+## Documentos anteriores preservados
 
-Os documentos que já estavam na raiz foram preservados para não perder o histórico:
+Os arquivos antigos foram movidos da raiz, sem exclusão:
 
-- [Resumo anterior da Aula 05](exercicio_react%20%28aula_5%29.md)
-- [Resumo anterior da Aula 06](exercicio_angular_vue%20%28aula_6%29.md.md)
-- [Anotações de Express](exercicio_express)
+- [Material anterior de React](historico/documentos-antigos/exercicio_react%20%28aula_5%29.md)
+- [Material anterior de Angular/Vue](historico/documentos-antigos/exercicio_angular_vue%20%28aula_6%29.md.md)
+- [Material anterior de Express](historico/documentos-antigos/exercicio_express)
+- [Material anterior sobre Website Builder](historico/documentos-antigos/exerc%C3%ADcio_website.md)
 
-## Critério de registro
+## Como consultar
 
-- **Localizado:** arquivo ou repositório observado no GitHub.
-- **A conferir:** existe um indício de relação com a aula, mas falta confirmar o vínculo exato.
-- **Pendente:** evidência não localizada ou entrega ainda não comprovada.
-- **Não informado:** dado que depende de confirmação da equipe, como integrantes, URL de produção ou data da atividade.
+Abra o resumo da aula, acesse o relatório correspondente e utilize os links para conferir os projetos. Quando houver capturas reais, elas são armazenadas na pasta **prints** da atividade.
 
----
-
-*Documentação acadêmica organizada a partir dos slides das aulas e da conferência dos repositórios disponíveis no GitHub.*
+**Observação:** o projeto da Atividade 01 foi realizado individualmente. A Atividade 02 reaproveita um protótipo associado ao trabalho com colegas, conforme registrado em seu relatório; não foram tratados como um mesmo projeto.
