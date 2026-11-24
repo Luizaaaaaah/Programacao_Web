@@ -192,6 +192,12 @@ A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a
 
 ![Tarefa removida e contadores zerados](prints/14-vue-tarefa-excluida.png)
 
+### Validação manual do Angular — 24/11/2026
+
+A estudante abriu [Mini Jogos em Angular](https://exercicioangular.vercel.app) e enviou uma captura real da página publicada. A imagem apresenta **Mini Jogos em Angular**, **Contador de Cliques** iniciado em **0**, **Rolar Dado** com valor inicial visível **1** e o título **Adivinhe o Número** na parte inferior da tela.
+
+**Resultado:** abertura e renderização inicial da página confirmadas visualmente. A captura **não comprova ainda** o funcionamento dos botões do contador, do sorteio de dado ou do jogo de adivinhação. Essa imagem ainda está nesta conversa e não foi anexada à pasta `prints/` do GitHub.
+
 ## 10. Situação da atividade
 
 - [x] Código do projeto Angular analisado e documentado.
