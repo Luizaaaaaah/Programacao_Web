@@ -8,11 +8,11 @@ Relatórios das nove atividades com os enunciados resumidos, os materiais realme
 | 02 | Capítulo Digital: pesquisa, histórias de usuário, sitemap proposto, Figma e Trello | Duas imagens de protótipo anexadas; sitemap conceitual precisa de validação | [Atividade 02](aula-02/README.md) |
 | 03 | OrganizaFácil HTML/CSS/JS, Git, tags e Vercel | Três tags e quatro prints anexados; checklist de testes publicado não confirmado integralmente | [Atividade 03](aula-03/README.md) |
 | 04 | OrganizaFácil WordPress no Pantheon | Tema, plugins, homepage e quatro imagens anexadas; ambiente Dev/Sandbox | [Atividade 04](aula-04/README.md) |
-| 05 | React com To-Do, contador, jogo da velha, calculadora e CEP | Código e documentação conferidos; faltam execução, capturas e URL de deploy | [Atividade 05](aula-05/README.md) |
-| 06 | Projetos Angular e Vue HoennDex, com referência ao React | Código documentado; Vue básico criado como complementação; template original e quatro deploys não comprovados | [Atividade 06](aula-06/README.md) |
+| 05 | React com To-Do, contador, jogo da velha, calculadora e CEP | Código e Vercel `READY` confirmados; pendem testes reais e capturas | [Atividade 05](aula-05/README.md) |
+| 06 | Projetos Angular e Vue HoennDex, com referência ao React | Quatro projetos com deploys Vercel `READY`, inclusive Vue complementar; pendem teste das interfaces e origem do template | [Atividade 06](aula-06/README.md) |
 | 07 | PurpleMood, API Express alternativa orientada em sala | Rotas, código e URL Render confirmados; pendem prints e testes HTTP atuais | [Atividade 07](aula-07/README.md) |
-| 08 | CRUD de notas com Express e React | Código, coleção Postman e URL da API no Render confirmados; pendem testes e publicação do front-end | [Atividade 08](aula-08/README.md) |
-| 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Código e aparência documentados; repositório privado, publicação e prints pendentes | [Atividade 09](aula-09/README.md) |
+| 08 | CRUD de notas com Express e React | API Render identificada; React compilado em preview Vercel `READY`, mas produção ainda em erro; faltam testes CRUD | [Atividade 08](aula-08/README.md) |
+| 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Projeto privado, deploy Vercel `READY`; acesso do professor e prints não verificados | [Atividade 09](aula-09/README.md) |
 
 ## Acesso rápido
 
