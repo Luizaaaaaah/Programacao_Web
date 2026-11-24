@@ -9,7 +9,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 | Prioridade | Aula | Ação necessária | Situação atual |
 |---|---|---|---|
-| 1 | 05 — React | Testar cinco funcionalidades e acesso por terceiros; anexar prints | URL Vercel encontrada e deploy `READY`; testes e imagens pendentes |
+| 1 | 05 — React | Anexar os nove prints reais já preparados, capturar GitHub/Vercel caso exigido e revisar testes complementares | Cinco funcionalidades testadas na versão publicada, nove PNGs preparados em ZIP; ainda não anexados |
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
 | 3 | 08 — CRUD | Testar API e CRUD, revisar os PRs e publicar versão aprovada em produção; anexar prints | Render `live`; React corrigido em preview `READY`, porém produção ainda `ERROR` |
 | 4 | 09 — ConectaAção | Confirmar entrega da aula; verificar site e quiz sem login e acesso do professor | Vercel registra deploy de produção `READY`; código privado |
@@ -47,7 +47,7 @@ As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos 
 
 ### Capturas
 
-Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
+Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. Os nove prints reais da Aula 05 também foram preparados nesta conversa, aguardando upload. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
 
 ### Permissões
 
