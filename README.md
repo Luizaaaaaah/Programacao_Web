@@ -37,8 +37,8 @@ Este repositório reúne os **resumos das nove aulas**, a documentação dos exe
 | 06 | [exercicio_angular](https://github.com/Luizaaaaaah/exercicio_angular) | Mini Jogos em Angular com três funcionalidades |
 | 06 | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) | Organizador de Estudos em Vue 3 criado como complementação em 24/11/2026; teste e deploy pendentes |
 | 06 | [vue-project](https://github.com/Luizaaaaaah/vue-project) | HoennDex em Vue, possível projeto personalizado; comprovar template original e quatro deploys |
-| 07 | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | PurpleMood: atividade prática alternativa orientada pelo professor em sala, conforme relato da estudante |
-| 08 | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) e [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | API CRUD, interface React, [coleção Postman](atividades/aula-08/postman/notas-crud.postman_collection.json) e [ajustes de deploy em revisão](atividades/aula-08/README.md#8-preparação-para-publicação-em-branches-de-revisão) |
+| 07 | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) | PurpleMood: atividade prática alternativa orientada pelo professor em sala; [API publicada no Render](https://exercicio-express-bokp.onrender.com) (respostas HTTP a validar) |
+| 08 | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) e [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) | [API no Render](https://exercicio-express1.onrender.com), interface React, [coleção Postman](atividades/aula-08/postman/notas-crud.postman_collection.json) e [ajustes em revisão](atividades/aula-08/README.md#8-preparação-para-publicação-em-branches-de-revisão) |
 | 09 | [pixel-perfect-pixels](https://github.com/Luizaaaaaah/pixel-perfect-pixels) | Projeto ConectaAção no Lovable, com quiz de voluntariado; repositório privado e publicação ainda não confirmada |
 
 ## Estado das entregas
