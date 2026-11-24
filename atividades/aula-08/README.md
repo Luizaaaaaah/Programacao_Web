@@ -66,7 +66,7 @@ A interface utiliza React e Vite, com estilização no arquivo **src/App.css**.
 
 ### Integração atual
 
-A constante **API_URL** está configurada como **http://localhost:3000/api/notes**. Esse endereço funciona somente quando o navegador consegue acessar um servidor local na mesma máquina; para a publicação na Vercel, precisa ser substituído ou configurado pela URL pública da API no Render.
+Na branch **main**, a constante **API_URL** permanece configurada como **http://localhost:3000/api/notes**. Na branch de revisão **preparar-deploy-aula-08**, ela passou a aceitar a variável **VITE_API_URL**, apontada para o endpoint existente no Render em um ambiente de prévia Vercel. A mudança não foi mesclada à main, e o funcionamento conjunto não foi validado.
 
 ## 5. Coleção Postman preparada
 
@@ -133,7 +133,11 @@ Foram criados dois pull requests **em rascunho**, preservando as branches main o
 - **[API Express — PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1):** porta configurável para Render, middleware CORS, caminho de dados ajustado, .gitignore e instruções de deploy.
 - **[Front-end React — PR #1](https://github.com/Luizaaaaaah/exercicio_react1/pull/1):** variável VITE_API_URL, exemplo de configuração e instruções de deploy Vercel.
 
-As alterações estão **propostas, não mescladas à main**, e não foram executadas ou publicadas. Antes de integrar, devem ser testadas localmente e depois validadas em ambiente de publicação.
+As alterações **não foram mescladas à main**. Em 24/11/2026, foi corrigido ainda o seletor CSS inválido em `src/index.css` (`*` ausente), que impedia o build da Vercel.
+
+Uma **prévia na Vercel** foi compilada com status `READY` no commit `f8b21a2`: [abrir preview](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app). A variável `VITE_API_URL` foi configurada somente para a prévia dessa branch com o endpoint do Render.
+
+Isso comprova compilação da interface no ambiente de prévia, **não** comprova testes CRUD, funcionamento da API ou publicação da versão definitiva em produção. O acesso ao preview pode estar sujeito à proteção da Vercel.
 
 ## 9. Publicação
 
@@ -160,10 +164,10 @@ Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_
 | Front-end no GitHub | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) |
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
 | URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` no painel desde 22/09/2026; endpoints ainda não testados |
-| URL Vercel | Não confirmada |
+| URL Vercel | [Preview da branch de revisão](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) — `READY`; deploy de produção da main permanece `ERROR` |
 | Integração em produção | Pendente de teste e correção de configuração |
 
-A URL do Render foi obtida diretamente da conta conectada. A URL do front-end Vercel permanece sem confirmação.
+A URL do Render e a URL de prévia da Vercel foram obtidas diretamente das contas conectadas. A versão de produção do front-end continua com erro e ainda não foi publicada com êxito.
 
 ## 10. Evidências
 
@@ -191,7 +195,8 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
 - [ ] Importar e executar a coleção Postman.
 - [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
-- [ ] Confirmar URL pública e funcionamento da interface React na Vercel.
+- [x] Confirmar build `READY` da interface em preview da branch de revisão.
+- [ ] Testar as operações CRUD nessa prévia e publicar versão de produção após aprovação.
 - [ ] Adicionar evidências reais.
 
 ## 12. Conclusão
