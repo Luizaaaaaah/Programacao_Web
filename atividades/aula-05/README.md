@@ -137,6 +137,12 @@ As capturas reais devem ser armazenadas na pasta [prints](prints/README.md).
 
 As imagens são previstas para a entrega; **não estão sendo apresentadas como anexadas** nesta versão do relatório.
 
+## Validação manual da aplicação publicada — 24/11/2026
+
+**Teste 1 — Abertura da página inicial:** a estudante acessou [o site React na Vercel](https://exercicio-react-ecru.vercel.app) e enviou uma captura real da interface. O print mostra o cabeçalho **React App**, o título **“Bem-vindo ao meu projeto React!”**, cinco cartões de funcionalidades (**To-Do List**, **Contador de Cliques**, **Jogo da Velha**, **Calculadora** e **Buscador de CEP**), os botões **Acessar** e o rodapé.
+
+**Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura ainda está na conversa e **não foi anexada ao GitHub**. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
+
 ## 9. Verificação da atividade
 
 - [x] Repositório e estrutura do projeto identificados.
@@ -144,7 +150,8 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 - [x] Recursos de React e integração com ViaCEP documentados.
 - [x] Estilização e responsividade descritas com base no CSS.
 - [x] Referências para os arquivos do projeto adicionadas.
-- [ ] Executar a aplicação e testar as funcionalidades no navegador.
+- [x] Verificar visualmente o carregamento da página inicial publicada na Vercel.
+- [ ] Testar as cinco funcionalidades no navegador.
 - [x] Localizar URL de produção e confirmar deploy `READY` no painel da Vercel.
 - [ ] Validar funcionamento e acesso público no navegador.
 - [ ] Inserir capturas reais das cinco funcionalidades, do GitHub e do deploy.
