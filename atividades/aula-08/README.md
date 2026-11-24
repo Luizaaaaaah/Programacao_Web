@@ -126,7 +126,16 @@ A leitura e gravação do arquivo inteiro a cada operação aumentariam os custo
 
 Essas respostas são análise técnica da implementação; não descrevem mudanças já feitas no código.
 
-## 8. Publicação
+## 8. Preparação para publicação em branches de revisão
+
+Foram criados dois pull requests **em rascunho**, preservando as branches main originais:
+
+- **[API Express — PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1):** porta configurável para Render, middleware CORS, caminho de dados ajustado, .gitignore e instruções de deploy.
+- **[Front-end React — PR #1](https://github.com/Luizaaaaaah/exercicio_react1/pull/1):** variável VITE_API_URL, exemplo de configuração e instruções de deploy Vercel.
+
+As alterações estão **propostas, não mescladas à main**, e não foram executadas ou publicadas. Antes de integrar, devem ser testadas localmente e depois validadas em ambiente de publicação.
+
+## 9. Publicação
 
 | Entrega | Situação |
 |---|---|
@@ -139,7 +148,7 @@ Essas respostas são análise técnica da implementação; não descrevem mudan�
 
 Não foram inventadas URLs de produção.
 
-## 9. Evidências
+## 10. Evidências
 
 Capturas reais a incluir em [prints](prints/README.md):
 
@@ -154,19 +163,20 @@ Capturas reais a incluir em [prints](prints/README.md):
 - **09-vercel-deploy.png** — front-end publicado;
 - **10-postman-collection.png** — coleção importada.
 
-## 10. Situação da atividade
+## 11. Situação da atividade
 
 - [x] Código da API e do front-end localizado.
 - [x] Quatro operações CRUD identificadas.
 - [x] Estrutura dos dados e integração local documentadas.
 - [x] Coleção Postman criada e vinculada ao relatório.
+- [x] Ajustes de deploy preparados em dois pull requests de rascunho, ainda não testados nem mesclados.
 - [x] Questões técnicas respondidas.
 - [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
 - [ ] Importar e executar a coleção Postman.
 - [ ] Confirmar URLs públicas da API e da interface.
 - [ ] Adicionar evidências reais.
 
-## 11. Conclusão
+## 12. Conclusão
 
 O projeto permite estudar o fluxo completo de uma aplicação baseada em API: interface React, requisições HTTP, rotas Express e armazenamento JSON.
 
