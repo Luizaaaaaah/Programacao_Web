@@ -10,7 +10,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 | Prioridade | Aula | Ação necessária | Situação atual |
 |---|---|---|---|
 | 1 | 05 — React | Executar o projeto, testar as cinco funcionalidades, publicar na Vercel e fazer os prints | Código analisado e README atualizado; URL e imagens ausentes |
-| 2 | 06 — Angular e Vue | Testar os projetos, esclarecer a função de cada um dos quatro repositórios e publicar os quatro deploys exigidos | Angular e HoennDex localizados; projeto Vue básico vazio |
+| 2 | 06 — Angular e Vue | Testar os projetos, comprovar a origem do template e publicar os quatro deploys exigidos | React, Angular, Vue básico complementar e HoennDex possuem código; testes e deploys pendentes |
 | 3 | 08 — CRUD | Adaptar a API para publicação, configurar CORS/porta, integrar o front ao Render, executar coleção Postman e registrar prints | Back-end, front-end e coleção de testes preparados |
 | 4 | 09 — ConectaAção | Confirmar que é a entrega da aula, disponibilizar site publicado e conferir acesso do professor | Código privado com quiz identificado; link público não confirmado |
 | 5 | 07 — PurpleMood | Executar API, capturar rotas e confirmar se há publicação | Projeto alternativo validado pelo relato da orientação em sala; código documentado |
