@@ -115,7 +115,7 @@ O comando **npm start** inicia o servidor de desenvolvimento. Para gerar a vers�
 | Código principal | [src/App.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.js) |
 | Estilos da interface | [src/index.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/index.css) |
 | Deploy na Vercel | [exercicio-react-ecru.vercel.app](https://exercicio-react-ecru.vercel.app) — deploy de produção `READY` no painel Vercel, commit `2a4963f` |
-| Teste em navegador | **Pendente:** status `READY` não substitui teste das cinco funcionalidades nem comprova acesso sem login |
+| Teste em navegador | Cinco funcionalidades exercitadas e documentadas por prints reais da versão publicada; casos adicionais e teste em dispositivo móvel não foram verificados |
 
 Não foram atribuídas tags, releases ou endereços de publicação que não tenham sido confirmados no GitHub ou por execução real.
 
@@ -126,16 +126,19 @@ As capturas reais devem ser armazenadas na pasta [prints](prints/README.md).
 | Nome da imagem | Conteúdo esperado |
 |---|---|
 | 01-menu-inicial.png | Cabeçalho, cartões e menu da aplicação |
-| 02-todo-list.png | Tarefa adicionada e exemplo de conclusão |
+| 02-todo-list.png | Tarefa Estudar React adicionada |
 | 03-contador.png | Contador após alguns cliques |
 | 04-jogo-da-velha.png | Tabuleiro e situação de vitória ou empate |
 | 05-calculadora.png | Operação executada e resultado |
 | 06-buscador-cep.png | CEP consultado e endereço retornado |
 | 07-github-commits.png | Histórico real de commits do projeto |
 | 08-vercel-deploy.png | Tela do projeto publicado na Vercel |
-| 09-site-publicado.png | Aplicação aberta pela URL pública |
+| 09-site-publicado.png | Captura complementar da publicação, caso exigida; a imagem 01 já mostra a versão publicada |
+| 10-todo-vazio.png | Lista antes do cadastro |
+| 11-todo-concluido.png | Tarefa Estudar React concluída |
+| 12-todo-removido.png | Lista vazia após a exclusão |
 
-As imagens são previstas para a entrega; **não estão sendo apresentadas como anexadas** nesta versão do relatório.
+As nove capturas dos testes foram fornecidas nesta conversa e estão prontas para upload em um único ZIP. **Ainda precisam ser anexadas ao GitHub.** Os itens 07 e 08 (GitHub e Vercel) também permanecem pendentes, se exigidos pelo enunciado.
 
 ## Validação manual da aplicação publicada — 24/11/2026
 
@@ -151,6 +154,16 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 
 **Teste 5 — Remoção da tarefa:** após selecionar **Remover** na tarefa **Estudar React**, a captura mostrou novamente o estado vazio com a mensagem **“Nenhuma tarefa cadastrada.”** O desaparecimento da tarefa confirma visualmente a remoção. Esta captura foi enviada na conversa; o upload para `prints/` está pendente.
 
+**Teste 6 — Contador de Cliques:** após três cliques no botão **Clique aqui**, a interface mostra **Quantidade de cliques: 3**. A ação de incremento foi confirmada; o botão **Zerar** ainda não foi testado em captura.
+
+**Teste 7 — Jogo da Velha:** a captura mostra o tabuleiro com três **X** na primeira linha, dois **O** na segunda e a mensagem **“Jogador X venceu!”**, confirmando a condição de vitória horizontal. O reinício e o empate não foram testados nesta rodada.
+
+**Teste 8 — Calculadora:** foram preenchidos os valores **10** e **5**, escolhida a operação **+**, e a interface exibiu **Resultado: 15**, conforme esperado. Outras operações e divisão por zero não foram testadas nesta rodada.
+
+**Teste 9 — Buscador de CEP:** após consulta de **18211-210** (entrada 18211210), a interface apresentou **Rua Ricardo Martins, Vila Belo Horizonte, Itapetininga — SP** e o CEP formatado. O print comprova que a interface exibiu um retorno de endereço; a precisão do cadastro externo não foi verificada independentemente nesta etapa.
+
+**Situação das evidências:** os nove prints reais da página inicial, To-Do List, contador, jogo, calculadora e busca de CEP foram reunidos em um arquivo ZIP e aguardam upload na pasta `prints/` do GitHub.
+
 ## 9. Verificação da atividade
 
 - [x] Repositório e estrutura do projeto identificados.
@@ -159,9 +172,10 @@ As imagens são previstas para a entrega; **não estão sendo apresentadas como 
 - [x] Estilização e responsividade descritas com base no CSS.
 - [x] Referências para os arquivos do projeto adicionadas.
 - [x] Verificar visualmente o carregamento da página inicial publicada na Vercel.
-- [ ] Testar as cinco funcionalidades no navegador.
+- [x] Executar e documentar pelo menos um cenário funcional real das cinco funcionalidades no navegador.
+- [ ] Testar situações adicionais (reset, empate, operações alternativas, entradas inválidas e responsividade).
 - [x] Localizar URL de produção e confirmar deploy `READY` no painel da Vercel.
-- [ ] Validar funcionamento e acesso público no navegador.
+- [x] Confirmar acesso e funcionamento dos cenários principais na versão publicada por capturas da estudante.
 - [ ] Inserir capturas reais das cinco funcionalidades, do GitHub e do deploy.
 
 ## 10. Conclusão
@@ -170,4 +184,4 @@ O exercício reúne, em uma interface React, cinco situações práticas de inte
 
 A análise do código permitiu identificar o uso de estados, tratamento de eventos, renderização condicional, validação de dados e CSS responsivo. O projeto oferece uma base para compreender como recursos independentes podem ser apresentados dentro de uma aplicação front-end.
 
-A documentação foi elaborada a partir do código disponível no repositório próprio, sem reaproveitar o texto do relatório de outro estudante. A validação da aplicação publicada e as capturas de tela permanecem como etapas de conclusão.
+A documentação foi elaborada a partir do código disponível no repositório próprio, sem reaproveitar o texto do relatório de outro estudante. Os cenários principais foram validados visualmente na versão publicada; ainda falta anexar as capturas e completar eventuais evidências adicionais exigidas.
