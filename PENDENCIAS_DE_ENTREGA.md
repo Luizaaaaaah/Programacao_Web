@@ -10,7 +10,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 | Prioridade | Aula | Ação necessária | Situação atual |
 |---|---|---|---|
 | 1 | 05 — React | Testar cinco funcionalidades e acesso por terceiros; anexar prints | URL Vercel encontrada e deploy `READY`; testes e imagens pendentes |
-| 2 | 06 — Angular e Vue | Testar os quatro links e registrar prints; comprovar origem do template | Os quatro deploys foram identificados como `READY` na Vercel, incluindo Vue complementar |
+| 2 | 06 — Angular e Vue | Testar React, Angular e HoennDex, conferir responsividade e origem do template; obter prints restantes | Quatro deploys `READY`; Vue básico teve sete testes documentados e sete prints reais anexados ao GitHub |
 | 3 | 08 — CRUD | Testar API e CRUD, revisar os PRs e publicar versão aprovada em produção; anexar prints | Render `live`; React corrigido em preview `READY`, porém produção ainda `ERROR` |
 | 4 | 09 — ConectaAção | Confirmar entrega da aula; verificar site e quiz sem login e acesso do professor | Vercel registra deploy de produção `READY`; código privado |
 | 5 | 07 — PurpleMood | Testar endpoints da API publicada no Render e capturar respostas reais | URL Render e deploy `live` confirmados; testes HTTP pendentes |
