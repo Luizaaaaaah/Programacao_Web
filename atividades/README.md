@@ -1,24 +1,25 @@
-# Atividades | Índice de entregas
+# Índice das atividades — Programação Web
 
-Os relatórios abaixo ligam o enunciado dos slides aos repositórios efetivamente localizados. A presença de código não significa que o deploy, os testes ou a documentação completa já tenham sido comprovados.
+Relatórios das nove atividades com os enunciados resumidos, os materiais realmente localizados e as evidências disponíveis.
 
-| Aula | Entrega principal | O que foi localizado | Relatório |
+| Aula | Trabalho documentado | Evidências e pendências | Relatório |
 |---:|---|---|---|
-| 01 | Formação do grupo, proposta, repositório, resumo e análise de três sites no Miro | Repositório principal existe; proposta do grupo, sites analisados e board do Miro ainda não localizados | [Atividade 01](aula-01/README.md) |
-| 02 | Pesquisa, arquitetura, três user stories, wireframes e Kanban | Não foram localizados links de Miro/Trello ou documento de entrega | [Atividade 02](aula-02/README.md) |
-| 03 | Página HTML, commits, tags, personalização e deploy Vercel | Três repositórios HTML localizados; URL de produção e tags precisam ser conferidas | [Atividade 03](aula-03/README.md) |
-| 04 | Hospedagem, instalação de CMS e personalização | Evidência de instalação WordPress/CMS não localizada | [Atividade 04](aula-04/README.md) |
-| 05 | Aplicação React com cinco funcionalidades e deploy | Código das cinco funcionalidades localizado em repositório público | [Atividade 05](aula-05/README.md) |
-| 06 | Três projetos (React, Angular, Vue), um template e quatro deploys | Angular e Vue/template localizados; Vue base está vazio; React está em repositório já usado na Aula 05 | [Atividade 06](aula-06/README.md) |
-| 07 | API Express de data/hora e front-end em repositório separado | Existe API Express PurpleMood, mas ela não corresponde claramente ao exemplo de data/hora do slide; front-end correspondente não localizado | [Atividade 07](aula-07/README.md) |
-| 08 | CRUD de notas, front-end React, Render, Vercel e Postman | Código de API e interface CRUD localizados; API ainda aponta para localhost no front-end; deploy/coleção não confirmados | [Atividade 08](aula-08/README.md) |
-| 09 | Website Builder com IA, site personalizado e funcionalidade interativa | Repositório privado associado ao Lovable e com quiz; acesso público e URL publicada não confirmados | [Atividade 09](aula-09/README.md) |
+| 01 | OrganizaFácil: proposta individual, pesquisa de três sites e mapa no Miro | Imagem e link do Miro anexados; conferir acesso de terceiros | [Atividade 01](aula-01/README.md) |
+| 02 | Capítulo Digital: pesquisa, histórias de usuário, sitemap proposto, Figma e Trello | Duas imagens de protótipo anexadas; sitemap conceitual precisa de validação | [Atividade 02](aula-02/README.md) |
+| 03 | OrganizaFácil HTML/CSS/JS, Git, tags e Vercel | Três tags e quatro prints anexados; checklist de testes publicado não confirmado integralmente | [Atividade 03](aula-03/README.md) |
+| 04 | OrganizaFácil WordPress no Pantheon | Tema, plugins, homepage e quatro imagens anexadas; ambiente Dev/Sandbox | [Atividade 04](aula-04/README.md) |
+| 05 | React com To-Do, contador, jogo da velha, calculadora e CEP | Código e documentação conferidos; faltam execução, capturas e URL de deploy | [Atividade 05](aula-05/README.md) |
+| 06 | Projetos Angular e Vue HoennDex, com referência ao React | Código documentado; Vue básico vazio, template original e quatro deploys não comprovados | [Atividade 06](aula-06/README.md) |
+| 07 | PurpleMood, API Express alternativa orientada em sala | Rotas e código documentados; pendem prints e testes de execução | [Atividade 07](aula-07/README.md) |
+| 08 | CRUD de notas com Express e React | Código localizado e coleção Postman criada; pendem testes, deploy e integração publicada | [Atividade 08](aula-08/README.md) |
+| 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Código e aparência documentados; repositório privado, publicação e prints pendentes | [Atividade 09](aula-09/README.md) |
 
-## Como concluir os registros
+## Acesso rápido
 
-- Inclua o link de produção somente após testá-lo sem login.
-- Anexe capturas reais na pasta prints da aula correspondente.
-- Confirme se o professor consegue acessar os repositórios necessários.
-- Preencha nomes de integrantes apenas nas atividades em grupo e após confirmação.
-- Atualize o histórico quando houver commit ou tag realmente publicados.
+- [Coleção Postman da Aula 08](aula-08/postman/notas-crud.postman_collection.json)
+- [Pendências de entrega](../PENDENCIAS_DE_ENTREGA.md)
+- [Resumos das aulas](../aulas/README.md)
 
+## Critérios de documentação
+
+Cada relatório distingue o que foi **observado no código**, o que foi **relatado sobre a execução em sala** e o que ainda **depende de testes ou evidências**. Uma API ou interface localizada não comprova, sozinha, publicação em produção. Não foram criados prints ou links fictícios.
