@@ -126,7 +126,7 @@ O repositório **exercicio_vue** estava vazio na conferência original e recebeu
 | Vue básico | [exercicio_vue](https://github.com/Luizaaaaaah/exercicio_vue) — complementação em 24/11/2026 | [exercicio-vue-fawn.vercel.app](https://exercicio-vue-fawn.vercel.app) — `READY` |
 | Vue personalizado | [vue-project](https://github.com/Luizaaaaaah/vue-project) | [vue-project-alpha-peach.vercel.app](https://vue-project-alpha-peach.vercel.app) — `READY` |
 
-Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`. **Vue básico e Angular tiveram suas principais funcionalidades validadas por prints enviados pela estudante**; os demais projetos ainda precisam de teste no navegador, assim como o acesso por terceiros e a origem do template.
+Os quatro links foram obtidos diretamente da conta Vercel conectada. Os deploys aparecem com estado `READY`. **Vue básico, Angular e HoennDex tiveram suas principais funcionalidades validadas por prints reais**; o projeto React ainda precisa de teste no navegador, assim como o acesso por terceiros e a origem do template.
 
 ## 8. Evidências
 
@@ -276,21 +276,53 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Teste 1 — Abertura da página:** a estudante abriu [HoennDex na Vercel](https://vue-project-alpha-peach.vercel.app) e enviou uma captura da página inicial. Estão visíveis o cabeçalho **HOENNDex**, os links **Início**, **Pokédex** e **Sobre Hoenn**, o título **Explore a região de Hoenn**, uma imagem de Rayquaza, o botão **Explorar Pokédex** e o início da seção do catálogo.
 
-**Resultado:** abertura e renderização inicial da página confirmadas visualmente. A captura foi compartilhada nesta conversa, mas ainda não foi anexada à pasta `prints/` no GitHub.
+**Resultado:** abertura e renderização inicial da página confirmadas visualmente. A captura está anexada ao GitHub.
 
-**Teste 2 — Explorar Pokédex:** após clicar no botão **Explorar Pokédex**, a estudante apresentou a seção **Pokémon de Hoenn**. A imagem mostra o campo de pesquisa, o seletor de tipos em **Todos** e os cartões de **Treecko (#252)**, **Grovyle (#253)**, **Sceptile (#254)** e **Torchic (#255)** com imagens, nomes, tipos e atributos **HP, ATK e DEF**. A navegação até o catálogo e a renderização dos cartões foram confirmadas visualmente. O print permanece nesta conversa, sem upload ao GitHub.
+**Teste 2 — Explorar Pokédex:** após clicar no botão **Explorar Pokédex**, a estudante apresentou a seção **Pokémon de Hoenn**. A imagem mostra o campo de pesquisa, o seletor de tipos em **Todos** e os cartões de **Treecko (#252)**, **Grovyle (#253)**, **Sceptile (#254)** e **Torchic (#255)** com imagens, nomes, tipos e atributos **HP, ATK e DEF**. A navegação até o catálogo e a renderização dos cartões foram confirmadas visualmente. O print está anexado ao GitHub.
 
-**Teste 3 — Pesquisa por nome:** com o termo **Torchic** digitado no campo de busca e o filtro de tipo em **Todos**, a captura mostrou somente o cartão **Torchic (#255)**, com imagem, tipo **Fogo** e atributos HP **45**, ATK **60** e DEF **40**. Os demais Pokémon deixaram de aparecer, confirmando visualmente o filtro por nome. A captura está nesta conversa e ainda precisa ser anexada ao GitHub.
+**Teste 3 — Pesquisa por nome:** com o termo **Torchic** digitado no campo de busca e o filtro de tipo em **Todos**, a captura mostrou somente o cartão **Torchic (#255)**, com imagem, tipo **Fogo** e atributos HP **45**, ATK **60** e DEF **40**. Os demais Pokémon deixaram de aparecer, confirmando visualmente o filtro por nome. A captura está anexada ao GitHub.
 
-**Teste 4 — Filtro por tipo Fogo:** depois de limpar a busca e selecionar **Fogo** no menu, a captura exibiu apenas **Torchic (#255)**, **Combusken (#256)** e **Blaziken (#257)**, todos com Fogo entre seus tipos. Combusken e Blaziken também aparecem como **Lutador**. A filtragem por tipo e a exibição dos cartões foram confirmadas visualmente. O print foi enviado nesta conversa, mas ainda não foi anexado ao repositório. A navegação até a seção **Sobre Hoenn** foi testada a seguir; o comportamento responsivo permanece pendente.
+**Teste 4 — Filtro por tipo Fogo:** depois de limpar a busca e selecionar **Fogo** no menu, a captura exibiu apenas **Torchic (#255)**, **Combusken (#256)** e **Blaziken (#257)**, todos com Fogo entre seus tipos. Combusken e Blaziken também aparecem como **Lutador**. A filtragem por tipo e a exibição dos cartões foram confirmadas visualmente. O print está anexado ao GitHub. A navegação até **Sobre Hoenn** e a visualização responsiva foram testadas nas etapas seguintes.
 
-**Teste 5 — Navegação para Sobre Hoenn:** após selecionar **Sobre Hoenn** no menu superior, a captura mostrou a seção **Região de Hoenn**, o título **“Uma nova geração de aventuras”**, o texto de apresentação da terceira geração, o destaque **“135 Novos Pokémon”** e o rodapé **“HoennDex — Projeto desenvolvido em Vue.js”**. A navegação e a renderização dessa seção foram confirmadas visualmente. A captura foi recebida nesta conversa, mas ainda precisa ser anexada à pasta `prints/`.
+**Teste 5 — Navegação para Sobre Hoenn:** após selecionar **Sobre Hoenn** no menu superior, a captura mostrou a seção **Região de Hoenn**, o título **“Uma nova geração de aventuras”**, o texto de apresentação da terceira geração, o destaque **“135 Novos Pokémon”** e o rodapé **“HoennDex — Projeto desenvolvido em Vue.js”**. A navegação e a renderização dessa seção foram confirmadas visualmente. A captura está anexada à pasta `prints/`.
 
 **Teste 6 — Visualização móvel (etapa inicial):** a estudante ativou o modo responsivo do Chrome e ajustou a largura para **390 px**; a captura mostra o título e o texto da apresentação reorganizados em linhas menores e o cabeçalho visível sem corte horizontal aparente nessa região. A altura estava definida como **390 px**, por isso parte do botão de navegação ficou fora da área visível verticalmente. Essa captura confirma apenas a adaptação inicial da seção de abertura, e ainda não comprova o comportamento de toda a página, dos filtros ou da navegação em dispositivo móvel. O print permanece nesta conversa e não foi anexado à pasta `prints/`.
 
-**Teste 7 — Visualização móvel em 390 × 844 px:** a estudante ajustou a simulação do Chrome para **390 px de largura** e **844 px de altura**. A captura mostra o cabeçalho, o título **Explore a região de Hoenn**, o texto explicativo, o botão **Explorar Pokédex** e a ilustração do Rayquaza reorganizados verticalmente, sem corte horizontal aparente na seção inicial. A barra de navegação desktop não aparece nesse tamanho, conforme as regras responsivas identificadas no CSS. **Resultado:** apresentação inicial validada visualmente nessa dimensão. O print está nesta conversa e ainda não foi anexado ao GitHub.
+**Teste 7 — Visualização móvel em 390 × 844 px:** a estudante ajustou a simulação do Chrome para **390 px de largura** e **844 px de altura**. A captura mostra o cabeçalho, o título **Explore a região de Hoenn**, o texto explicativo, o botão **Explorar Pokédex** e a ilustração do Rayquaza reorganizados verticalmente, sem corte horizontal aparente na seção inicial. A barra de navegação desktop não aparece nesse tamanho, conforme as regras responsivas identificadas no CSS. **Resultado:** apresentação inicial validada visualmente nessa dimensão. O print está anexado ao GitHub.
 
-**Teste 8 — Catálogo no celular em 390 × 844 px:** após selecionar a seção da Pokédex, a captura mostra o título **Pokémon de Hoenn**, o campo **Pesquisar Pokémon...**, o seletor de tipo **Fogo** abaixo da pesquisa e o cartão de **Torchic (#255)** ajustado à largura da simulação. A imagem e os dados visíveis do cartão aparecem organizados verticalmente, sem corte horizontal aparente. O teste confirma a **apresentação visual** do catálogo e do filtro previamente selecionado nessa largura; não comprova uma nova interação com o filtro em modo móvel nem a visualização dos outros cartões abaixo da dobra. Esta evidência foi enviada na conversa e ainda precisa ser anexada ao GitHub.
+**Teste 8 — Catálogo no celular em 390 × 844 px:** após selecionar a seção da Pokédex, a captura mostra o título **Pokémon de Hoenn**, o campo **Pesquisar Pokémon...**, o seletor de tipo **Fogo** abaixo da pesquisa e o cartão de **Torchic (#255)** ajustado à largura da simulação. A imagem e os dados visíveis do cartão aparecem organizados verticalmente, sem corte horizontal aparente. O teste confirma a **apresentação visual** do catálogo e do filtro previamente selecionado nessa largura; não comprova uma nova interação com o filtro em modo móvel nem a visualização dos outros cartões abaixo da dobra. Esta evidência está anexada ao GitHub.
+
+### Galeria das evidências da HoennDex
+
+Os **sete prints reais** abaixo foram confirmados na pasta [prints](prints/) da branch `reorganizacao`. A captura intermediária de 390 × 390 px foi usada somente durante a configuração da simulação; a evidência móvel anexada corresponde a **390 × 844 px**.
+
+**Página inicial com Rayquaza**
+
+![Página inicial com Rayquaza](prints/26-hoenndex-pagina-inicial.png)
+
+**Catálogo com cartões de Pokémon**
+
+![Catálogo com cartões de Pokémon](prints/27-hoenndex-catalogo.png)
+
+**Pesquisa por Torchic**
+
+![Pesquisa por Torchic](prints/28-hoenndex-pesquisa-torchic.png)
+
+**Filtro por tipo Fogo**
+
+![Filtro por tipo Fogo](prints/29-hoenndex-filtro-fogo.png)
+
+**Seção Sobre Hoenn**
+
+![Seção Sobre Hoenn](prints/30-hoenndex-sobre-hoenn.png)
+
+**Página inicial em 390 × 844 px**
+
+![Página inicial em 390 × 844 px](prints/31-hoenndex-mobile-inicio.png)
+
+**Catálogo em 390 × 844 px**
+
+![Catálogo em 390 × 844 px](prints/32-hoenndex-mobile-catalogo.png)
 
 ## 10. Situação da atividade
 
@@ -308,7 +340,8 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 - [ ] Testar funcionamento e acesso público das demais interfaces.
 - [x] Anexar ao GitHub as sete capturas reais de validação do Vue básico.
 - [x] Anexar os 12 prints reais dos testes do Angular.
-- [ ] Adicionar os prints de React, HoennDex e dos demais requisitos da aula.
+- [x] Anexar os sete prints reais dos testes da HoennDex, incluindo layout móvel.
+- [ ] Adicionar os prints do React e dos demais requisitos pendentes da aula.
 
 ## 11. Conclusão
 
