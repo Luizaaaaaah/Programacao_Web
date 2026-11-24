@@ -276,7 +276,9 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Teste 1 — Abertura da página:** a estudante abriu [HoennDex na Vercel](https://vue-project-alpha-peach.vercel.app) e enviou uma captura da página inicial. Estão visíveis o cabeçalho **HOENNDex**, os links **Início**, **Pokédex** e **Sobre Hoenn**, o título **Explore a região de Hoenn**, uma imagem de Rayquaza, o botão **Explorar Pokédex** e o início da seção do catálogo.
 
-**Resultado:** abertura e renderização inicial da página confirmadas visualmente. O botão, a navegação, os filtros e o comportamento responsivo ainda precisam ser testados. A captura foi compartilhada nesta conversa, mas ainda não foi anexada à pasta `prints/` no GitHub.
+**Resultado:** abertura e renderização inicial da página confirmadas visualmente. A captura foi compartilhada nesta conversa, mas ainda não foi anexada à pasta `prints/` no GitHub.
+
+**Teste 2 — Explorar Pokédex:** após clicar no botão **Explorar Pokédex**, a estudante apresentou a seção **Pokémon de Hoenn**. A imagem mostra o campo de pesquisa, o seletor de tipos em **Todos** e os cartões de **Treecko (#252)**, **Grovyle (#253)**, **Sceptile (#254)** e **Torchic (#255)** com imagens, nomes, tipos e atributos **HP, ATK e DEF**. A navegação até o catálogo e a renderização dos cartões foram confirmadas visualmente. A pesquisa por nome, o filtro por tipo e o comportamento responsivo ainda precisam ser testados. O print permanece nesta conversa, sem upload ao GitHub.
 
 ## 10. Situação da atividade
 
