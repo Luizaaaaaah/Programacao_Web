@@ -142,7 +142,23 @@ Capturas reais a incluir na pasta [prints](prints/README.md):
 | 06-quatro-repositorios.png | Quatro repositórios utilizados |
 | 07-quatro-deploys.png | Quatro endereços Vercel confirmados |
 
-## 9. Situação da atividade
+## 9. Validação manual do Vue básico — 24/11/2026
+
+A página **Organizador de Estudos** foi aberta pela URL publicada na Vercel e a estudante apresentou capturas reais da interface durante a verificação.
+
+| Teste | Resultado observado |
+|---|---|
+| Abertura da página | Título, formulário, indicadores e filtros exibidos corretamente |
+| Cadastro de tarefa | Foi criada a tarefa **Revisar componentes Vue** com prioridade **Alta** |
+| Contadores após cadastro | Total: **1**, pendentes: **1**, concluídas: **0** |
+| Conclusão da tarefa | Checkbox marcado, texto riscado e contadores atualizados |
+| Contadores após conclusão | Total: **1**, pendentes: **0**, concluídas: **1** |
+
+**Resultados:** os três passos apresentados foram aprovados a partir das capturas reais enviadas pela estudante nesta conversa. A interface visual e os contadores estavam coerentes com a implementação do código.
+
+**Evidências:** as capturas foram apresentadas nesta conversa, mas **ainda não foram anexadas como arquivos na pasta `prints/` do GitHub**. Os demais testes (filtros, exclusão, persistência após atualização e telas menores) continuam pendentes.
+
+## 10. Situação da atividade
 
 - [x] Código do projeto Angular analisado e documentado.
 - [x] Código do projeto HoennDex em Vue analisado e documentado.
@@ -152,10 +168,12 @@ Capturas reais a incluir na pasta [prints](prints/README.md):
 - [ ] Identificar o template original e registrar as modificações.
 - [ ] Executar e testar os projetos no navegador.
 - [x] Identificar e registrar os quatro deploys no painel da Vercel (`READY`).
-- [ ] Testar funcionamento e acesso público de cada interface.
+- [x] Conferir abertura, cadastro e conclusão de tarefas no Vue básico por capturas da versão publicada.
+- [ ] Testar filtros, exclusão e persistência do Vue básico.
+- [ ] Testar funcionamento e acesso público das demais interfaces.
 - [ ] Adicionar os prints reais.
 
-## 10. Conclusão
+## 11. Conclusão
 
 A consulta aos projetos existentes demonstrou o uso de diferentes tecnologias para construir interfaces: React para aplicações baseadas em estado, Angular com componentes e formulários, e Vue com reatividade e filtros calculados.
 
