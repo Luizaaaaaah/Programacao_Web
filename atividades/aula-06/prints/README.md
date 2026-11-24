@@ -16,31 +16,30 @@ A estudante enviou sete capturas reais durante a validação do **Organizador de
 
 **Status:** os sete arquivos PNG estão anexados nesta pasta no GitHub, e o [relatório da Aula 06](../README.md) exibe as imagens para consulta.
 
-## Evidências do Angular — testes registrados em 24/11/2026
+## Evidências anexadas do Angular — testes registrados em 24/11/2026
 
-As capturas abaixo foram enviadas pela estudante nesta conversa e reunidas em um **arquivo ZIP separado**, com os nomes indicados. **Ainda não foram anexadas a esta pasta do GitHub.** O relatório da atividade já registra os resultados observados.
+As 12 capturas reais abaixo foram enviadas pela estudante e **confirmadas nesta pasta do GitHub**, na branch `reorganizacao`. O relatório da atividade registra os resultados e exibe cada imagem.
 
-| Arquivo a anexar | Evidência real |
+| Arquivo anexado | Evidência real |
 |---|---|
-| `02-projeto-angular.png` | Página inicial dos Mini Jogos |
-| `15-angular-contador-3.png` | Contador aumentado para 3 |
-| `16-angular-contador-2.png` | Contador reduzido para 2 |
-| `17-angular-contador-reset.png` | Contador zerado com Reset |
-| `18-angular-dado-6.png` | Dado mostrando o número 6 |
-| `19-angular-palpite-25.png` | Primeiro palpite e uma tentativa |
-| `20-angular-palpite-12.png` | Segundo palpite e duas tentativas |
-| `21-angular-palpite-6.png` | Terceiro palpite |
-| `22-angular-palpite-3.png` | Quarto palpite |
-| `23-angular-palpite-4.png` | Quinto palpite |
-| `24-angular-vitoria.png` | Acerto do número 5 em seis tentativas |
-| `25-angular-jogar-novamente.png` | Jogo reiniciado com tentativas zeradas |
+| [02-projeto-angular.png](02-projeto-angular.png) | Página inicial dos Mini Jogos |
+| [15-angular-contador-3.png](15-angular-contador-3.png) | Contador aumentado para 3 |
+| [16-angular-contador-2.png](16-angular-contador-2.png) | Contador reduzido para 2 |
+| [17-angular-contador-reset.png](17-angular-contador-reset.png) | Contador zerado com Reset |
+| [18-angular-dado-6.png](18-angular-dado-6.png) | Dado mostrando o número 6 |
+| [19-angular-palpite-25.png](19-angular-palpite-25.png) | Primeiro palpite e uma tentativa |
+| [20-angular-palpite-12.png](20-angular-palpite-12.png) | Segundo palpite e duas tentativas |
+| [21-angular-palpite-6.png](21-angular-palpite-6.png) | Terceiro palpite |
+| [22-angular-palpite-3.png](22-angular-palpite-3.png) | Quarto palpite |
+| [23-angular-palpite-4.png](23-angular-palpite-4.png) | Quinto palpite |
+| [24-angular-vitoria.png](24-angular-vitoria.png) | Acerto do número 5 em seis tentativas |
+| [25-angular-jogar-novamente.png](25-angular-jogar-novamente.png) | Jogo reiniciado com tentativas zeradas |
 
-Depois do upload dos 12 PNGs na branch `reorganizacao`, atualizar este registro e inserir links no relatório principal.
+O upload dos 12 arquivos foi confirmado e o [relatório principal](../README.md) inclui as imagens.
 
 ## Demais evidências previstas da atividade
 
 - `01-projeto-react.png` — interface React
-- `02-projeto-angular.png` — interface Angular
 - `03-projeto-vue.png` — interface Vue
 - `04-template-original.png` — template antes da personalização
 - `05-template-personalizado.png` — template depois da personalização
