@@ -1,73 +1,122 @@
-# Atividade 07 — API de data e hora com Express
+# Atividade 07 — API PurpleMood com Node.js e Express
 
 **Disciplina:** Programação Web  
-**Professor:** Prof. Me. Deivison S. Takatu
+**Professor:** Prof. Me. Deivison S. Takatu  
+**Instituição:** Fatec Itapetininga  
+**Projeto:** PurpleMood
 
-## 1. Objetivo
+## 1. Objetivo e orientação recebida em sala
 
-Desenvolver uma API com Express que disponibilize uma rota de consulta de data e hora, publicar o back-end no Render e criar um front-end separado que consuma a API. A entrega deve manter API e interface em repositórios distintos.
+A Aula 07 abordou os fundamentos de desenvolvimento back-end e apresentou como exemplo uma API de consulta de data e hora com Express.
 
-## 2. O que foi solicitado
+**Conforme informado pela estudante, durante a aula o professor orientou a turma a experimentar uma proposta diferente.** Por esse motivo, o projeto desenvolvido para esta atividade foi o **PurpleMood**, uma API relacionada ao registro de humor.
 
-1. Criar uma API Express com rota para retornar data e hora.
-2. Publicar o back-end no Render conectado ao GitHub.
-3. Criar um front-end que consuma a API e apresente a data/hora.
-4. Separar o back-end e o front-end em repositórios diferentes.
-5. Documentar código, aplicação, painéis do Render e da Vercel, prints e links dos dois repositórios.
+Esta documentação descreve o projeto realmente realizado, respeitando a orientação recebida em sala. A API de data e hora do material não está sendo tratada como uma pendência a ser refeita.
 
-## 3. Projeto Express localizado
+## 2. Projeto utilizado
 
-**Repositório:** [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express)
+**Código-fonte:** [Luizaaaaaah/exercicio_express](https://github.com/Luizaaaaaah/exercicio_express)  
+**Arquivo principal:** [api.js](https://github.com/Luizaaaaaah/exercicio_express/blob/main/api.js)
 
-O arquivo api.js foi conferido. Ele implementa uma API chamada PurpleMood, com recursos relacionados a registros de humor, incluindo rotas para listar, buscar, cadastrar, atualizar e excluir humores, além de estatísticas e frases motivacionais.
+O PurpleMood utiliza **Node.js**, **Express** e **CORS** para disponibilizar informações sobre registros de humor por meio de rotas HTTP que retornam dados em JSON.
 
-**Importante:** o código localizado é uma API funcional em Express, mas seu domínio de dados é humor — não foi identificada nele a rota de data e hora descrita no enunciado da Aula 07. Portanto, a existência desse repositório não comprova que a atividade específica esteja concluída.
+O código começa com três registros de exemplo: Feliz, Tranquilo e Animado. Cada registro contém informações como identificador, humor, emoji, mensagem, intensidade, cor e data.
 
-O repositório contém uma pasta node_modules versionada. É recomendável remover dependências instaladas do controle de versão e criar um .gitignore apropriado no próprio projeto, após revisar as alterações localmente.
+## 3. Endpoints implementados
 
-## 4. Front-end e publicação
+| Método | Rota | Finalidade |
+|---|---|---|
+| GET | / | Identificar a API e informar seu status |
+| GET | /humores | Listar os registros de humor |
+| GET | /humores/:id | Consultar um humor específico |
+| POST | /humores | Cadastrar um novo registro |
+| PUT | /humores/:id | Atualizar um registro existente |
+| DELETE | /humores/:id | Excluir um registro |
+| GET | /estatisticas | Obter quantidade de registros e média de intensidade |
+| GET | /frases | Obter frases motivacionais |
 
-Não foi localizado um repositório front-end que pudesse ser associado com segurança à API de data e hora desta aula. Também não foram confirmadas URLs de produção no Render e na Vercel.
+O código contém respostas de erro para identificadores não encontrados e para campos obrigatórios ausentes no cadastro.
 
-| Entrega | Link / situação |
+### 3.1. Cadastro
+
+A rota **POST /humores** recebe os campos relacionados ao humor e cria um registro. O código exige humor, mensagem e intensidade, e estabelece valores padrão para alguns campos.
+
+### 3.2. Atualização e exclusão
+
+O método **PUT** modifica campos de um registro identificado por ID. O método **DELETE** remove o registro correspondente, quando encontrado.
+
+### 3.3. Estatísticas
+
+A rota **GET /estatisticas** calcula a quantidade de registros e a média das intensidades cadastradas.
+
+### 3.4. Frases
+
+A rota **GET /frases** apresenta uma lista de mensagens motivacionais definidas no código.
+
+## 4. Organização técnica
+
+O arquivo **api.js** reúne a inicialização do Express, a configuração de CORS, a lista de dados de exemplo e as rotas.
+
+Os dados são armazenados em um **array em memória**. Isso significa que as alterações não são persistidas em um banco de dados e podem ser perdidas quando o processo é reiniciado. O projeto tem caráter didático.
+
+O código utiliza a porta **3000** definida diretamente no arquivo. Para publicar em serviços que exigem uma porta fornecida pelo ambiente, essa configuração pode precisar de adaptação.
+
+O repositório contém dependências instaladas sob **node_modules**; em uma revisão posterior, recomenda-se usar um arquivo **.gitignore** e retirar essa pasta do versionamento.
+
+## 5. Execução local prevista
+
+Com Node.js e NPM instalados, após obter o código do repositório:
+
+~~~bash
+npm install
+node api.js
+~~~
+
+É possível testar, por exemplo, a rota **http://localhost:3000/humores** usando o navegador ou um cliente HTTP.
+
+Essa sequência descreve como o código pode ser executado. A execução e os resultados não foram reproduzidos nesta conferência.
+
+## 6. Evidências e publicação
+
+| Evidência | Situação |
 |---|---|
-| API Express existente | [exercicio_express](https://github.com/Luizaaaaaah/exercicio_express) |
-| Front-end data/hora | Não localizado |
-| URL da API no Render | Não localizada |
-| Site no Vercel | Não localizado |
-| Prints de painéis e aplicação | Pendentes |
+| Código da API Express | Localizado |
+| Rotas de consulta e CRUD | Identificadas no código |
+| Rota de estatísticas | Identificada |
+| Rota de frases | Identificada |
+| Print da execução local | Não anexado |
+| Testes HTTP documentados | Não confirmados |
+| URL de deploy no Render | Não confirmada |
+| Front-end separado | Não identificado; verificar se integrou a orientação prática desta turma |
 
-## 5. Estrutura recomendada para completar
+Capturas recomendadas para a pasta [prints](prints/README.md):
 
-- Rota da API documentada, com método HTTP e formato de resposta.
-- Exemplo de resposta JSON com data e hora.
-- Front-end mostrando a resposta da API.
-- Variável de ambiente ou configuração clara para URL da API em produção.
-- Teste do endpoint público e captura do painel Render.
-- Front-end acessível em produção, testado em janela anônima.
+- **01-codigo-purplemood.png** — rotas e estrutura do projeto;
+- **02-lista-humores.png** — resposta real da rota de listagem;
+- **03-cadastro-humor.png** — requisição de cadastro e resposta;
+- **04-estatisticas.png** — resposta de estatísticas;
+- **05-frases.png** — lista de frases;
+- **06-deploy-render.png** — serviço publicado, se houver.
 
-## 6. Evidências a anexar
+Os nomes acima são sugestões de evidências a produzir, não arquivos já anexados.
 
-| Arquivo sugerido | O que deve mostrar |
-|---|---|
-| 01-rota-data-hora.png | Código da rota de data/hora |
-| 02-api-local.png | Resposta JSON da API no ambiente local |
-| 03-render-service.png | Serviço e status de deploy no Render |
-| 04-api-publicada.png | Endpoint público respondendo |
-| 05-frontend-data-hora.png | Interface que consome e apresenta a data/hora |
-| 06-vercel-deploy.png | Deploy do front-end na Vercel |
-| 07-repositorios-separados.png | Repositórios distintos para API e interface |
+## 7. Aprendizados
 
-As capturas devem ser colocadas em [prints/](prints/README.md).
+O desenvolvimento do PurpleMood permitiu aplicar conceitos de API REST, métodos HTTP, rotas parametrizadas, corpo de requisições em JSON e cálculo de dados no servidor.
 
-## 7. Situação desta documentação
+A atividade mostra que os conhecimentos de Express podem ser aplicados a um tema diferente do exemplo do material, conforme a orientação relatada para a prática em sala.
 
-- [x] Repositório com API Express localizado.
-- [ ] Confirmar se existe uma versão da API específica para data/hora.
-- [ ] Localizar o front-end correspondente.
-- [ ] Confirmar Render e Vercel.
-- [ ] Inserir prints e links públicos.
+## 8. Situação da atividade
 
-## 8. Nota de conferência
+- [x] Projeto PurpleMood identificado como a implementação utilizada na aula, conforme relato da estudante.
+- [x] Código-fonte e funcionalidades analisados.
+- [x] Métodos e rotas documentados.
+- [ ] Adicionar capturas reais do funcionamento.
+- [ ] Confirmar testes locais e eventual publicação.
+- [ ] Revisar dependências versionadas caso o repositório seja preparado para produção.
 
-O repositório PurpleMood foi registrado como projeto Express encontrado, mas não foi classificado como implementação final do requisito de data/hora. Essa distinção evita atribuir uma entrega diferente à atividade solicitada.
+## 9. Conclusão
+
+O PurpleMood é uma API didática construída com Express para consultar e administrar registros de humor. Ela atende à proposta prática alternativa informada pela estudante e permite demonstrar funcionalidades típicas do desenvolvimento back-end.
+
+A documentação descreve o código existente sem afirmar deploys, testes ou persistência que não foram confirmados.
