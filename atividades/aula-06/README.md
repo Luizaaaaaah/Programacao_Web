@@ -282,7 +282,9 @@ As 12 capturas reais do Angular foram anexadas à pasta [prints](prints/) do Git
 
 **Teste 3 — Pesquisa por nome:** com o termo **Torchic** digitado no campo de busca e o filtro de tipo em **Todos**, a captura mostrou somente o cartão **Torchic (#255)**, com imagem, tipo **Fogo** e atributos HP **45**, ATK **60** e DEF **40**. Os demais Pokémon deixaram de aparecer, confirmando visualmente o filtro por nome. A captura está nesta conversa e ainda precisa ser anexada ao GitHub.
 
-**Teste 4 — Filtro por tipo Fogo:** depois de limpar a busca e selecionar **Fogo** no menu, a captura exibiu apenas **Torchic (#255)**, **Combusken (#256)** e **Blaziken (#257)**, todos com Fogo entre seus tipos. Combusken e Blaziken também aparecem como **Lutador**. A filtragem por tipo e a exibição dos cartões foram confirmadas visualmente. O print foi enviado nesta conversa, mas ainda não foi anexado ao repositório. A navegação até a seção **Sobre Hoenn** e o comportamento responsivo permanecem pendentes.
+**Teste 4 — Filtro por tipo Fogo:** depois de limpar a busca e selecionar **Fogo** no menu, a captura exibiu apenas **Torchic (#255)**, **Combusken (#256)** e **Blaziken (#257)**, todos com Fogo entre seus tipos. Combusken e Blaziken também aparecem como **Lutador**. A filtragem por tipo e a exibição dos cartões foram confirmadas visualmente. O print foi enviado nesta conversa, mas ainda não foi anexado ao repositório. A navegação até a seção **Sobre Hoenn** foi testada a seguir; o comportamento responsivo permanece pendente.
+
+**Teste 5 — Navegação para Sobre Hoenn:** após selecionar **Sobre Hoenn** no menu superior, a captura mostrou a seção **Região de Hoenn**, o título **“Uma nova geração de aventuras”**, o texto de apresentação da terceira geração, o destaque **“135 Novos Pokémon”** e o rodapé **“HoennDex — Projeto desenvolvido em Vue.js”**. A navegação e a renderização dessa seção foram confirmadas visualmente. A captura foi recebida nesta conversa, mas ainda precisa ser anexada à pasta `prints/`.
 
 ## 10. Situação da atividade
 
