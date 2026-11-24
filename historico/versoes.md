@@ -49,3 +49,9 @@ O repositório independente [PW_Aula_03_Versionamento](https://github.com/Luizaa
 A branch **reorganizacao** deve ser revisada antes de ser mesclada com **main**. Para evitar conflitos, a cópia local precisa ser sincronizada com as novas alterações realizadas diretamente pelo GitHub antes de qualquer edição local.
 
 A tag de versão do portfólio principal deve ser criada apenas após a integração e verificação final, se necessária.
+
+## Complementos em repositórios de exercícios
+
+Em **24/11/2026** foi criado o [Organizador de Estudos em Vue](https://github.com/Luizaaaaaah/exercicio_vue), preenchendo o repositório básico que anteriormente estava vazio. Essa implementação é uma complementação posterior e não deve ser apresentada como um arquivo originalmente produzido na aula.
+
+Foram também abertos dois pull requests de rascunho para preparar a [API de notas](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) e a [interface React](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) para publicação. Eles ainda não foram mesclados nem testados em produção.
