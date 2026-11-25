@@ -11,4 +11,8 @@ Esta pasta está reservada às evidências reais da **API PurpleMood**, utilizad
 - **05-frases.png:** resultado GET /frases;
 - **06-deploy-render.png:** painel de serviço e URL real, se houver publicação.
 
-Adicione apenas imagens provenientes do projeto executado e não inclua senhas, tokens, chaves ou informações pessoais nas capturas. **As imagens 02, 04 e 05 foram recebidas na conversa, organizadas em ZIP e ainda precisam ser anexadas a esta pasta.** As evidências 01, 03 e 06 permanecem opcionais/pendentes, conforme os requisitos da aula.
+Adicione apenas imagens provenientes do projeto executado e não inclua senhas, tokens, chaves ou informações pessoais nas capturas. **As imagens 02, 04 e 05 foram anexadas e verificadas nesta pasta na branch `reorganizacao`.** As evidências 01, 03 e 06 permanecem opcionais/pendentes, conforme os requisitos da aula.
+
+## Evidências incorporadas ao relatório
+
+As três respostas GET também aparecem no [relatório principal da Aula 07](../README.md).
