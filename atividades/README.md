@@ -12,7 +12,7 @@ Relatórios das nove atividades com os enunciados resumidos, os materiais realme
 | 06 | Projetos Angular e Vue HoennDex, com referência ao React | Quatro deploys Vercel `READY`; 26 prints reais (Vue básico, Angular e HoennDex) anexados e testes documentados; ainda pendem React e comprovação da origem do template | [Atividade 06](aula-06/README.md) |
 | 07 | PurpleMood, API Express alternativa orientada em sala | Rotas, código e URL Render confirmados; pendem prints e testes HTTP atuais | [Atividade 07](aula-07/README.md) |
 | 08 | CRUD de notas com Express e React | API Render identificada; React compilado em preview Vercel `READY`, mas produção ainda em erro; faltam testes CRUD | [Atividade 08](aula-08/README.md) |
-| 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Homepage, quiz até o perfil Acolhedor Social, versão móvel e editor Lovable verificados; seis prints preparados, ainda não anexados; acesso do professor pendente | [Atividade 09](aula-09/README.md) |
+| 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Homepage, quiz com resultado Acolhedor Social, versão móvel e editor Lovable validados; seis prints reais anexados e exibidos; acesso do professor pendente | [Atividade 09](aula-09/README.md) |
 
 ## Acesso rápido
 
