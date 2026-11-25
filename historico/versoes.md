@@ -23,6 +23,7 @@ Os documentos antigos foram movidos para [documentos-antigos](documentos-antigos
 | 24/11/2026 | [c81140b](https://github.com/Luizaaaaaah/Programacao_Web/commit/c81140b474a6deb07f3bdf62f103017265e57f34) | Relatório CRUD da Atividade 08 |
 | 24/11/2026 | [23ebcbb](https://github.com/Luizaaaaaah/Programacao_Web/commit/23ebcbb5744168bf94d2e42714ebc2dd5a197904) | Documentação ConectaAção da Atividade 09 |
 | 24/11/2026 | [14ccc2f](https://github.com/Luizaaaaaah/Programacao_Web/commit/14ccc2f129046e67e5027d28e2dcae17ac111628) | Coleção Postman da Aula 08 |
+| 25/11/2026 | [ae7231e](https://github.com/Luizaaaaaah/Programacao_Web/commit/ae7231e64342ea78fc4c6a9e9d0cd6d34e731518) | Registro do Itape + como [projeto final da disciplina](../projeto-final/README.md), distinto das nove aulas |
 
 Outros ajustes dos índices e relatórios podem ser conferidos pelo [histórico da branch](https://github.com/Luizaaaaaah/Programacao_Web/commits/reorganizacao/).
 
@@ -54,4 +55,8 @@ A tag de versão do portfólio principal deve ser criada apenas após a integra�
 
 Em **24/11/2026** foi criado o [Organizador de Estudos em Vue](https://github.com/Luizaaaaaah/exercicio_vue), preenchendo o repositório básico que anteriormente estava vazio. Essa implementação é uma complementação posterior e não deve ser apresentada como um arquivo originalmente produzido na aula.
 
-Foram também abertos dois pull requests de rascunho para preparar a [API de notas](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) e a [interface React](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) para publicação. Eles ainda não foram mesclados nem testados em produção.
+Foram abertos e depois **integrados** os pull requests da [API de notas](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) e da [interface React](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) para publicação. A API foi validada em Render e o CRUD foi testado na prévia React, enquanto a versão de produção do front-end foi publicada com status `READY` e sua listagem observada no navegador.
+
+## Projeto final coletivo — Itape +
+
+O [Itape +](https://github.com/RafaelRachidd/Itape-plus) pertence ao repositório da equipe e possui uma [release própria v1.0.0](https://github.com/RafaelRachidd/Itape-plus/releases/tag/v1.0.0) de 23/11/2026, registrada como versão final da disciplina. A release do projeto coletivo **não é uma tag do portfólio Programacao_Web**. Consulte o [relatório do projeto final](../projeto-final/README.md).
