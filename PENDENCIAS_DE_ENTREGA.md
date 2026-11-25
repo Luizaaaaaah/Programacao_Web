@@ -12,7 +12,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 | 1 | 05 — React | Conferir necessidade de evidências adicionais (commits e painel Vercel) e testes complementares | Cinco funcionalidades testadas na versão publicada; nove PNGs reais anexados e exibidos no relatório |
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
 | 3 | 08 — CRUD | Testar API e CRUD, revisar os PRs e publicar versão aprovada em produção; anexar prints | Render `live`; React corrigido em preview `READY`, porém produção ainda `ERROR` |
-| 4 | 09 — ConectaAção | Confirmar entrega da aula; verificar site e quiz sem login e acesso do professor | Vercel registra deploy de produção `READY`; código privado |
+| 4 | 09 — ConectaAção | Anexar seis prints preparados e confirmar acesso do professor ao site/código | Homepage, quiz concluído com resultado Acolhedor Social, visual móvel e editor Lovable conferidos por prints; repositório privado |
 | 5 | 07 — PurpleMood | Testar endpoints da API publicada no Render e capturar respostas reais | URL Render e deploy `live` confirmados; testes HTTP pendentes |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
 | 7 | 01 e 02 — Planejamento | Confirmar abertura dos links do Miro, Figma e Trello em conta de terceiro; validar sitemap proposto | Links e imagens disponíveis |
@@ -43,11 +43,11 @@ Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os
 
 ### Publicações
 
-As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos domínios foram consultados nas contas. Ainda dependem de validação o acesso público sem login, testes das interfaces, a integração CRUD de produção e, quando exigidas, as evidências capturadas no navegador. A autoria e a entrega da Aula 09 precisam ser confirmadas.
+As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos domínios foram consultados nas contas. Ainda dependem de validação o acesso público sem login, testes das interfaces, a integração CRUD de produção e, quando exigidas, as evidências capturadas no navegador. O vínculo da Aula 09 como trabalho efetivamente entregue ao professor ainda precisa ser confirmado.
 
 ### Capturas
 
-Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. Os nove prints reais da Aula 05 também foram confirmados na pasta `prints/` do GitHub e incluídos no relatório. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
+Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. Os nove prints reais da Aula 05 também foram confirmados na pasta `prints/` do GitHub e incluídos no relatório. Seis prints reais do ConectaAção foram preparados para upload na Aula 09. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
 
 ### Permissões
 
