@@ -18,6 +18,12 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 | 7 | 01 e 02 — Planejamento | Confirmar abertura dos links do Miro, Figma e Trello em conta de terceiro; validar sitemap proposto | Links e imagens disponíveis |
 | 8 | 04 — CMS | Validar se o site Dev do Pantheon permanece acessível ao professor | WordPress, tema, plugins, homepage e quatro capturas registrados |
 
+## Projeto final concluído em sala — Itape +
+
+O **[Itape +](projeto-final/README.md)** foi registrado separadamente das nove aulas como **projeto final em equipe**, conforme confirmação da estudante. Seu repositório público é [RafaelRachidd/Itape-plus](https://github.com/RafaelRachidd/Itape-plus) e a [release v1.0.0](https://github.com/RafaelRachidd/Itape-plus/releases/tag/v1.0.0) é identificada como entrega final (23/11/2026). Os endereços de site Vercel e API Render estão declarados no README do projeto, mas não foram verificados independentemente nesta revisão do portfólio.
+
+**Documentação já registrada:** escopo, equipe, tecnologias, arquitetura, recursos, versionamento e links de acesso. **Evidência adicional, se solicitada pelo professor:** prints reais do site funcionando e/ou confirmação formal da apresentação, sem inventar imagens ou nota.
+
 ## O que já existe no GitHub
 
 **Documentação acadêmica:** relatórios das [Aulas 01 a 09](atividades/README.md) e seus resumos. A pasta de cada atividade contém um README próprio.
