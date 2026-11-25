@@ -11,7 +11,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 |---|---|---|---|
 | 1 | 05 — React | Conferir necessidade de evidências adicionais (commits e painel Vercel) e testes complementares | Cinco funcionalidades testadas na versão publicada; nove PNGs reais anexados e exibidos no relatório |
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
-| 3 | 08 — CRUD | Anexar nove prints reais; revisar PR do front-end e publicar produção; conferir exigência de Postman | API corrigida e `live`; CRUD validado visualmente na prévia React, com GET sincronizado no Render; 9 capturas preparadas |
+| 3 | 08 — CRUD | Revisar e integrar PR do front-end React; conferir deploy de produção; Postman opcional conforme exigências | API corrigida e `live`; CRUD validado no React + Render; nove capturas reais anexadas e exibidas no relatório |
 | 4 | 09 — ConectaAção | Confirmar entrega da atividade e acesso do professor ao site/código | Homepage, quiz com resultado Acolhedor Social, visual móvel e editor Lovable conferidos; seis prints anexados e exibidos no GitHub; repositório privado |
 | 5 | 07 — PurpleMood | Revisar necessidade de testes POST, PUT e DELETE e evidências extras | Três respostas GET reais (humores, estatísticas e frases) confirmadas; prints anexados e exibidos no relatório |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
