@@ -7,7 +7,7 @@
 
 Este repositório reúne os **resumos das nove aulas**, a documentação dos exercícios, os links dos projetos práticos e o **projeto final em equipe Itape +**. Os códigos dos projetos permanecem em seus repositórios próprios, para preservar o histórico individual de desenvolvimento.
 
-> **Acesso ao portfólio atualizado:** esta organização está na branch **reorganizacao**. A branch **main** original foi preservada até a revisão final.
+> **Portfólio final publicado:** a documentação foi integrada à branch **main** pelo [Pull Request #1](https://github.com/Luizaaaaaah/Programacao_Web/pull/1), com todo o histórico preservado. A branch `reorganizacao` foi mantida como referência das etapas de construção.
 
 ## Navegação
 
