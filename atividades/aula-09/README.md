@@ -141,18 +141,33 @@ Não incluir dados de acesso nas capturas.
 
 **Teste 6 — Projeto no editor Lovable:** o print mostra a interface do editor **Pixel Perfect Pixels** e a prévia do **ConectaAção**. O editor foi acessado visualmente; esta captura não comprova, por si, histórico completo das alterações ou publicação original pelo editor.
 
-**Evidências:** as seis imagens reais desta validação foram reunidas em um ZIP com nomes padronizados e estão **aguardando envio para a pasta** [prints](prints/) do GitHub.
+**Evidências:** as seis imagens reais desta validação foram **confirmadas no GitHub** na pasta [prints](prints/) da branch `reorganizacao`.
 
-### Imagens previstas para anexação
+### Galeria de evidências reais
 
-- `01-projeto-lovable.png` — Projeto ConectaAção aberto no editor Lovable
-- `03-homepage.png` — Página inicial publicada
-- `04-quiz-pergunta.png` — Primeira pergunta do quiz (1 de 6)
-- `05-quiz-resultado.png` — Resultado final Acolhedor Social
-- `06-responsividade-mobile.png` — Página inicial no modo responsivo 390 × 844 px
-- `08-quiz-apresentacao.png` — Tela de apresentação do quiz
+**Editor Lovable e prévia do ConectaAção**
 
+![Editor Lovable e prévia do ConectaAção](prints/01-projeto-lovable.png)
 
+**Página inicial publicada**
+
+![Página inicial publicada](prints/03-homepage.png)
+
+**Apresentação do quiz**
+
+![Apresentação do quiz](prints/08-quiz-apresentacao.png)
+
+**Pergunta 1 de 6**
+
+![Pergunta 1 de 6](prints/04-quiz-pergunta.png)
+
+**Resultado Acolhedor Social**
+
+![Resultado Acolhedor Social](prints/05-quiz-resultado.png)
+
+**Página inicial na resolução 390 × 844 px**
+
+![Página inicial na resolução 390 × 844 px](prints/06-responsividade-mobile.png)
 
 ## 10. Situação da atividade
 
@@ -168,10 +183,10 @@ Não incluir dados de acesso nas capturas.
 - [x] Validar o fluxo principal do quiz no navegador a partir dos prints da estudante.
 - [ ] Verificar acesso sem login por outra pessoa.
 - [ ] Garantir ao professor acesso à entrega.
-- [ ] Anexar prints reais.
+- [x] Anexar seis prints reais da aplicação, do quiz, da versão móvel e do editor Lovable.
 
 ## 11. Conclusão
 
 O **ConectaAção** exemplifica a utilização de um Website Builder com IA para produzir uma página temática personalizada e uma experiência interativa.
 
-A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, e a página inicial, o quiz até o resultado e o layout inicial para celular foram conferidos visualmente; ainda é necessário garantir acesso adequado do professor e anexar as imagens.
+A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, e a página inicial, o quiz até o resultado e o layout inicial para celular foram conferidos visualmente; as seis imagens estão anexadas; ainda é necessário garantir acesso adequado do professor e confirmar a entrega da atividade.
