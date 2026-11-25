@@ -103,7 +103,7 @@ O projeto também possui scripts para build e testes. Esta documentação foi el
 | Projeto no editor Lovable | [Abrir editor](https://lovable.dev/projects/827f8a9a-8919-4bbf-aa28-04b64bd48edd) — acesso pode exigir login |
 | Página principal | Identificada no código como ConectaAção |
 | Quiz de seis perguntas | Implementação localizada |
-| Deploy Vercel | [pixel-perfect-pixels-orcin.vercel.app](https://pixel-perfect-pixels-orcin.vercel.app) — deploy de produção `READY` no painel; acesso por terceiros a validar |
+| Deploy Vercel | [pixel-perfect-pixels-orcin.vercel.app](https://pixel-perfect-pixels-orcin.vercel.app) — deploy de produção `READY` no painel e página inicial aberta visualmente pela estudante; acesso por terceiros ainda a validar |
 | Testes de responsividade | Não documentados com evidências |
 
 **Importante:** o professor não conseguirá acessar o conteúdo de um repositório privado sem receber permissão. A alternativa é disponibilizar acesso autorizado ou uma publicação pública da aplicação. Nenhuma alteração de privacidade foi realizada.
@@ -124,6 +124,12 @@ Usar capturas reais na pasta [prints](prints/README.md):
 
 Não incluir dados de acesso nas capturas.
 
+## Validação visual da versão publicada
+
+**Teste 1 — Página inicial:** a estudante abriu [ConectaAção publicado na Vercel](https://pixel-perfect-pixels-orcin.vercel.app/) e forneceu uma captura real da página inicial. Estão visíveis o logotipo **ConectaAção**, o menu **Início, Sobre, Causas, Como Ajudar e Quiz**, o botão **Quero ajudar**, a frase **“Toda ajuda começa com uma conexão.”**, a ilustração de voluntariado e o botão **Descobrir meu perfil voluntário**.
+
+**Resultado:** a abertura da página, o carregamento da imagem e a apresentação do menu e da seção inicial foram confirmados visualmente na navegação da estudante. O quiz, os links e a adaptação para celular ainda não foram testados nesta etapa. O print está nesta conversa e ainda não foi anexado à pasta `prints/` do GitHub. O acesso por outra pessoa, sem sessão autenticada, também requer verificação independente.
+
 ## 10. Situação da atividade
 
 - [x] Repositório associado ao Lovable localizado.
@@ -133,7 +139,8 @@ Não incluir dados de acesso nas capturas.
 - [ ] Confirmar que este foi o projeto entregue na Aula 09.
 - [ ] Testar quiz e responsividade no navegador.
 - [x] Confirmar deploy de produção `READY` e registrar domínio na Vercel.
-- [ ] Validar acesso sem login e funcionalidade do quiz no navegador.
+- [x] Confirmar a abertura da página inicial publicada por captura real da estudante.
+- [ ] Validar acesso sem login por outra pessoa e funcionalidade do quiz no navegador.
 - [ ] Garantir ao professor acesso à entrega.
 - [ ] Anexar prints reais.
 
@@ -141,4 +148,4 @@ Não incluir dados de acesso nas capturas.
 
 O **ConectaAção** exemplifica a utilização de um Website Builder com IA para produzir uma página temática personalizada e uma experiência interativa.
 
-A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, mas a página e o quiz ainda precisam ser validados no navegador e o acesso ao código privado deve ser resolvido para a avaliação.
+A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, e a página inicial já foi conferida visualmente; o quiz ainda precisa ser validado no navegador e o acesso ao código privado deve ser resolvido para a avaliação.
