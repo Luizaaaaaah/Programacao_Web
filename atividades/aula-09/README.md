@@ -82,7 +82,7 @@ O projeto inclui **React**, **TypeScript**, **TanStack Router**, **Tailwind CSS*
 
 A interface utiliza classes responsivas como **md:**, **sm:** e **lg:** para alterar grades, espaçamentos, tipografia e navegação. Em telas menores, o cabeçalho prevê um botão que abre e fecha o menu mobile.
 
-A presença dessas regras indica preocupação com responsividade. **Ainda não há capturas reais anexadas nem relatório de testes do layout em diferentes dispositivos.**
+A presença dessas regras indica preocupação com responsividade. A estudante apresentou um print real da página inicial em **390 × 844 px**, mostrando a adaptação do texto, da imagem e o ícone do menu móvel. O menu não foi aberto no teste apresentado, e os demais componentes no celular ainda não foram verificados.
 
 ## 7. Como executar localmente
 
@@ -104,7 +104,7 @@ O projeto também possui scripts para build e testes. Esta documentação foi el
 | Página principal | Identificada no código como ConectaAção |
 | Quiz de seis perguntas | Implementação localizada |
 | Deploy Vercel | [pixel-perfect-pixels-orcin.vercel.app](https://pixel-perfect-pixels-orcin.vercel.app) — deploy de produção `READY` no painel e página inicial aberta visualmente pela estudante; acesso por terceiros ainda a validar |
-| Testes de responsividade | Não documentados com evidências |
+| Testes de responsividade | Página inicial conferida em simulação de celular 390 × 844 px; demais seções ainda não verificadas |
 
 **Importante:** o professor não conseguirá acessar o conteúdo de um repositório privado sem receber permissão. A alternativa é disponibilizar acesso autorizado ou uma publicação pública da aplicação. Nenhuma alteração de privacidade foi realizada.
 
@@ -114,13 +114,14 @@ Usar capturas reais na pasta [prints](prints/README.md):
 
 | Nome | Conteúdo |
 |---|---|
-| 01-configuracao-lovable.png | Projeto aberto no Lovable |
+| 01-projeto-lovable.png | Projeto aberto no editor Lovable |
 | 02-identidade-visual.png | Estilos e personalização |
 | 03-homepage.png | Página inicial ConectaAção |
 | 04-quiz-pergunta.png | Pergunta do quiz |
 | 05-quiz-resultado.png | Perfil calculado |
 | 06-responsividade-mobile.png | Visualização em celular |
-| 07-site-publicado.png | Endereço público, quando confirmado |
+| 07-site-publicado.png | Print complementar da URL pública, se solicitado |
+| 08-quiz-apresentacao.png | Tela inicial do quiz e botão para começar |
 
 Não incluir dados de acesso nas capturas.
 
@@ -128,7 +129,30 @@ Não incluir dados de acesso nas capturas.
 
 **Teste 1 — Página inicial:** a estudante abriu [ConectaAção publicado na Vercel](https://pixel-perfect-pixels-orcin.vercel.app/) e forneceu uma captura real da página inicial. Estão visíveis o logotipo **ConectaAção**, o menu **Início, Sobre, Causas, Como Ajudar e Quiz**, o botão **Quero ajudar**, a frase **“Toda ajuda começa com uma conexão.”**, a ilustração de voluntariado e o botão **Descobrir meu perfil voluntário**.
 
-**Resultado:** a abertura da página, o carregamento da imagem e a apresentação do menu e da seção inicial foram confirmados visualmente na navegação da estudante. O quiz, os links e a adaptação para celular ainda não foram testados nesta etapa. O print está nesta conversa e ainda não foi anexado à pasta `prints/` do GitHub. O acesso por outra pessoa, sem sessão autenticada, também requer verificação independente.
+**Resultado:** a abertura da página, o carregamento da imagem e a apresentação do menu e da seção inicial foram confirmados visualmente na navegação da estudante. O acesso por outra pessoa, sem sessão autenticada, ainda requer verificação independente.
+
+**Teste 2 — Abertura do quiz:** a captura mostra a seção **“Qual causa combina com você?”**, com explicação do questionário e botão **Começar o Quiz**. A abertura visual foi confirmada.
+
+**Teste 3 — Pergunta do quiz:** após iniciar, a tela mostra **“Pergunta 1 de 6”**, indicador de progresso de **17%** e a pergunta **“Qual dessas causas mais desperta sua vontade de ajudar?”**, com quatro opções visíveis. O primeiro passo do formulário foi confirmado por print; as respostas intermediárias não foram capturadas uma a uma.
+
+**Teste 4 — Resultado final do quiz:** a estudante completou o fluxo e enviou a tela **“Seu perfil é Acolhedor Social!”**, que descreve apoio a pessoas e apresenta sugestões como visitas a idosos, campanhas de alimentos, arrecadação de roupas e projetos comunitários. Os botões **Refazer o Quiz** e **Conhecer outras causas** aparecem no resultado. Isso confirma visualmente o avanço até um resultado; os botões finais não foram testados nesta rodada.
+
+**Teste 5 — Responsividade da página inicial:** na simulação do Chrome com **390 × 844 px**, a página apresenta logotipo, ícone de menu móvel, texto de abertura, botão principal e imagem de voluntariado em organização vertical. Não há corte horizontal aparente na região mostrada. A abertura do menu móvel e o quiz em celular não foram testados.
+
+**Teste 6 — Projeto no editor Lovable:** o print mostra a interface do editor **Pixel Perfect Pixels** e a prévia do **ConectaAção**. O editor foi acessado visualmente; esta captura não comprova, por si, histórico completo das alterações ou publicação original pelo editor.
+
+**Evidências:** as seis imagens reais desta validação foram reunidas em um ZIP com nomes padronizados e estão **aguardando envio para a pasta** [prints](prints/) do GitHub.
+
+### Imagens previstas para anexação
+
+- `01-projeto-lovable.png` — Projeto ConectaAção aberto no editor Lovable
+- `03-homepage.png` — Página inicial publicada
+- `04-quiz-pergunta.png` — Primeira pergunta do quiz (1 de 6)
+- `05-quiz-resultado.png` — Resultado final Acolhedor Social
+- `06-responsividade-mobile.png` — Página inicial no modo responsivo 390 × 844 px
+- `08-quiz-apresentacao.png` — Tela de apresentação do quiz
+
+
 
 ## 10. Situação da atividade
 
@@ -137,10 +161,12 @@ Não incluir dados de acesso nas capturas.
 - [x] Identidade visual e tecnologias documentadas.
 - [x] Quiz de seis perguntas e cinco perfis identificado.
 - [ ] Confirmar que este foi o projeto entregue na Aula 09.
-- [ ] Testar quiz e responsividade no navegador.
+- [x] Confirmar visualmente o fluxo do quiz até um resultado e a página inicial responsiva em 390 × 844 px.
+- [ ] Conferir interações adicionais do quiz e do menu móvel.
 - [x] Confirmar deploy de produção `READY` e registrar domínio na Vercel.
 - [x] Confirmar a abertura da página inicial publicada por captura real da estudante.
-- [ ] Validar acesso sem login por outra pessoa e funcionalidade do quiz no navegador.
+- [x] Validar o fluxo principal do quiz no navegador a partir dos prints da estudante.
+- [ ] Verificar acesso sem login por outra pessoa.
 - [ ] Garantir ao professor acesso à entrega.
 - [ ] Anexar prints reais.
 
@@ -148,4 +174,4 @@ Não incluir dados de acesso nas capturas.
 
 O **ConectaAção** exemplifica a utilização de um Website Builder com IA para produzir uma página temática personalizada e uma experiência interativa.
 
-A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, e a página inicial já foi conferida visualmente; o quiz ainda precisa ser validado no navegador e o acesso ao código privado deve ser resolvido para a avaliação.
+A análise do código mostra as seções planejadas, a identidade visual, a navegação e o questionário de voluntariado. Um deploy de produção foi localizado como `READY` no painel da Vercel, e a página inicial, o quiz até o resultado e o layout inicial para celular foram conferidos visualmente; ainda é necessário garantir acesso adequado do professor e anexar as imagens.
