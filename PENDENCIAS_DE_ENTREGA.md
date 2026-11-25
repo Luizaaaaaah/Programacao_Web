@@ -11,7 +11,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 |---|---|---|---|
 | 1 | 05 — React | Conferir necessidade de evidências adicionais (commits e painel Vercel) e testes complementares | Cinco funcionalidades testadas na versão publicada; nove PNGs reais anexados e exibidos no relatório |
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
-| 3 | 08 — CRUD | Revisar e integrar PR do front-end React; conferir deploy de produção; Postman opcional conforme exigências | API corrigida e `live`; CRUD validado no React + Render; nove capturas reais anexadas e exibidas no relatório |
+| 3 | 08 — CRUD | Confirmar em janela anônima o acesso à produção React e testar integração na URL principal; Postman conforme exigência | API Render `live`, CRUD validado na prévia, 9 prints anexados; React `main` publicado `READY` e proteção SSO restrita a previews |
 | 4 | 09 — ConectaAção | Confirmar entrega da atividade e acesso do professor ao site/código | Homepage, quiz com resultado Acolhedor Social, visual móvel e editor Lovable conferidos; seis prints anexados e exibidos no GitHub; repositório privado |
 | 5 | 07 — PurpleMood | Revisar necessidade de testes POST, PUT e DELETE e evidências extras | Três respostas GET reais (humores, estatísticas e frases) confirmadas; prints anexados e exibidos no relatório |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
@@ -28,7 +28,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 **Publicação registrada da Aula 03:** [OrganizaFácil](https://pwaula03versionamento.vercel.app/).
 
-**Deploys `READY` encontrados na Vercel:** [Aula 05 React](https://exercicio-react-ecru.vercel.app), [Aula 06 Angular](https://exercicioangular.vercel.app), [Aula 06 Vue básico](https://exercicio-vue-fawn.vercel.app), [Aula 06 Vue HoennDex](https://vue-project-alpha-peach.vercel.app) e [Aula 09 ConectaAção](https://pixel-perfect-pixels-orcin.vercel.app). **Aula 08:** [prévia React `READY`](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) na branch de revisão; produção da main ainda está em `ERROR`. Status de deploy não equivale a teste de interface.
+**Deploys `READY` encontrados na Vercel:** [Aula 05 React](https://exercicio-react-ecru.vercel.app), [Aula 06 Angular](https://exercicioangular.vercel.app), [Aula 06 Vue básico](https://exercicio-vue-fawn.vercel.app), [Aula 06 Vue HoennDex](https://vue-project-alpha-peach.vercel.app) e [Aula 09 ConectaAção](https://pixel-perfect-pixels-orcin.vercel.app). **Aula 08:** [produção React `READY`](https://exercicioreact1.vercel.app) no commit `18cf156`, após integração do PR #1 e configuração de `VITE_API_URL`. A [prévia React `READY`](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) foi validada com testes CRUD reais. Ainda falta conferir acesso à produção sem login e realizar teste nela.
 
 **Publicações adicionais identificadas na conta Render:** [PurpleMood — Aula 07](https://exercicio-express-bokp.onrender.com) e [API de notas — Aula 08](https://exercicio-express1.onrender.com). Os serviços estão `live`; as rotas GET de PurpleMood e o CRUD da API de notas foram conferidos por capturas reais de navegador.
 
@@ -36,7 +36,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 ## Alterações prontas para revisão na Aula 08
 
-- [PR #1 — API de notas: preparação Render](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) — rascunho, não mesclado;
+- [PR #1 — API de notas: preparação Render](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) — integrado à `main` (commit `92d3584`);
 - [PR #1 — Front-end React: URL configurável](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) — rascunho, não mesclado.
 
 Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os repositórios originais continuam com suas branches main preservadas.
