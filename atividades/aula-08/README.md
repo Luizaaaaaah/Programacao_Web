@@ -163,11 +163,21 @@ Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_
 | API no GitHub | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) |
 | Front-end no GitHub | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) |
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
-| URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` no painel desde 22/09/2026; endpoints ainda não testados |
+| URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` e resposta GET `/api/notes` com duas notas observada no navegador |
 | URL Vercel | [Preview da branch de revisão](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) — `READY`; deploy de produção da main permanece `ERROR` |
-| Integração em produção | Pendente de teste e correção de configuração |
+| Integração entre prévia React e API Render | Não comprovada; conteúdo mostrado nas capturas diverge, exigindo teste controlado de criação e nova consulta GET |
 
 A URL do Render e a URL de prévia da Vercel foram obtidas diretamente das contas conectadas. A versão de produção do front-end continua com erro e ainda não foi publicada com êxito.
+
+### Conferência inicial no navegador — 25/11/2026
+
+A estudante abriu os dois endereços da atividade e enviou capturas reais:
+
+- **API Render, GET `/api/notes`:** a resposta JSON apresentou dois objetos com IDs `1` e `2`, incluindo os títulos **Lembretes** e **Tarefas do trabalho**, conteúdos de notas e o campo `criadoEm`. A resposta GET foi confirmada visualmente.
+- **Prévia React na Vercel:** a página **Minhas Notas** abriu e apresentou **2 notas**, botão **Nova nota**, botões visuais de editar e excluir e os cartões. A abertura e renderização da interface foram confirmadas visualmente.
+- **Atenção:** os títulos e parte dos textos dos cartões exibidos no React **não são iguais** aos objetos JSON capturados na API. Por isso, esses prints **não comprovam que o front-end está sincronizado com essa API específica**. É necessário criar uma nota de teste pela interface e atualizar o GET do Render para conferir se o novo registro aparece lá, antes de afirmar integração ou CRUD funcionando.
+
+As duas capturas estão nesta conversa, **não foram anexadas ainda** à pasta `prints/` no GitHub. A criação, edição e remoção permanecem pendentes.
 
 ## 10. Evidências
 
@@ -196,7 +206,8 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [ ] Importar e executar a coleção Postman.
 - [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
 - [x] Confirmar build `READY` da interface em preview da branch de revisão.
-- [ ] Testar as operações CRUD nessa prévia e publicar versão de produção após aprovação.
+- [x] Conferir abertura da prévia React e resposta GET da API por capturas reais.
+- [ ] Validar sincronização da prévia React com a API; testar criar, editar e excluir notas, e só então publicar uma versão aprovada em produção.
 - [ ] Adicionar evidências reais.
 
 ## 12. Conclusão
