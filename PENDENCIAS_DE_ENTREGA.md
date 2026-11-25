@@ -1,7 +1,7 @@
 # Pendências de entrega — Programação Web
 
 **Atualização da conferência:** 25/11/2026  
-**Branch de trabalho:** [reorganizacao](https://github.com/Luizaaaaaah/Programacao_Web/tree/reorganizacao)
+**Publicação final:** branch [main](https://github.com/Luizaaaaaah/Programacao_Web/tree/main) — reorganização integrada pelo [PR #1](https://github.com/Luizaaaaaah/Programacao_Web/pull/1). A branch [reorganizacao](https://github.com/Luizaaaaaah/Programacao_Web/tree/reorganizacao) permanece como histórico de desenvolvimento.
 
 Este checklist reúne apenas ações que ainda dependem de execução real, acesso externo, confirmação da estudante ou capturas de tela. **Os relatórios das nove aulas estão organizados; isso não significa que todos os requisitos práticos tenham sido executados ou comprovados.**
 
@@ -63,15 +63,15 @@ O repositório **pixel-perfect-pixels** está privado. O professor precisa de ac
 
 ### Sincronização do computador
 
-As alterações mais recentes foram realizadas diretamente na branch remota **reorganizacao**. Antes de continuar a editar o repositório principal no VS Code:
+O portfólio já foi integrado à branch **main**. Para atualizar a cópia local no VS Code antes de novas alterações:
 
 1. Salve todos os arquivos locais no editor.
 2. Abra o terminal do repositório **Programacao_Web_Reorganizacao**.
 3. Execute **git status**. Se houver alterações locais, não execute pull ainda: revise e salve-as em commit antes.
-4. Se o status estiver limpo, execute **git pull --ff-only origin reorganizacao** para atualizar a cópia local.
+4. Com o status limpo, execute **git fetch origin**, depois **git switch main** e **git pull --ff-only origin main** para sincronizar a branch publicada. Não use `git push --force`.
 5. Confirme com **git status**.
 
-A branch **main** não foi modificada nesta rodada. A integração deve ocorrer somente após a revisão final das entregas.
+A integração final **já ocorreu**: [Pull Request #1 mesclado](https://github.com/Luizaaaaaah/Programacao_Web/pull/1), commit de merge [`66f2490`](https://github.com/Luizaaaaaah/Programacao_Web/commit/66f24907063b39954c7cb7902ec9dbbb61f24c42). **As pendências desta tabela são melhorias ou verificações complementares, não impedimentos para acessar o portfólio organizado.**
 
 ## Critério para marcar uma atividade como concluída
 
