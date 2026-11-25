@@ -167,7 +167,7 @@ No front-end React, a variável de produção `VITE_API_URL` foi configurada na 
 | URL Vercel | [Produção React](https://exercicioreact1.vercel.app) — deploy `READY` do commit `18cf156` na `main` (25/11/2026); [prévia validada](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) também `READY` |
 | Integração React + API Render | **Comprovada na prévia** por criação, listagem, edição e exclusão; front-end `main` publicado em produção (`READY`), mas ainda falta conferir acesso e CRUD diretamente na URL de produção |
 
-A versão principal do front-end foi publicada no Vercel com estado `READY` no deploy `dpl_Fbhm5TvPDmZLpDUn1hSMtZ7rCCds` (commit `18cf1565d35c7caf16f1762379cc61ab7272efc9`). O projeto Vercel possui SSO habilitado para seus domínios `vercel.app`; é preciso testar se o professor consegue abrir a URL sem autenticação e conferir o CRUD em produção.
+A versão principal do front-end foi publicada no Vercel com estado `READY` no deploy `dpl_Fbhm5TvPDmZLpDUn1hSMtZ7rCCds` (commit `18cf1565d35c7caf16f1762379cc61ab7272efc9`). Após a publicação, a proteção SSO da Vercel foi configurada apenas para **prévias** (`preview`), preservando a proteção dos testes e permitindo acesso normal à versão de produção. Ainda é preciso conferir em janela anônima se a URL de produção abre sem login e testar o CRUD nela.
 
 ### Conferência inicial no navegador — 24/11/2026 (Brasília)
 
@@ -213,7 +213,7 @@ Após a integração do PR #1 e a publicação automática da API no Render (dep
 
 O [PR #1 do front-end](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) foi integrado à `main` com o commit [`18cf156`](https://github.com/Luizaaaaaah/exercicio_react1/commit/18cf1565d35c7caf16f1762379cc61ab7272efc9). A variável `VITE_API_URL` foi definida também para o ambiente **Production** na Vercel. O deploy `dpl_Fbhm5TvPDmZLpDUn1hSMtZ7rCCds` passou para **READY** e recebeu o domínio [exercicioreact1.vercel.app](https://exercicioreact1.vercel.app).
 
-**Limites de validação:** o CRUD foi testado na prévia; a nova URL de produção ainda precisa ser aberta pelo usuário e, se possível, em janela anônima. O painel da Vercel indica proteção por SSO em domínios `vercel.app`, portanto `READY` não significa acesso público garantido.
+**Limites de validação:** o CRUD foi testado na prévia; a nova URL de produção ainda precisa ser aberta pelo usuário e, se possível, em janela anônima. A proteção SSO da Vercel foi alterada para atingir apenas as prévias, não a produção. Ainda falta testar a abertura da URL pública em janela anônima para confirmar o acesso sem autenticação.
 
 ## 10. Evidências
 
