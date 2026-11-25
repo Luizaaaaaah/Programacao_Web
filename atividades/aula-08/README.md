@@ -135,7 +135,7 @@ Foram criados dois pull requests **em rascunho**, preservando as branches main o
 
 As alterações **não foram mescladas à main**. Em 24/11/2026, foi corrigido ainda o seletor CSS inválido em `src/index.css` (`*` ausente), que impedia o build da Vercel.
 
-Uma **prévia na Vercel** foi compilada com status `READY` no commit `f8b21a2`: [abrir preview](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app). A variável `VITE_API_URL` foi configurada somente para a prévia dessa branch com o endpoint do Render.
+Uma **prévia na Vercel** foi compilada com status `READY` no commit `f8b21a2`: [abrir preview](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app). A variável `VITE_API_URL` foi configurada para a prévia da branch de revisão e, depois, para a **produção** da Vercel, apontando para `https://exercicio-express1.onrender.com/api/notes`.
 
 A compilação inicial da prévia não comprovava integração; posteriormente a estudante validou **CRUD de ponta a ponta** nessa prévia, comparando os resultados exibidos no React com as respostas GET do Render. Isso ainda não comprova a publicação da versão definitiva em produção. O acesso ao preview pode estar sujeito à proteção da Vercel.
 
@@ -156,7 +156,7 @@ A conta Render possui um serviço gratuito conectado ao repositório **exercicio
 
 A coleção Postman contém a variável `baseUrl`, que pode ser configurada como `https://exercicio-express1.onrender.com` para apontar para o Render. Execute as operações de escrita somente em dados de teste: cadastrar, alterar e excluir modifica o arquivo do serviço.
 
-Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_URL` com o valor `https://exercicio-express1.onrender.com/api/notes`, após o código ser revisado e integrado.
+No front-end React, a variável de produção `VITE_API_URL` foi configurada na Vercel com o valor `https://exercicio-express1.onrender.com/api/notes` e o PR #1 foi integrado à `main`.
 
 | Entrega | Situação |
 |---|---|
@@ -164,10 +164,10 @@ Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_
 | Front-end no GitHub | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) |
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
 | URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — correção do back-end `live`; GET conferido antes, durante e após o CRUD |
-| URL Vercel | [Preview da branch de revisão](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) — `READY`; deploy de produção da main permanece `ERROR` |
-| Integração entre prévia React e API Render | **Comprovada** nos cenários de criação, listagem, edição e exclusão por prints do React e GET da API; publicação da `main` do front-end ainda pendente |
+| URL Vercel | [Produção React](https://exercicioreact1.vercel.app) — deploy `READY` do commit `18cf156` na `main` (25/11/2026); [prévia validada](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) também `READY` |
+| Integração React + API Render | **Comprovada na prévia** por criação, listagem, edição e exclusão; front-end `main` publicado em produção (`READY`), mas ainda falta conferir acesso e CRUD diretamente na URL de produção |
 
-A URL do Render e a URL de prévia da Vercel foram obtidas diretamente das contas conectadas. A versão de produção do front-end continua com erro e ainda não foi publicada com êxito.
+A versão principal do front-end foi publicada no Vercel com estado `READY` no deploy `dpl_Fbhm5TvPDmZLpDUn1hSMtZ7rCCds` (commit `18cf1565d35c7caf16f1762379cc61ab7272efc9`). O projeto Vercel possui SSO habilitado para seus domínios `vercel.app`; é preciso testar se o professor consegue abrir a URL sem autenticação e conferir o CRUD em produção.
 
 ### Conferência inicial no navegador — 24/11/2026 (Brasília)
 
@@ -208,6 +208,12 @@ Após a integração do PR #1 e a publicação automática da API no Render (dep
 
 **Evidências:** as **nove capturas reais foram enviadas e confirmadas** em [`atividades/aula-08/prints/`](prints/) na branch `reorganizacao`.
 
+
+### Deploy de produção do React
+
+O [PR #1 do front-end](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) foi integrado à `main` com o commit [`18cf156`](https://github.com/Luizaaaaaah/exercicio_react1/commit/18cf1565d35c7caf16f1762379cc61ab7272efc9). A variável `VITE_API_URL` foi definida também para o ambiente **Production** na Vercel. O deploy `dpl_Fbhm5TvPDmZLpDUn1hSMtZ7rCCds` passou para **READY** e recebeu o domínio [exercicioreact1.vercel.app](https://exercicioreact1.vercel.app).
+
+**Limites de validação:** o CRUD foi testado na prévia; a nova URL de produção ainda precisa ser aberta pelo usuário e, se possível, em janela anônima. O painel da Vercel indica proteção por SSO em domínios `vercel.app`, portanto `READY` não significa acesso público garantido.
 
 ## 10. Evidências
 
@@ -276,17 +282,19 @@ Imagens adicionais como histórico de commits, painel Render, painel Vercel e ex
 - [x] Retestar criação de nota pela interface React após o deploy da correção, confirmada visualmente (3 notas).
 - [x] Confirmar sincronização da nota criada no React com resposta GET do Render (terceiro registro).
 - [x] Testar edição PUT e exclusão DELETE pela interface e verificar novamente por GET no Render.
-- [ ] Revisar e integrar o PR #1 do front-end React somente após confirmar a configuração da API.
+- [x] Revisar e integrar o PR #1 do front-end React à `main` (squash commit `18cf156`).
 - [x] Questões técnicas respondidas.
 - [x] Corrigir o back-end e validar a integração do front-end no ambiente de prévia.
-- [ ] Finalizar a publicação do front-end em produção.
+- [x] Concluir o deploy de produção do front-end na Vercel.
+- [ ] Confirmar que terceiros acessam o site sem login.
 - [ ] Importar e executar a coleção Postman.
 - [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
 - [x] Confirmar build `READY` da interface em preview da branch de revisão.
 - [x] Conferir abertura da prévia React e resposta GET da API por capturas reais.
 - [x] Testar tentativa de criação pelo formulário e documentar a falha real observada.
 - [x] Corrigir CORS na API, confirmar deploy `live` e validar criação, edição e exclusão pela prévia React, com conferência no Render.
-- [ ] Revisar e publicar o front-end na `main`/produção após aprovação.
+- [x] Publicar o front-end na `main`/produção com deploy Vercel `READY`.
+- [ ] Validar acesso público sem login e testar CRUD na URL de produção.
 - [x] Preparar nove capturas reais do fluxo CRUD para upload.
 - [x] Anexar as nove capturas reais na pasta `prints/`, conferidas no repositório.
 
@@ -294,4 +302,4 @@ Imagens adicionais como histórico de commits, painel Render, painel Vercel e ex
 
 O projeto permite estudar o fluxo completo de uma aplicação baseada em API: interface React, requisições HTTP, rotas Express e armazenamento JSON.
 
-A API Render foi corrigida e publicada; o CRUD de notas foi validado na **prévia React** com conferência das alterações na API. Nove capturas reais foram anexadas ao portfólio e incluídas neste relatório. Ainda falta publicar a versão aprovada do front-end na branch principal e, caso necessário, executar a coleção Postman.
+A API Render foi corrigida e publicada; o CRUD de notas foi validado na **prévia React** com conferência das alterações na API. Nove capturas reais foram anexadas ao portfólio e incluídas neste relatório. A versão aprovada do front-end foi integrada à `main` e gerou um deploy `READY` na Vercel. Ainda é necessário verificar o acesso do professor à URL de produção, retestar o CRUD diretamente nessa URL e, caso solicitado, executar a coleção Postman.
