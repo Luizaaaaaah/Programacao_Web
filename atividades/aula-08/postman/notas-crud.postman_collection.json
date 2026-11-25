@@ -1,0 +1,173 @@
+{
+  "info": {
+    "name": "Atividade 08 - API de Notas (Express) - CRUD",
+    "description": "Coleção preparada a partir do código do repositório Luizaaaaaah/exercicio_express1, em 24/11/2026. Testes NÃO executados. Requer servidor em execução. Execute em sequência GET -> POST -> PUT -> DELETE.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "01 - Listar notas (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes"
+          ]
+        },
+        "description": "Lista notas armazenadas no arquivo JSON. Execute com API local no endereço configurado em baseUrl."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test('Resposta é um array', function () { pm.expect(pm.response.json()).to.be.an('array'); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 - Criar nota (POST)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Revisar Programação Web\",\n  \"texto\": \"Testar as quatro operações CRUD\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes"
+          ]
+        },
+        "description": "O servidor atual retorna HTTP 200. Captura o id retornado para os próximos testes."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "const nova = pm.response.json();",
+              "pm.test('Retornou identificador', function () { pm.expect(nova.id).to.exist; });",
+              "if (nova.id) { pm.collectionVariables.set('notaId', String(nova.id)); }"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "03 - Editar nota (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Programação Web revisada\",\n  \"texto\": \"Nota atualizada pelo teste Postman\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notes/{{notaId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes",
+            "{{notaId}}"
+          ]
+        },
+        "description": "Usa o id do POST armazenado na variável notaId. Se não existir, o servidor retorna HTTP 404."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test('Dados alterados', function () { pm.expect(pm.response.json().titulo).to.eql('Programação Web revisada'); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "04 - Excluir nota (DELETE)",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes/{{notaId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes",
+            "{{notaId}}"
+          ]
+        },
+        "description": "Exclui a nota criada anteriormente. O servidor atual devolve HTTP 200 e mensagem de sucesso."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test('Mensagem de exclusão', function () { pm.expect(pm.response.json().mensagem).to.eql('Nota removida'); });"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    },
+    {
+      "key": "notaId",
+      "value": "1",
+      "type": "string"
+    }
+  ]
+}

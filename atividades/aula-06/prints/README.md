@@ -1,19 +1,70 @@
 # Capturas de tela — Aula 06
 
-Esta pasta está reservada às evidências visuais desta atividade. **As imagens abaixo ainda não foram fornecidas ou anexadas.** Salve aqui somente capturas reais do projeto e atualize os links no relatório após o upload.
+## Evidências anexadas do projeto Vue básico — testes realizados em 24/11/2026
 
-## Arquivos esperados
+A estudante enviou sete capturas reais durante a validação do **Organizador de Estudos em Vue**. As sete imagens foram nomeadas e **anexadas a esta pasta** na branch `reorganizacao`.
 
-- 01-projeto-react.png — interface React
-- 02-projeto-angular.png — interface Angular
-- 03-projeto-vue.png — interface Vue
-- 04-template-original.png — template antes de alterar
-- 05-template-personalizado.png — template após alterações
-- 06-quatro-repositorios.png — quatro repositórios
-- 07-quatro-deploys.png — quatro sites publicados
+| Arquivo anexado | Conteúdo |
+|---|---|
+| [08-vue-pagina-inicial.png](08-vue-pagina-inicial.png) | Aplicação aberta na Vercel |
+| [09-vue-tarefa-adicionada.png](09-vue-tarefa-adicionada.png) | Cadastro de tarefa com prioridade Alta |
+| [10-vue-tarefa-concluida.png](10-vue-tarefa-concluida.png) | Checkbox marcado e contadores atualizados |
+| [11-vue-filtro-concluidas.png](11-vue-filtro-concluidas.png) | Filtro Concluídas selecionado |
+| [12-vue-filtro-pendentes.png](12-vue-filtro-pendentes.png) | Filtro Pendentes sem tarefas |
+| [13-vue-persistencia-f5.png](13-vue-persistencia-f5.png) | Tarefa preservada após atualização da página |
+| [14-vue-tarefa-excluida.png](14-vue-tarefa-excluida.png) | Exclusão da tarefa e contadores zerados |
+
+**Status:** os sete arquivos PNG estão anexados nesta pasta no GitHub, e o [relatório da Aula 06](../README.md) exibe as imagens para consulta.
+
+## Evidências anexadas do Angular — testes registrados em 24/11/2026
+
+As 12 capturas reais abaixo foram enviadas pela estudante e **confirmadas nesta pasta do GitHub**, na branch `reorganizacao`. O relatório da atividade registra os resultados e exibe cada imagem.
+
+| Arquivo anexado | Evidência real |
+|---|---|
+| [02-projeto-angular.png](02-projeto-angular.png) | Página inicial dos Mini Jogos |
+| [15-angular-contador-3.png](15-angular-contador-3.png) | Contador aumentado para 3 |
+| [16-angular-contador-2.png](16-angular-contador-2.png) | Contador reduzido para 2 |
+| [17-angular-contador-reset.png](17-angular-contador-reset.png) | Contador zerado com Reset |
+| [18-angular-dado-6.png](18-angular-dado-6.png) | Dado mostrando o número 6 |
+| [19-angular-palpite-25.png](19-angular-palpite-25.png) | Primeiro palpite e uma tentativa |
+| [20-angular-palpite-12.png](20-angular-palpite-12.png) | Segundo palpite e duas tentativas |
+| [21-angular-palpite-6.png](21-angular-palpite-6.png) | Terceiro palpite |
+| [22-angular-palpite-3.png](22-angular-palpite-3.png) | Quarto palpite |
+| [23-angular-palpite-4.png](23-angular-palpite-4.png) | Quinto palpite |
+| [24-angular-vitoria.png](24-angular-vitoria.png) | Acerto do número 5 em seis tentativas |
+| [25-angular-jogar-novamente.png](25-angular-jogar-novamente.png) | Jogo reiniciado com tentativas zeradas |
+
+O upload dos 12 arquivos foi confirmado e o [relatório principal](../README.md) inclui as imagens.
+
+## Evidências anexadas da HoennDex
+
+As **7 capturas reais** da versão publicada da HoennDex foram enviadas e confirmadas nesta pasta da branch `reorganizacao`, incluindo duas evidências em 390 × 844 px.
+
+| Arquivo anexado | Evidência |
+|---|---|
+| [26-hoenndex-pagina-inicial.png](26-hoenndex-pagina-inicial.png) | Página inicial, cabeçalho e Rayquaza |
+| [27-hoenndex-catalogo.png](27-hoenndex-catalogo.png) | Seção da Pokédex com cartões |
+| [28-hoenndex-pesquisa-torchic.png](28-hoenndex-pesquisa-torchic.png) | Busca pelo nome Torchic |
+| [29-hoenndex-filtro-fogo.png](29-hoenndex-filtro-fogo.png) | Filtro Fogo e três Pokémon |
+| [30-hoenndex-sobre-hoenn.png](30-hoenndex-sobre-hoenn.png) | Seção Sobre Hoenn |
+| [31-hoenndex-mobile-inicio.png](31-hoenndex-mobile-inicio.png) | Layout da página inicial em 390 × 844 px |
+| [32-hoenndex-mobile-catalogo.png](32-hoenndex-mobile-catalogo.png) | Catálogo na largura móvel de 390 px |
+
+O upload foi conferido diretamente no repositório e o [relatório principal](../README.md) já apresenta as sete imagens.
+
+## Demais evidências previstas da atividade
+
+- `01-projeto-react.png` — interface React
+- `04-template-original.png` — template antes da personalização
+- `05-template-personalizado.png` — template depois da personalização
+- `06-quatro-repositorios.png` — quatro repositórios
+- `07-quatro-deploys.png` — quatro publicações
+
+Essas evidências adicionais não foram anexadas até o momento; a documentação da HoennDex já utiliza capturas específicas e reais.
 
 ## Padrão de nomeação
 
-Use dois dígitos no início, letras minúsculas e hífens. Evite espaços, acentos e parênteses. Não inclua senhas, tokens, chaves ou dados pessoais sensíveis nas capturas.
+Utilize dois dígitos no início, letras minúsculas e hífens. Evite espaços e caracteres acentuados. Não inclua dados pessoais sensíveis nas capturas.
 
-Depois de adicionar as imagens, abra o relatório da atividade e confira se os caminhos e arquivos correspondem exatamente aos nomes.
+Os arquivos do Vue básico, Angular e HoennDex já foram enviados; utilize esta mesma pasta na branch `reorganizacao` para os demais projetos.

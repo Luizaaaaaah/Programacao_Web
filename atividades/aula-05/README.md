@@ -1,78 +1,226 @@
 # Atividade 05 — Aplicação React com cinco funcionalidades
 
 **Disciplina:** Programação Web  
-**Professor:** Prof. Me. Deivison S. Takatu
+**Professor:** Prof. Me. Deivison S. Takatu  
+**Curso:** Análise e Desenvolvimento de Sistemas — Fatec Itapetininga  
+**Projeto:** React App — Funcionalidades  
+**Repositório do código:** [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react)
 
 ## 1. Objetivo
 
-Desenvolver uma aplicação React com um cabeçalho de navegação e cinco funcionalidades independentes, versionar o código no GitHub e realizar deploy na Vercel.
+Desenvolver uma aplicação web utilizando React e reunir cinco funcionalidades em uma mesma interface: lista de tarefas, contador de cliques, jogo da velha, calculadora e buscador de CEP. A atividade envolve também organização do código, estilização, versionamento no GitHub, publicação na Vercel e registro das evidências.
 
-## 2. O que foi solicitado
+## 2. Requisitos propostos na aula
 
-- To-Do List.
-- Contador de cliques.
-- Jogo da velha.
-- Calculadora.
-- Buscador de CEP.
-- Commit do projeto no GitHub e publicação na Vercel.
-- Documentação das funcionalidades e da escolha de estilização.
-- Prints das telas e links de repositório e site.
+- Criar uma aplicação React com cabeçalho e navegação entre as funcionalidades.
+- Implementar To-Do List, contador de cliques, jogo da velha, calculadora e buscador de CEP.
+- Aplicar uma identidade visual e adaptar a interface a diferentes tamanhos de tela.
+- Registrar o código no GitHub.
+- Publicar o projeto na Vercel.
+- Documentar as etapas, escolhas de interface, capturas de tela e links.
 
-## 3. Projeto localizado
+## 3. Projeto desenvolvido
 
-**Repositório:** [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react)  
-**Visibilidade:** público  
-**Branch principal:** main
+O projeto está disponível no repositório [Luizaaaaaah/exercicio_react](https://github.com/Luizaaaaaah/exercicio_react), na branch **main**.
 
-O código-fonte em src/App.js foi consultado. Foram identificadas as cinco funcionalidades esperadas:
+A aplicação apresenta um cabeçalho identificado como **React App**, com botões para alternar entre uma tela inicial e as cinco funcionalidades. A tela inicial reúne cartões de apresentação, cada um com um botão para acessar o recurso correspondente.
 
-| Funcionalidade | Comportamento identificado |
+A navegação entre as telas é controlada por um estado React chamado **pagina**, atualizado por **setPagina**. Assim, o conteúdo é alternado sem precisar carregar uma nova página no navegador.
+
+### 3.1. To-Do List
+
+A lista de tarefas permite digitar uma atividade, adicioná-la, marcar ou desmarcar sua conclusão e removê-la.
+
+No código, as tarefas são armazenadas em um estado chamado **tarefas**. Cada registro possui identificador, texto e um indicador de conclusão. Uma entrada vazia é rejeitada; ao selecionar o texto da tarefa, sua conclusão é alternada.
+
+**Observação:** no código consultado, as tarefas ficam no estado da aplicação. Não foi implementado armazenamento em banco de dados ou localStorage; por isso, não se deve afirmar que permanecem após recarregar a página.
+
+### 3.2. Contador de cliques
+
+O contador começa em zero e mostra a quantidade de cliques. O botão **Clique aqui** incrementa o valor, enquanto **Zerar** o retorna ao estado inicial.
+
+A funcionalidade demonstra a utilização de **useState** e a atualização automática da interface quando o estado muda.
+
+### 3.3. Jogo da velha
+
+O jogo apresenta um tabuleiro de **3 × 3**, no qual os jogadores **X** e **O** fazem jogadas alternadas.
+
+A função de verificação confere as combinações horizontais, verticais e diagonais. A interface informa o vencedor ou o empate e disponibiliza o botão **Reiniciar Jogo**. O código impede jogar em uma posição ocupada ou continuar depois que há um vencedor.
+
+### 3.4. Calculadora
+
+A calculadora permite informar dois números e escolher entre **adição, subtração, multiplicação e divisão**.
+
+Os valores são convertidos em números antes do cálculo. Quando algum valor é inválido, aparece uma mensagem de orientação. A divisão por zero também é tratada com mensagem específica.
+
+### 3.5. Buscador de CEP
+
+O buscador recebe um CEP, remove os caracteres não numéricos e verifica se foram informados **oito dígitos**.
+
+A consulta utiliza a API pública [ViaCEP](https://viacep.com.br/), com uma requisição **fetch** ao endereço correspondente. Quando encontrado, o resultado apresenta CEP, logradouro, bairro, cidade e estado. O código também contém tratamentos para CEP inválido, CEP não encontrado e falha na requisição.
+
+## 4. Tecnologias e organização do código
+
+| Tecnologia ou recurso | Aplicação no projeto |
 |---|---|
-| To-Do List | Adiciona, conclui e remove tarefas |
-| Contador | Incrementa cliques e permite zerar |
-| Jogo da velha | Tabuleiro 3x3, alternância X/O e verificação de vencedor |
-| Calculadora | Operações de soma, subtração, multiplicação e divisão; verifica divisão por zero |
-| Buscador de CEP | Consulta ViaCEP por fetch e apresenta o endereço retornado |
+| React | Construção da interface e renderização condicional |
+| JavaScript e JSX | Lógica, eventos e estrutura dos componentes |
+| useState | Controle das páginas, tarefas, contador, jogo, calculadora e CEP |
+| HTML e CSS | Estrutura e apresentação visual |
+| CSS Media Queries | Ajustes de layout em telas menores |
+| fetch e async/await | Requisição ao ViaCEP |
+| Node.js e NPM | Ambiente de desenvolvimento e gerenciamento de dependências |
+| Git e GitHub | Versionamento e disponibilização do código |
 
-A interface utiliza estado React com useState. A consulta do CEP usa a API pública ViaCEP. O projeto possui arquivos de estilos em App.css e index.css.
+**Arquivos consultados:**
 
-## 4. Tecnologias observadas
-
-React, JavaScript, JSX, useState, HTML, CSS, fetch, API ViaCEP, Node.js/NPM, Git e GitHub.
-
-## 5. Links e publicação
-
-| Recurso | Link / situação |
+| Arquivo | Função |
 |---|---|
-| Código-fonte | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) |
-| Arquivo principal | [src/App.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.js) |
-| Estilos | [src/App.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.css) |
-| Site de produção Vercel | Não localizado; inserir URL após confirmação |
-| Documento de execução anterior | Não localizado como arquivo separado |
+| [src/App.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.js) | Implementa a navegação e as cinco funcionalidades |
+| [src/index.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/index.js) | Monta a aplicação React e carrega os estilos globais |
+| [src/index.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/index.css) | Concentra os estilos personalizados e a responsividade |
+| [src/App.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.css) | Mantém estilos básicos do projeto React |
+| [package.json](https://github.com/Luizaaaaaah/exercicio_react/blob/main/package.json) | Define dependências e comandos do projeto |
 
-O README padrão do Create React App ainda é o conteúdo do projeto. Este relatório funciona como documentação acadêmica complementar.
+O projeto utiliza React, React DOM e o conjunto de scripts do **Create React App**. O código observado foi escrito principalmente em um componente chamado **App**, com diferentes seções exibidas conforme a opção selecionada.
 
-## 6. Evidências a anexar
+## 5. Estilização e experiência do usuário
 
-| Arquivo sugerido | O que deve mostrar |
+A identidade visual utiliza cabeçalho e rodapé em cinza-escuro (**#20232a**), fundo geral claro (**#f4f6f8**), cartões brancos, botões arredondados e detalhes em azul-ciano (**#61dafb**).
+
+A escolha de cartões na página inicial facilita o reconhecimento das funcionalidades. A navegação por botões mantém os cinco exercícios dentro de uma mesma aplicação.
+
+A folha **src/index.css** contém regras responsivas para larguras de até **768 px**: o cabeçalho passa a organizar seu conteúdo verticalmente, o menu é centralizado, o formulário de tarefas passa a utilizar coluna e o espaçamento das seções é reduzido.
+
+Essas decisões são identificadas no código-fonte; testes visuais em diferentes dispositivos ainda precisam ser registrados como evidência.
+
+## 6. Como executar localmente
+
+Em um computador com Node.js e NPM instalados:
+
+~~~bash
+git clone https://github.com/Luizaaaaaah/exercicio_react.git
+cd exercicio_react
+npm install
+npm start
+~~~
+
+O comando **npm start** inicia o servidor de desenvolvimento. Para gerar a versão de produção, o projeto dispõe de **npm run build**. Estes são os comandos configurados no package.json; a execução não foi realizada nesta conferência.
+
+## 7. Publicação e links
+
+| Recurso | Situação |
 |---|---|
-| 01-menu-inicial.png | Cabeçalho e navegação das cinco opções |
-| 02-todo-list.png | Cadastro, conclusão e remoção de tarefa |
-| 03-contador.png | Contador e botão de zerar |
-| 04-jogo-da-velha.png | Tabuleiro e resultado de uma partida |
-| 05-calculadora.png | Operação matemática e resultado |
-| 06-buscador-cep.png | CEP pesquisado e endereço retornado |
-| 07-github-commits.png | Histórico de commits |
-| 08-vercel-deploy.png | Configuração e status do deploy |
-| 09-site-publicado.png | Aplicação aberta pelo endereço de produção |
+| Repositório GitHub | [exercicio_react](https://github.com/Luizaaaaaah/exercicio_react) |
+| Código principal | [src/App.js](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/App.js) |
+| Estilos da interface | [src/index.css](https://github.com/Luizaaaaaah/exercicio_react/blob/main/src/index.css) |
+| Deploy na Vercel | [exercicio-react-ecru.vercel.app](https://exercicio-react-ecru.vercel.app) — deploy de produção `READY` no painel Vercel, commit `2a4963f` |
+| Teste em navegador | Cinco funcionalidades exercitadas e documentadas por prints reais da versão publicada; casos adicionais e teste em dispositivo móvel não foram verificados |
 
-As capturas devem ser colocadas em [prints/](prints/README.md).
+Não foram atribuídas tags, releases ou endereços de publicação que não tenham sido confirmados no GitHub ou por execução real.
 
-## 7. Situação desta documentação
+## 8. Evidências a reunir
 
-- [x] Repositório público localizado.
-- [x] Código das cinco funcionalidades conferido.
-- [x] Arquivos principais e estilos identificados.
-- [ ] Confirmar a URL Vercel de produção.
-- [ ] Anexar capturas e justificar a identidade visual escolhida.
-- [ ] Confirmar tag/versão publicada, se aplicável.
+As capturas reais devem ser armazenadas na pasta [prints](prints/README.md).
+
+| Nome da imagem | Conteúdo esperado |
+|---|---|
+| 01-menu-inicial.png | Cabeçalho, cartões e menu da aplicação |
+| 02-todo-list.png | Tarefa Estudar React adicionada |
+| 03-contador.png | Contador após alguns cliques |
+| 04-jogo-da-velha.png | Tabuleiro e situação de vitória ou empate |
+| 05-calculadora.png | Operação executada e resultado |
+| 06-buscador-cep.png | CEP consultado e endereço retornado |
+| 07-github-commits.png | Histórico real de commits do projeto |
+| 08-vercel-deploy.png | Tela do projeto publicado na Vercel |
+| 09-site-publicado.png | Captura complementar da publicação, caso exigida; a imagem 01 já mostra a versão publicada |
+| 10-todo-vazio.png | Lista antes do cadastro |
+| 11-todo-concluido.png | Tarefa Estudar React concluída |
+| 12-todo-removido.png | Lista vazia após a exclusão |
+
+As nove capturas reais foram **anexadas e verificadas** na pasta [prints](prints/) da branch `reorganizacao`. Os itens 07 e 08 (histórico GitHub e tela da Vercel) permanecem pendentes, caso sejam exigidos no enunciado.
+
+## Validação manual da aplicação publicada — 24/11/2026
+
+**Teste 1 — Abertura da página inicial:** a estudante acessou [o site React na Vercel](https://exercicio-react-ecru.vercel.app) e enviou uma captura real da interface. O print mostra o cabeçalho **React App**, o título **“Bem-vindo ao meu projeto React!”**, cinco cartões de funcionalidades (**To-Do List**, **Contador de Cliques**, **Jogo da Velha**, **Calculadora** e **Buscador de CEP**), os botões **Acessar** e o rodapé.
+
+**Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura foi anexada ao GitHub. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
+
+**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Nesse momento, o cadastro, a conclusão e a remoção ainda não tinham sido testados. A captura foi anexada ao GitHub.
+
+**Teste 3 — Cadastro no To-Do List:** a estudante digitou **“Estudar React”** e clicou em **Adicionar**. A captura mostra a tarefa cadastrada, o campo de entrada novamente vazio e o botão **Remover** ao lado da tarefa. O cadastro foi confirmado visualmente; a conclusão e a exclusão ainda precisam ser verificadas. A imagem foi anexada à pasta `prints/` do GitHub.
+
+**Teste 4 — Conclusão da tarefa:** após clicar no texto **Estudar React**, a captura mostra a tarefa com o texto riscado e o botão **Remover** ainda disponível. A alteração visual confirma que a tarefa foi marcada como concluída. A captura foi anexada à pasta `prints/`; a remoção foi validada no teste seguinte.
+
+**Teste 5 — Remoção da tarefa:** após selecionar **Remover** na tarefa **Estudar React**, a captura mostrou novamente o estado vazio com a mensagem **“Nenhuma tarefa cadastrada.”** O desaparecimento da tarefa confirma visualmente a remoção. A captura foi anexada à pasta `prints/`.
+
+**Teste 6 — Contador de Cliques:** após três cliques no botão **Clique aqui**, a interface mostra **Quantidade de cliques: 3**. A ação de incremento foi confirmada; o botão **Zerar** ainda não foi testado em captura.
+
+**Teste 7 — Jogo da Velha:** a captura mostra o tabuleiro com três **X** na primeira linha, dois **O** na segunda e a mensagem **“Jogador X venceu!”**, confirmando a condição de vitória horizontal. O reinício e o empate não foram testados nesta rodada.
+
+**Teste 8 — Calculadora:** foram preenchidos os valores **10** e **5**, escolhida a operação **+**, e a interface exibiu **Resultado: 15**, conforme esperado. Outras operações e divisão por zero não foram testadas nesta rodada.
+
+**Teste 9 — Buscador de CEP:** após consulta de **18211-210** (entrada 18211210), a interface apresentou **Rua Ricardo Martins, Vila Belo Horizonte, Itapetininga — SP** e o CEP formatado. O print comprova que a interface exibiu um retorno de endereço; a precisão do cadastro externo não foi verificada independentemente nesta etapa.
+
+**Situação das evidências:** os nove prints reais da página inicial, To-Do List, contador, jogo, calculadora e busca de CEP foram confirmados na pasta [prints](prints/) do GitHub.
+
+### Capturas reais da validação — React
+
+**Página inicial do React**
+
+![Página inicial do React](prints/01-menu-inicial.png)
+
+**Lista inicialmente vazia**
+
+![Lista inicialmente vazia](prints/10-todo-vazio.png)
+
+**Tarefa Estudar React adicionada**
+
+![Tarefa Estudar React adicionada](prints/02-todo-list.png)
+
+**Tarefa marcada como concluída**
+
+![Tarefa marcada como concluída](prints/11-todo-concluido.png)
+
+**Tarefa removida e lista vazia**
+
+![Tarefa removida e lista vazia](prints/12-todo-removido.png)
+
+**Contador após três cliques**
+
+![Contador após três cliques](prints/03-contador.png)
+
+**Vitória do jogador X**
+
+![Vitória do jogador X](prints/04-jogo-da-velha.png)
+
+**Calculadora: 10 + 5 = 15**
+
+![Calculadora: 10 + 5 = 15](prints/05-calculadora.png)
+
+**Busca de endereço pelo CEP 18211-210**
+
+![Busca de endereço pelo CEP 18211-210](prints/06-buscador-cep.png)
+
+## 9. Verificação da atividade
+
+- [x] Repositório e estrutura do projeto identificados.
+- [x] Código das cinco funcionalidades analisado.
+- [x] Recursos de React e integração com ViaCEP documentados.
+- [x] Estilização e responsividade descritas com base no CSS.
+- [x] Referências para os arquivos do projeto adicionadas.
+- [x] Verificar visualmente o carregamento da página inicial publicada na Vercel.
+- [x] Executar e documentar pelo menos um cenário funcional real das cinco funcionalidades no navegador.
+- [ ] Testar situações adicionais (reset, empate, operações alternativas, entradas inválidas e responsividade).
+- [x] Localizar URL de produção e confirmar deploy `READY` no painel da Vercel.
+- [x] Confirmar acesso e funcionamento dos cenários principais na versão publicada por capturas da estudante.
+- [x] Anexar ao GitHub nove capturas reais das cinco funcionalidades testadas.
+- [ ] Adicionar imagens do histórico de commits e painel Vercel, se exigidas no enunciado.
+
+## 10. Conclusão
+
+O exercício reúne, em uma interface React, cinco situações práticas de interação com o usuário: gerenciamento de tarefas, atualização de contador, regras de jogo, operações matemáticas e consulta de uma API externa.
+
+A análise do código permitiu identificar o uso de estados, tratamento de eventos, renderização condicional, validação de dados e CSS responsivo. O projeto oferece uma base para compreender como recursos independentes podem ser apresentados dentro de uma aplicação front-end.
+
+A documentação foi elaborada a partir do código disponível no repositório próprio, sem reaproveitar o texto do relatório de outro estudante. Os cenários principais foram validados visualmente na versão publicada; as capturas foram anexadas e ainda faltam eventuais evidências adicionais exigidas.

@@ -1,19 +1,18 @@
-# Capturas de tela — Aula 07
+# Capturas de tela — Aula 07: PurpleMood
 
-Esta pasta está reservada às evidências visuais desta atividade. **As imagens abaixo ainda não foram fornecidas ou anexadas.** Salve aqui somente capturas reais do projeto e atualize os links no relatório após o upload.
+Esta pasta está reservada às evidências reais da **API PurpleMood**, utilizada como atividade prática alternativa à API de data e hora exemplificada nos slides, conforme a orientação do professor relatada pela estudante.
 
-## Arquivos esperados
+## Capturas esperadas
 
-- 01-rota-data-hora.png — código da rota
-- 02-api-local.png — resposta local em JSON
-- 03-render-service.png — serviço Render
-- 04-api-publicada.png — endpoint público
-- 05-frontend-data-hora.png — interface consumindo API
-- 06-vercel-deploy.png — publicação do front-end
-- 07-repositorios-separados.png — API e front-end separados
+- **01-codigo-purplemood.png:** arquivo api.js, com rotas Express;
+- **02-lista-humores.png:** resposta GET /humores;
+- **03-cadastro-humor.png:** requisição POST /humores e resposta;
+- **04-estatisticas.png:** resultado GET /estatisticas;
+- **05-frases.png:** resultado GET /frases;
+- **06-deploy-render.png:** painel de serviço e URL real, se houver publicação.
 
-## Padrão de nomeação
+Adicione apenas imagens provenientes do projeto executado e não inclua senhas, tokens, chaves ou informações pessoais nas capturas. **As imagens 02, 04 e 05 foram anexadas e verificadas nesta pasta na branch `reorganizacao`.** As evidências 01, 03 e 06 permanecem opcionais/pendentes, conforme os requisitos da aula.
 
-Use dois dígitos no início, letras minúsculas e hífens. Evite espaços, acentos e parênteses. Não inclua senhas, tokens, chaves ou dados pessoais sensíveis nas capturas.
+## Evidências incorporadas ao relatório
 
-Depois de adicionar as imagens, abra o relatório da atividade e confira se os caminhos e arquivos correspondem exatamente aos nomes.
+As três respostas GET também aparecem no [relatório principal da Aula 07](../README.md).
