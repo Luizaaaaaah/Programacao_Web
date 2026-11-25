@@ -13,7 +13,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
 | 3 | 08 — CRUD | Testar API e CRUD, revisar os PRs e publicar versão aprovada em produção; anexar prints | Render `live`; React corrigido em preview `READY`, porém produção ainda `ERROR` |
 | 4 | 09 — ConectaAção | Confirmar entrega da atividade e acesso do professor ao site/código | Homepage, quiz com resultado Acolhedor Social, visual móvel e editor Lovable conferidos; seis prints anexados e exibidos no GitHub; repositório privado |
-| 5 | 07 — PurpleMood | Testar endpoints da API publicada no Render e capturar respostas reais | URL Render e deploy `live` confirmados; testes HTTP pendentes |
+| 5 | 07 — PurpleMood | Anexar três prints reais preparados da API; verificar necessidade de testes POST/PUT/DELETE | Respostas atuais GET `/humores`, `/estatisticas` e `/frases` confirmadas visualmente; três PNGs preparados, ainda não enviados |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
 | 7 | 01 e 02 — Planejamento | Confirmar abertura dos links do Miro, Figma e Trello em conta de terceiro; validar sitemap proposto | Links e imagens disponíveis |
 | 8 | 04 — CMS | Validar se o site Dev do Pantheon permanece acessível ao professor | WordPress, tema, plugins, homepage e quatro capturas registrados |
