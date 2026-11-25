@@ -87,7 +87,7 @@ O painel da conta Render confirmou que o repositório **exercicio_express** já 
 - **Painel do serviço:** [Render — exercicio_express](https://dashboard.render.com/web/srv-dakm2lrm8hqs73f2r150)
 - **Deploy verificado no painel:** `dep-dakm2mbm8hqs73f2r340`, commit `dc09e4fd`, concluído em **15/09/2026**, status `live` na consulta de 24/11/2026.
 
-**Limite da verificação:** a plataforma informa o deploy como `live`, mas a resposta HTTP atual dos endpoints não pôde ser testada nesta conferência. A publicação foi identificada, e não foi criado outro serviço.
+**Verificação adicional no navegador:** a estudante acessou as rotas públicas GET `/humores`, `/estatisticas` e `/frases` e enviou três capturas reais mostrando respostas JSON. A consulta foi confirmada visualmente. As operações POST, PUT e DELETE ainda não foram testadas nesta rodada.
 
 | Evidência | Situação |
 |---|---|
@@ -96,7 +96,7 @@ O painel da conta Render confirmou que o repositório **exercicio_express** já 
 | Rota de estatísticas | Identificada |
 | Rota de frases | Identificada |
 | Print da execução local | Não anexado |
-| Testes HTTP documentados | Não confirmados |
+| Testes HTTP documentados | Respostas GET de `/humores`, `/estatisticas` e `/frases` confirmadas em prints reais; métodos de escrita pendentes |
 | URL de deploy no Render | Confirmada no painel: [exercicio-express-bokp.onrender.com](https://exercicio-express-bokp.onrender.com); status do deploy `live` |
 | Front-end separado | Não identificado; verificar se integrou a orientação prática desta turma |
 
@@ -109,7 +109,19 @@ Capturas recomendadas para a pasta [prints](prints/README.md):
 - **05-frases.png** — lista de frases;
 - **06-deploy-render.png** — serviço publicado, se houver.
 
-Os nomes acima são sugestões de evidências a produzir, não arquivos já anexados.
+As capturas **02**, **04** e **05** foram fornecidas na conversa e preparadas em ZIP para upload. Ainda não foram anexadas ao GitHub. As demais evidências são complementares.
+
+### Testes manuais da API publicada — 25/11/2026
+
+| Endpoint GET | Resultado mostrado no navegador | Situação |
+|---|---|---|
+| [`/humores`](https://exercicio-express-bokp.onrender.com/humores) | Três registros: **Feliz**, **Tranquilo** e **Animado** | Resposta JSON observada |
+| [`/estatisticas`](https://exercicio-express-bokp.onrender.com/estatisticas) | `total: 3`, `mediaIntensidade: 8.7` | Resposta JSON observada |
+| [`/frases`](https://exercicio-express-bokp.onrender.com/frases) | Array com seis frases motivacionais | Resposta JSON observada |
+
+Esses registros comprovam o funcionamento das **consultas GET** na sessão da estudante. Não comprovam a criação, alteração ou exclusão de registros na API publicada nem a persistência após reiniciar o serviço.
+
+**Capturas reais recebidas, prontas para upload:** `02-lista-humores.png`, `04-estatisticas.png` e `05-frases.png`. Os arquivos ainda não foram anexados ao GitHub.
 
 ## 7. Aprendizados
 
@@ -122,13 +134,15 @@ A atividade mostra que os conhecimentos de Express podem ser aplicados a um tema
 - [x] Projeto PurpleMood identificado como a implementação utilizada na aula, conforme relato da estudante.
 - [x] Código-fonte e funcionalidades analisados.
 - [x] Métodos e rotas documentados.
-- [ ] Adicionar capturas reais do funcionamento.
+- [x] Obter e organizar três capturas reais dos endpoints GET.
+- [ ] Anexar as três imagens à pasta `prints/` no GitHub.
 - [x] Confirmar publicação no painel Render (deploy `live` em 15/09/2026).
-- [ ] Executar testes HTTP atuais nas rotas do serviço e anexar as respostas.
+- [x] Confirmar respostas atuais GET de três rotas públicas com capturas no navegador.
+- [ ] Testar requisições de escrita POST, PUT e DELETE, se exigidas para a avaliação.
 - [ ] Revisar dependências versionadas caso o repositório seja preparado para produção.
 
 ## 9. Conclusão
 
 O PurpleMood é uma API didática construída com Express para consultar e administrar registros de humor. Ela atende à proposta prática alternativa informada pela estudante e permite demonstrar funcionalidades típicas do desenvolvimento back-end.
 
-A documentação descreve o código existente e registra o serviço Render já encontrado na conta. A publicação foi confirmada pelo histórico de deploys, mas os testes HTTP atuais e a persistência dos dados não foram comprovados.
+A documentação descreve o código existente e registra o serviço Render já encontrado na conta. A publicação foi confirmada pelo histórico de deploys, e as três consultas GET foram validadas visualmente. Os testes de escrita e a persistência de dados ainda não foram comprovados.
