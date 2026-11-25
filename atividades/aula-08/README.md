@@ -137,7 +137,7 @@ As alterações **não foram mescladas à main**. Em 24/11/2026, foi corrigido a
 
 Uma **prévia na Vercel** foi compilada com status `READY` no commit `f8b21a2`: [abrir preview](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app). A variável `VITE_API_URL` foi configurada somente para a prévia dessa branch com o endpoint do Render.
 
-Isso comprova compilação da interface no ambiente de prévia, **não** comprova testes CRUD, funcionamento da API ou publicação da versão definitiva em produção. O acesso ao preview pode estar sujeito à proteção da Vercel.
+A compilação inicial da prévia não comprovava integração; posteriormente a estudante validou **CRUD de ponta a ponta** nessa prévia, comparando os resultados exibidos no React com as respostas GET do Render. Isso ainda não comprova a publicação da versão definitiva em produção. O acesso ao preview pode estar sujeito à proteção da Vercel.
 
 ## 9. Publicação
 
@@ -150,7 +150,7 @@ A conta Render possui um serviço gratuito conectado ao repositório **exercicio
 - **Painel do serviço:** [Render — exercicio_express1](https://dashboard.render.com/web/srv-dap9bgo0cd8s73c7040g)
 - **Deploy:** `dep-dap9bh00cd8s73c70510`; commit `5680a121`; concluído em **22/09/2026**; status `live` na consulta de 24/11/2026.
 
-**Importante:** o serviço usa a branch `main` do back-end. A `main` recebeu a correção CORS e a porta configurável, e o Render confirmou o deploy com status `live` em 24/11/2026 às 21h21 (Brasília). O POST pela interface e a integração final precisam ser retestados.
+**Importante:** o serviço usa a branch `main` do back-end. A `main` recebeu a correção CORS e a porta configurável, e o Render confirmou o deploy com status `live` em 24/11/2026 às 21h21 (Brasília). Depois disso, o fluxo CRUD foi validado na prévia React e conferido com GET do Render.
 
 ### Utilização da API no Postman e React
 
@@ -163,13 +163,13 @@ Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_
 | API no GitHub | [exercicio_express1](https://github.com/Luizaaaaaah/exercicio_express1) |
 | Front-end no GitHub | [exercicio_react1](https://github.com/Luizaaaaaah/exercicio_react1) |
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
-| URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` e resposta GET `/api/notes` com duas notas observada no navegador |
+| URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — correção do back-end `live`; GET conferido antes, durante e após o CRUD |
 | URL Vercel | [Preview da branch de revisão](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) — `READY`; deploy de produção da main permanece `ERROR` |
-| Integração entre prévia React e API Render | Não comprovada; deploy corrigido da API está `live`, mas é necessário repetir o teste controlado de criação e a consulta GET |
+| Integração entre prévia React e API Render | **Comprovada** nos cenários de criação, listagem, edição e exclusão por prints do React e GET da API; publicação da `main` do front-end ainda pendente |
 
 A URL do Render e a URL de prévia da Vercel foram obtidas diretamente das contas conectadas. A versão de produção do front-end continua com erro e ainda não foi publicada com êxito.
 
-### Conferência inicial no navegador — 25/11/2026
+### Conferência inicial no navegador — 24/11/2026 (Brasília)
 
 A estudante abriu os dois endereços da atividade e enviou capturas reais:
 
@@ -183,7 +183,7 @@ As duas capturas estão nesta conversa, **não foram anexadas ainda** à pasta `
 
 A estudante tentou salvar a nota fictícia com título **“Teste Integracao Aula 08”** e conteúdo **“Verificando a conexao entre React e Express”**. O modal mostrou a mensagem **“Não foi possível salvar a nota.”** A captura comprova a falha da operação, e **não** comprova criação ou sincronização com a API.
 
-**Hipótese técnica fundamentada no código:** na `main` do back-end, o middleware CORS define somente `Access-Control-Allow-Origin: *`. O POST do React utiliza `Content-Type: application/json`, que exige uma requisição preflight `OPTIONS` entre origens diferentes. Sem os cabeçalhos apropriados para métodos e cabeçalhos permitidos, o navegador pode bloquear esse POST. A correção do back-end foi **integrada à branch `main`** em 25/11/2026 por meio do [PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) (squash commit [`92d3584`](https://github.com/Luizaaaaaah/exercicio_express1/commit/92d35842e3ad108ac3d7ae87bae84bb75cec02f3)). A alteração substitui a configuração manual pelo middleware `cors()` e usa a porta `process.env.PORT || 3000`. **O novo deploy foi confirmado no Render**, com status `live` no serviço `exercicio_express1`, deploy `dep-dc32jc8jo6nc73e71abg` (commit `92d35842e3ad108ac3d7ae87bae84bb75cec02f3`), concluído em **24/11/2026 às 21h21 (horário de Brasília)**. O funcionamento do POST e a URL efetivamente usada pela prévia React ainda precisam de novo teste. É necessário repetir o teste e, se houver falha, inspecionar a aba Rede/Console ou os logs do serviço.
+**Hipótese técnica fundamentada no código:** na `main` do back-end, o middleware CORS define somente `Access-Control-Allow-Origin: *`. O POST do React utiliza `Content-Type: application/json`, que exige uma requisição preflight `OPTIONS` entre origens diferentes. Sem os cabeçalhos apropriados para métodos e cabeçalhos permitidos, o navegador pode bloquear esse POST. A correção do back-end foi **integrada à branch `main`** em 24/11/2026 (horário de Brasília) por meio do [PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) (squash commit [`92d3584`](https://github.com/Luizaaaaaah/exercicio_express1/commit/92d35842e3ad108ac3d7ae87bae84bb75cec02f3)). A alteração substitui a configuração manual pelo middleware `cors()` e usa a porta `process.env.PORT || 3000`. **O novo deploy foi confirmado no Render**, com status `live` no serviço `exercicio_express1`, deploy `dep-dc32jc8jo6nc73e71abg` (commit `92d35842e3ad108ac3d7ae87bae84bb75cec02f3`), concluído em **24/11/2026 às 21h21 (horário de Brasília)**. O funcionamento do POST e a URL efetivamente usada pela prévia React ainda precisam de novo teste. É necessário repetir o teste e, se houver falha, inspecionar a aba Rede/Console ou os logs do serviço.
 
 **Outra divergência observada:** os títulos e conteúdos das duas notas visíveis na interface da prévia diferem dos dados da API exibidos diretamente no navegador. Mesmo que o CORS seja corrigido, é preciso confirmar que a variável de ambiente `VITE_API_URL` aponta realmente para o serviço Render desejado.
 
@@ -195,23 +195,37 @@ Após a integração do PR #1 e a publicação automática da API no Render (dep
 
 **Resultado confirmado:** o fluxo de criação pelo front-end voltou a funcionar no cenário observado, com atualização visual da listagem. A imagem está anexada na conversa e ainda precisa ser enviada à pasta `prints/` do repositório de documentação.
 
-**Sincronização confirmada:** após a criação no React, a estudante atualizou `https://exercicio-express1.onrender.com/api/notes` e o JSON apresentou a **terceira nota**, título **“Teste Integracao Aula 08”**, com o mesmo conteúdo enviado na interface e um novo ID. Isso confirma a comunicação entre a prévia React e **essa API Render** no cenário GET + POST. Os dados iniciais ainda diferem entre as capturas; não é possível explicar a divergência anterior apenas com estes testes. Ainda é necessário testar **edição (PUT)** e **exclusão (DELETE)** pela interface e confirmar os resultados na API. Não foi verificada persistência após reinício do serviço. A captura está na conversa e ainda não foi anexada ao GitHub.
+**Sincronização confirmada:** após a criação no React, a estudante atualizou `https://exercicio-express1.onrender.com/api/notes` e o JSON apresentou a **terceira nota**, título **“Teste Integracao Aula 08”**, com o mesmo conteúdo enviado na interface e um novo ID. Isso confirma a comunicação entre a prévia React e **essa API Render** no cenário GET + POST. Os dados iniciais diferiam entre as primeiras capturas; não é possível explicar a divergência anterior apenas com esses testes. A persistência após reinício do serviço não foi avaliada. As evidências estão preparadas para upload.
+
+
+### Reteste de edição e exclusão — aprovado
+
+**Edição:** a estudante alterou o título da nota de teste para **“Teste Aula 08”**, mantendo o conteúdo de verificação da conexão. O React exibiu três cartões com o título atualizado, e a resposta JSON de `GET /api/notes` no Render também apresentou o mesmo título no terceiro registro. A alteração foi confirmada em ambos os lados.
+
+**Exclusão:** em seguida, a estudante removeu **somente a nota de teste** pela interface. O contador do React voltou de três para **duas notas**, e uma nova consulta `GET /api/notes` no Render retornou apenas os dois registros originais. A exclusão foi confirmada em ambos os lados.
+
+**Conclusão dos testes funcionais:** na versão de **prévia React da Vercel** conectada à API Render corrigida, foram observados cenários positivos de **criar, listar, editar e excluir**. Os testes não demonstram, por si sós, persistência após reinício, validação de entradas inválidas ou publicação da `main` do front-end em produção.
+
+**Evidências:** nove capturas reais foram reunidas em ZIP e estão **aguardando upload** para `atividades/aula-08/prints/` na branch `reorganizacao`.
 
 
 ## 10. Evidências
 
-Capturas reais a incluir em [prints](prints/README.md):
+Capturas reais **preparadas para upload** em [prints](prints/README.md):
 
-- **01-estrutura-api.png** — arquivos da API;
-- **02-listar-notas-get.png** — teste GET;
-- **03-criar-nota-post.png** — teste POST;
-- **04-editar-nota-put.png** — teste PUT;
-- **05-excluir-nota-delete.png** — teste DELETE;
-- **06-interface-react.png** — interface com notas;
-- **07-modal-criar-editar.png** — formulário;
-- **08-render-deploy.png** — API publicada;
-- **09-vercel-deploy.png** — front-end publicado;
-- **10-postman-collection.png** — coleção importada.
+| Arquivo | Evidência observada |
+|---|---|
+| `02-listar-notas-get.png` | API Render antes da criação: dois registros |
+| `03-criar-nota-post.png` | React após criar a terceira nota |
+| `04-editar-nota-put.png` | React com título alterado para Teste Aula 08 |
+| `05-excluir-nota-delete.png` | React após excluir a nota de teste |
+| `06-interface-react.png` | Tela inicial do React com duas notas |
+| `07-modal-erro-inicial.png` | Erro inicial ao tentar salvar uma nota antes da correção |
+| `11-api-apos-post.png` | JSON do Render após a criação da terceira nota |
+| `12-api-apos-put.png` | JSON do Render após edição do título |
+| `13-api-apos-delete.png` | JSON do Render após exclusão: duas notas |
+
+Imagens adicionais como histórico de commits, painel Render, painel Vercel e execução da coleção Postman poderão ser acrescentadas se exigidas. Não foram tratadas como já anexadas.
 
 ## 11. Situação da atividade
 
@@ -223,20 +237,23 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [x] Confirmar novo deploy da API no Render (`live`, commit `92d3584`).
 - [x] Retestar criação de nota pela interface React após o deploy da correção, confirmada visualmente (3 notas).
 - [x] Confirmar sincronização da nota criada no React com resposta GET do Render (terceiro registro).
-- [ ] Testar edição PUT e exclusão DELETE pela interface e verificar novamente no Render.
+- [x] Testar edição PUT e exclusão DELETE pela interface e verificar novamente por GET no Render.
 - [ ] Revisar e integrar o PR #1 do front-end React somente após confirmar a configuração da API.
 - [x] Questões técnicas respondidas.
-- [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
+- [x] Corrigir o back-end e validar a integração do front-end no ambiente de prévia.
+- [ ] Finalizar a publicação do front-end em produção.
 - [ ] Importar e executar a coleção Postman.
 - [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
 - [x] Confirmar build `READY` da interface em preview da branch de revisão.
 - [x] Conferir abertura da prévia React e resposta GET da API por capturas reais.
 - [x] Testar tentativa de criação pelo formulário e documentar a falha real observada.
-- [ ] Diagnosticar CORS e URL efetiva usada pela prévia, revisar/deployar correção e retestar criar, editar e excluir antes de publicar versão aprovada.
-- [ ] Adicionar evidências reais.
+- [x] Corrigir CORS na API, confirmar deploy `live` e validar criação, edição e exclusão pela prévia React, com conferência no Render.
+- [ ] Revisar e publicar o front-end na `main`/produção após aprovação.
+- [x] Preparar nove capturas reais do fluxo CRUD para upload.
+- [ ] Anexar as nove capturas reais na pasta `prints/`.
 
 ## 12. Conclusão
 
 O projeto permite estudar o fluxo completo de uma aplicação baseada em API: interface React, requisições HTTP, rotas Express e armazenamento JSON.
 
-A documentação identifica os recursos que já existem, registra a API previamente publicada no Render e os cuidados técnicos para sua integração ao React. A coleção Postman foi preparada para acelerar a validação, sem apresentar testes não executados como concluídos.
+A API Render foi corrigida e publicada; o CRUD de notas foi validado na **prévia React** com conferência das alterações na API. Nove capturas reais foram preparadas para upload ao portfólio. Ainda falta publicar a versão aprovada do front-end na branch principal, anexar as evidências e, caso necessário, executar a coleção Postman.
