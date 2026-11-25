@@ -206,26 +206,64 @@ Após a integração do PR #1 e a publicação automática da API no Render (dep
 
 **Conclusão dos testes funcionais:** na versão de **prévia React da Vercel** conectada à API Render corrigida, foram observados cenários positivos de **criar, listar, editar e excluir**. Os testes não demonstram, por si sós, persistência após reinício, validação de entradas inválidas ou publicação da `main` do front-end em produção.
 
-**Evidências:** nove capturas reais foram reunidas em ZIP e estão **aguardando upload** para `atividades/aula-08/prints/` na branch `reorganizacao`.
+**Evidências:** as **nove capturas reais foram enviadas e confirmadas** em [`atividades/aula-08/prints/`](prints/) na branch `reorganizacao`.
 
 
 ## 10. Evidências
 
-Capturas reais **preparadas para upload** em [prints](prints/README.md):
+Capturas reais **confirmadas no GitHub** em [prints](prints/README.md):
 
 | Arquivo | Evidência observada |
 |---|---|
-| `02-listar-notas-get.png` | API Render antes da criação: dois registros |
-| `03-criar-nota-post.png` | React após criar a terceira nota |
-| `04-editar-nota-put.png` | React com título alterado para Teste Aula 08 |
-| `05-excluir-nota-delete.png` | React após excluir a nota de teste |
-| `06-interface-react.png` | Tela inicial do React com duas notas |
-| `07-modal-erro-inicial.png` | Erro inicial ao tentar salvar uma nota antes da correção |
-| `11-api-apos-post.png` | JSON do Render após a criação da terceira nota |
-| `12-api-apos-put.png` | JSON do Render após edição do título |
-| `13-api-apos-delete.png` | JSON do Render após exclusão: duas notas |
+| [02-listar-notas-get.png](prints/02-listar-notas-get.png) | API Render antes da criação: dois registros |
+| [03-criar-nota-post.png](prints/03-criar-nota-post.png) | React após criar a terceira nota |
+| [04-editar-nota-put.png](prints/04-editar-nota-put.png) | React com título alterado para Teste Aula 08 |
+| [05-excluir-nota-delete.png](prints/05-excluir-nota-delete.png) | React após excluir a nota de teste |
+| [06-interface-react.png](prints/06-interface-react.png) | Tela inicial do React com duas notas |
+| [07-modal-erro-inicial.png](prints/07-modal-erro-inicial.png) | Erro inicial ao tentar salvar uma nota antes da correção |
+| [11-api-apos-post.png](prints/11-api-apos-post.png) | JSON do Render após a criação da terceira nota |
+| [12-api-apos-put.png](prints/12-api-apos-put.png) | JSON do Render após edição do título |
+| [13-api-apos-delete.png](prints/13-api-apos-delete.png) | JSON do Render após exclusão: duas notas |
 
 Imagens adicionais como histórico de commits, painel Render, painel Vercel e execução da coleção Postman poderão ser acrescentadas se exigidas. Não foram tratadas como já anexadas.
+
+### Galeria de evidências dos testes de integração
+
+**Consulta inicial GET — duas notas**
+
+![Consulta inicial GET — duas notas](prints/02-listar-notas-get.png)
+
+**Interface inicial React — duas notas**
+
+![Interface inicial React — duas notas](prints/06-interface-react.png)
+
+**Falha anterior ao ajuste CORS**
+
+![Falha anterior ao ajuste CORS](prints/07-modal-erro-inicial.png)
+
+**Criação da terceira nota no React**
+
+![Criação da terceira nota no React](prints/03-criar-nota-post.png)
+
+**GET da API após criação**
+
+![GET da API após criação](prints/11-api-apos-post.png)
+
+**Edição da nota no React**
+
+![Edição da nota no React](prints/04-editar-nota-put.png)
+
+**GET da API após edição**
+
+![GET da API após edição](prints/12-api-apos-put.png)
+
+**Exclusão da nota no React**
+
+![Exclusão da nota no React](prints/05-excluir-nota-delete.png)
+
+**GET da API após exclusão**
+
+![GET da API após exclusão](prints/13-api-apos-delete.png)
 
 ## 11. Situação da atividade
 
@@ -250,10 +288,10 @@ Imagens adicionais como histórico de commits, painel Render, painel Vercel e ex
 - [x] Corrigir CORS na API, confirmar deploy `live` e validar criação, edição e exclusão pela prévia React, com conferência no Render.
 - [ ] Revisar e publicar o front-end na `main`/produção após aprovação.
 - [x] Preparar nove capturas reais do fluxo CRUD para upload.
-- [ ] Anexar as nove capturas reais na pasta `prints/`.
+- [x] Anexar as nove capturas reais na pasta `prints/`, conferidas no repositório.
 
 ## 12. Conclusão
 
 O projeto permite estudar o fluxo completo de uma aplicação baseada em API: interface React, requisições HTTP, rotas Express e armazenamento JSON.
 
-A API Render foi corrigida e publicada; o CRUD de notas foi validado na **prévia React** com conferência das alterações na API. Nove capturas reais foram preparadas para upload ao portfólio. Ainda falta publicar a versão aprovada do front-end na branch principal, anexar as evidências e, caso necessário, executar a coleção Postman.
+A API Render foi corrigida e publicada; o CRUD de notas foi validado na **prévia React** com conferência das alterações na API. Nove capturas reais foram anexadas ao portfólio e incluídas neste relatório. Ainda falta publicar a versão aprovada do front-end na branch principal e, caso necessário, executar a coleção Postman.
