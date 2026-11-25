@@ -143,14 +143,14 @@ Isso comprova compilação da interface no ambiente de prévia, **não** comprov
 
 ### Back-end existente no Render
 
-A conta Render possui um serviço gratuito conectado ao repositório **exercicio_express1**, com deploy da branch **main**. A correção do PR #1 foi integrada em 25/11/2026, mas seu novo deploy no Render ainda precisa ser confirmado.
+A conta Render possui um serviço gratuito conectado ao repositório **exercicio_express1**, com deploy da branch **main**. A correção do PR #1 já foi integrada à `main` e publicada automaticamente no Render em 24/11/2026, horário de Brasília.
 
 - **URL da API:** [https://exercicio-express1.onrender.com](https://exercicio-express1.onrender.com)
 - **Endpoint previsto no código:** [https://exercicio-express1.onrender.com/api/notes](https://exercicio-express1.onrender.com/api/notes)
 - **Painel do serviço:** [Render — exercicio_express1](https://dashboard.render.com/web/srv-dap9bgo0cd8s73c7040g)
 - **Deploy:** `dep-dap9bh00cd8s73c70510`; commit `5680a121`; concluído em **22/09/2026**; status `live` na consulta de 24/11/2026.
 
-**Importante:** o serviço usa a branch `main` do back-end. A `main` recebeu a correção CORS e a porta configurável em 25/11/2026, mas ainda não foi confirmado que o Render publicou esse commit; o novo POST pela interface e a integração final também precisam de novo teste.
+**Importante:** o serviço usa a branch `main` do back-end. A `main` recebeu a correção CORS e a porta configurável, e o Render confirmou o deploy com status `live` em 24/11/2026 às 21h21 (Brasília). O POST pela interface e a integração final precisam ser retestados.
 
 ### Utilização da API no Postman e React
 
@@ -165,7 +165,7 @@ Para o front-end React, o PR de rascunho permite informar a variável `VITE_API_
 | Coleção Postman | Criada neste portfólio; testes ainda não executados |
 | URL Render | [exercicio-express1.onrender.com](https://exercicio-express1.onrender.com) — deploy `live` e resposta GET `/api/notes` com duas notas observada no navegador |
 | URL Vercel | [Preview da branch de revisão](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) — `READY`; deploy de produção da main permanece `ERROR` |
-| Integração entre prévia React e API Render | Não comprovada; conteúdo mostrado nas capturas diverge, exigindo teste controlado de criação e nova consulta GET |
+| Integração entre prévia React e API Render | Não comprovada; deploy corrigido da API está `live`, mas é necessário repetir o teste controlado de criação e a consulta GET |
 
 A URL do Render e a URL de prévia da Vercel foram obtidas diretamente das contas conectadas. A versão de produção do front-end continua com erro e ainda não foi publicada com êxito.
 
@@ -183,7 +183,7 @@ As duas capturas estão nesta conversa, **não foram anexadas ainda** à pasta `
 
 A estudante tentou salvar a nota fictícia com título **“Teste Integracao Aula 08”** e conteúdo **“Verificando a conexao entre React e Express”**. O modal mostrou a mensagem **“Não foi possível salvar a nota.”** A captura comprova a falha da operação, e **não** comprova criação ou sincronização com a API.
 
-**Hipótese técnica fundamentada no código:** na `main` do back-end, o middleware CORS define somente `Access-Control-Allow-Origin: *`. O POST do React utiliza `Content-Type: application/json`, que exige uma requisição preflight `OPTIONS` entre origens diferentes. Sem os cabeçalhos apropriados para métodos e cabeçalhos permitidos, o navegador pode bloquear esse POST. A correção do back-end foi **integrada à branch `main`** em 25/11/2026 por meio do [PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) (squash commit [`92d3584`](https://github.com/Luizaaaaaah/exercicio_express1/commit/92d35842e3ad108ac3d7ae87bae84bb75cec02f3)). A alteração substitui a configuração manual pelo middleware `cors()` e usa a porta `process.env.PORT || 3000`. **O novo deploy no Render e o funcionamento do POST ainda não foram confirmados**, assim como a URL efetivamente usada pela prévia React. É necessário repetir o teste e, se houver falha, inspecionar a aba Rede/Console ou os logs do serviço.
+**Hipótese técnica fundamentada no código:** na `main` do back-end, o middleware CORS define somente `Access-Control-Allow-Origin: *`. O POST do React utiliza `Content-Type: application/json`, que exige uma requisição preflight `OPTIONS` entre origens diferentes. Sem os cabeçalhos apropriados para métodos e cabeçalhos permitidos, o navegador pode bloquear esse POST. A correção do back-end foi **integrada à branch `main`** em 25/11/2026 por meio do [PR #1](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) (squash commit [`92d3584`](https://github.com/Luizaaaaaah/exercicio_express1/commit/92d35842e3ad108ac3d7ae87bae84bb75cec02f3)). A alteração substitui a configuração manual pelo middleware `cors()` e usa a porta `process.env.PORT || 3000`. **O novo deploy foi confirmado no Render**, com status `live` no serviço `exercicio_express1`, deploy `dep-dc32jc8jo6nc73e71abg` (commit `92d35842e3ad108ac3d7ae87bae84bb75cec02f3`), concluído em **24/11/2026 às 21h21 (horário de Brasília)**. O funcionamento do POST e a URL efetivamente usada pela prévia React ainda precisam de novo teste. É necessário repetir o teste e, se houver falha, inspecionar a aba Rede/Console ou os logs do serviço.
 
 **Outra divergência observada:** os títulos e conteúdos das duas notas visíveis na interface da prévia diferem dos dados da API exibidos diretamente no navegador. Mesmo que o CORS seja corrigido, é preciso confirmar que a variável de ambiente `VITE_API_URL` aponta realmente para o serviço Render desejado.
 
@@ -211,7 +211,8 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [x] Estrutura dos dados e integração local documentadas.
 - [x] Coleção Postman criada e vinculada ao relatório.
 - [x] Correção do back-end integrada à `main` por meio do PR #1 em 25/11/2026.
-- [ ] Confirmar novo deploy da API no Render e testar CORS/POST.
+- [x] Confirmar novo deploy da API no Render (`live`, commit `92d3584`).
+- [ ] Retestar CORS/POST pela interface React e conferir sincronização com a API.
 - [ ] Revisar e integrar o PR #1 do front-end React somente após confirmar a configuração da API.
 - [x] Questões técnicas respondidas.
 - [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
