@@ -195,7 +195,7 @@ Após a integração do PR #1 e a publicação automática da API no Render (dep
 
 **Resultado confirmado:** o fluxo de criação pelo front-end voltou a funcionar no cenário observado, com atualização visual da listagem. A imagem está anexada na conversa e ainda precisa ser enviada à pasta `prints/` do repositório de documentação.
 
-**Verificações pendentes:** atualizar `https://exercicio-express1.onrender.com/api/notes` para conferir se o registro aparece nessa API específica (os dois registros iniciais estavam diferentes dos cartões), além de testar edição e exclusão. A captura por si só **não comprova** sincronização com o Render escolhido nem persistência após reinício.
+**Sincronização confirmada:** após a criação no React, a estudante atualizou `https://exercicio-express1.onrender.com/api/notes` e o JSON apresentou a **terceira nota**, título **“Teste Integracao Aula 08”**, com o mesmo conteúdo enviado na interface e um novo ID. Isso confirma a comunicação entre a prévia React e **essa API Render** no cenário GET + POST. Os dados iniciais ainda diferem entre as capturas; não é possível explicar a divergência anterior apenas com estes testes. Ainda é necessário testar **edição (PUT)** e **exclusão (DELETE)** pela interface e confirmar os resultados na API. Não foi verificada persistência após reinício do serviço. A captura está na conversa e ainda não foi anexada ao GitHub.
 
 
 ## 10. Evidências
@@ -222,7 +222,8 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [x] Correção do back-end integrada à `main` por meio do PR #1 em 25/11/2026.
 - [x] Confirmar novo deploy da API no Render (`live`, commit `92d3584`).
 - [x] Retestar criação de nota pela interface React após o deploy da correção, confirmada visualmente (3 notas).
-- [ ] Conferir sincronização do novo registro com a API Render e testar edição/exclusão.
+- [x] Confirmar sincronização da nota criada no React com resposta GET do Render (terceiro registro).
+- [ ] Testar edição PUT e exclusão DELETE pela interface e verificar novamente no Render.
 - [ ] Revisar e integrar o PR #1 do front-end React somente após confirmar a configuração da API.
 - [x] Questões técnicas respondidas.
 - [ ] Corrigir/configurar back-end e front-end para deploy e executar os testes.
