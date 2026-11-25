@@ -5,7 +5,7 @@
 **Curso:** Análise e Desenvolvimento de Sistemas — Fatec Itapetininga  
 **Ano:** 2026
 
-Este repositório reúne os **resumos das nove aulas**, a documentação dos exercícios e os links dos projetos práticos. Os códigos dos projetos permanecem em seus repositórios próprios, para preservar o histórico individual de desenvolvimento.
+Este repositório reúne os **resumos das nove aulas**, a documentação dos exercícios, os links dos projetos práticos e o **projeto final em equipe Itape +**. Os códigos dos projetos permanecem em seus repositórios próprios, para preservar o histórico individual de desenvolvimento.
 
 > **Acesso ao portfólio atualizado:** esta organização está na branch **reorganizacao**. A branch **main** original foi preservada até a revisão final.
 
@@ -24,6 +24,21 @@ Este repositório reúne os **resumos das nove aulas**, a documentação dos exe
 | 09 | Website Builders com IA | [Resumo](aulas/aula-09-website-builders.md) | [Atividade 09](atividades/aula-09/README.md) |
 
 **Índices adicionais:** [Aulas](aulas/README.md) · [Atividades e entregas](atividades/README.md) · [Histórico de versões](historico/versoes.md) · [Pendências verificáveis](PENDENCIAS_DE_ENTREGA.md)
+
+## Projeto final da disciplina — Itape +
+
+**[Ver o relatório completo do projeto final](projeto-final/README.md)**
+
+O **Itape +** é um trabalho **em equipe**, concluído e apresentado em sala de aula com o professor, conforme informado pela integrante. A plataforma divulga eventos culturais e educacionais de Itapetininga e região e permite que organizadores cadastrem eventos sujeitos à moderação administrativa.
+
+- **Equipe:** Isabela Machado Oliveira, Maria Luiza de Almeida Oliveira, Rafael Camargo Rachid e Veronica das Dores Bicudo da Silva;
+- **Tecnologias:** React/Vite, Express, Firestore e Firebase Authentication;
+- **Repositório coletivo:** [RafaelRachidd/Itape-plus](https://github.com/RafaelRachidd/Itape-plus);
+- **Entrega versionada:** [release v1.0.0 — versão final da disciplina](https://github.com/RafaelRachidd/Itape-plus/releases/tag/v1.0.0), publicada em 23/11/2026;
+- **Site indicado no README:** [itape-plus.vercel.app](https://itape-plus.vercel.app).
+
+O trabalho final **não é uma décima aula**. Seus arquivos de código permanecem no repositório compartilhado, respeitando a autoria da equipe.
+
 
 ## Projetos e atividades
 
@@ -57,6 +72,8 @@ Consulte [PENDENCIAS_DE_ENTREGA.md](PENDENCIAS_DE_ENTREGA.md) para identificar r
 Programacao_Web/
 ├── README.md
 ├── PENDENCIAS_DE_ENTREGA.md
+├── projeto-final/
+│   └── README.md  (Itape + — trabalho em equipe)
 ├── aulas/
 │   ├── README.md
 │   └── aula-01 ... aula-09 (resumos Markdown)
