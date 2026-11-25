@@ -1,7 +1,7 @@
 # Histórico de versões do portfólio
 
 **Repositório:** [Programacao_Web](https://github.com/Luizaaaaaah/Programacao_Web)  
-**Branch principal original:** main  
+**Branch principal publicada:** [main](https://github.com/Luizaaaaaah/Programacao_Web/tree/main)  
 **Branch da reorganização:** [reorganizacao](https://github.com/Luizaaaaaah/Programacao_Web/tree/reorganizacao)
 
 ## Preservação do trabalho anterior
@@ -45,11 +45,11 @@ O repositório independente [PW_Aula_03_Versionamento](https://github.com/Luizaa
 
 **SemVer** utiliza o formato MAJOR.MINOR.PATCH. Os commits podem adotar os prefixos **feat**, **fix**, **docs**, **test**, **refactor** e **chore** conforme o tipo de alteração.
 
-## Próxima integração
+## Integração final concluída
 
-A branch **reorganizacao** deve ser revisada antes de ser mesclada com **main**. Para evitar conflitos, a cópia local precisa ser sincronizada com as novas alterações realizadas diretamente pelo GitHub antes de qualquer edição local.
+A branch **reorganizacao** foi revisada e integrada à **main** pelo [Pull Request #1](https://github.com/Luizaaaaaah/Programacao_Web/pull/1), que foi mesclado com o commit [`66f2490`](https://github.com/Luizaaaaaah/Programacao_Web/commit/66f24907063b39954c7cb7902ec9dbbb61f24c42). O método **merge** preservou a identidade e o histórico dos 138 commits de trabalho acumulados na reorganização. A comparação antes da integração registrou zero commits pendentes da `main` e nenhum conflito de mesclagem.
 
-A tag de versão do portfólio principal deve ser criada apenas após a integração e verificação final, se necessária.
+O portfólio pode ser acessado diretamente pela [branch main](https://github.com/Luizaaaaaah/Programacao_Web). A branch `reorganizacao` foi mantida como referência. Não foi criada uma tag de versão do portfólio principal, porque a integração do PR já identifica a entrega documental; uma tag é opcional.
 
 ## Complementos em repositórios de exercícios
 
