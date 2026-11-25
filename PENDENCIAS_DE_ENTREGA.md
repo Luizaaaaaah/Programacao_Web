@@ -1,6 +1,6 @@
 # Pendências de entrega — Programação Web
 
-**Atualização da conferência:** 24/11/2026  
+**Atualização da conferência:** 25/11/2026  
 **Branch de trabalho:** [reorganizacao](https://github.com/Luizaaaaaah/Programacao_Web/tree/reorganizacao)
 
 Este checklist reúne apenas ações que ainda dependem de execução real, acesso externo, confirmação da estudante ou capturas de tela. **Os relatórios das nove aulas estão organizados; isso não significa que todos os requisitos práticos tenham sido executados ou comprovados.**
@@ -11,7 +11,7 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 |---|---|---|---|
 | 1 | 05 — React | Conferir necessidade de evidências adicionais (commits e painel Vercel) e testes complementares | Cinco funcionalidades testadas na versão publicada; nove PNGs reais anexados e exibidos no relatório |
 | 2 | 06 — Angular e Vue | Testar React, validar origem do template e obter demais prints exigidos | Quatro deploys `READY`; 26 prints reais confirmados no GitHub: sete do Vue básico, doze do Angular e sete da HoennDex (incluindo mobile em 390 × 844 px) |
-| 3 | 08 — CRUD | Confirmar em janela anônima o acesso à produção React e testar integração na URL principal; Postman conforme exigência | API Render `live`, CRUD validado na prévia, 9 prints anexados; React `main` publicado `READY` e proteção SSO restrita a previews |
+| 3 | 08 — CRUD | Opcional: executar coleção Postman, repetir escrita na URL de produção e confirmar acesso pela conta do professor | API Render `live`, CRUD validado na prévia; produção React `READY` aberta e exibindo duas notas originais; 9 prints anexados |
 | 4 | 09 — ConectaAção | Confirmar entrega da atividade e acesso do professor ao site/código | Homepage, quiz com resultado Acolhedor Social, visual móvel e editor Lovable conferidos; seis prints anexados e exibidos no GitHub; repositório privado |
 | 5 | 07 — PurpleMood | Revisar necessidade de testes POST, PUT e DELETE e evidências extras | Três respostas GET reais (humores, estatísticas e frases) confirmadas; prints anexados e exibidos no relatório |
 | 6 | 03 — Versionamento | Concluir validação prática e marcar checklist de testes | GitHub, tags e Vercel registrados com quatro capturas |
@@ -22,13 +22,13 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 
 **Documentação acadêmica:** relatórios das [Aulas 01 a 09](atividades/README.md) e seus resumos. A pasta de cada atividade contém um README próprio.
 
-**Testes reais da Aula 08:** React + API Render validados em criar, listar, editar e excluir usando notas fictícias; nove capturas preparadas para upload. A coleção Postman não foi executada neste fluxo.
+**Testes reais da Aula 08:** React + API Render validados em criar, listar, editar e excluir usando notas fictícias; nove capturas reais anexadas ao GitHub. A coleção Postman não foi executada neste fluxo.
 
 **Coleção Postman pronta para importar:** [notas-crud.postman_collection.json](atividades/aula-08/postman/notas-crud.postman_collection.json). As quatro requisições existem no arquivo, mas os testes não foram executados aqui.
 
 **Publicação registrada da Aula 03:** [OrganizaFácil](https://pwaula03versionamento.vercel.app/).
 
-**Deploys `READY` encontrados na Vercel:** [Aula 05 React](https://exercicio-react-ecru.vercel.app), [Aula 06 Angular](https://exercicioangular.vercel.app), [Aula 06 Vue básico](https://exercicio-vue-fawn.vercel.app), [Aula 06 Vue HoennDex](https://vue-project-alpha-peach.vercel.app) e [Aula 09 ConectaAção](https://pixel-perfect-pixels-orcin.vercel.app). **Aula 08:** [produção React `READY`](https://exercicioreact1.vercel.app) no commit `18cf156`, após integração do PR #1 e configuração de `VITE_API_URL`. A [prévia React `READY`](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) foi validada com testes CRUD reais. Ainda falta conferir acesso à produção sem login e realizar teste nela.
+**Deploys `READY` encontrados na Vercel:** [Aula 05 React](https://exercicio-react-ecru.vercel.app), [Aula 06 Angular](https://exercicioangular.vercel.app), [Aula 06 Vue básico](https://exercicio-vue-fawn.vercel.app), [Aula 06 Vue HoennDex](https://vue-project-alpha-peach.vercel.app) e [Aula 09 ConectaAção](https://pixel-perfect-pixels-orcin.vercel.app). **Aula 08:** [produção React `READY`](https://exercicioreact1.vercel.app) no commit `18cf156`, após integração do PR #1 e configuração de `VITE_API_URL`. A [prévia React `READY`](https://exercicioreact1-git-preparar-deploy-aula-08-luizaaaaaah.vercel.app) foi validada com testes CRUD reais. A versão de produção foi aberta pela estudante sem tela de login e exibiu duas notas correspondentes à API; o CRUD de escrita havia sido validado na prévia.
 
 **Publicações adicionais identificadas na conta Render:** [PurpleMood — Aula 07](https://exercicio-express-bokp.onrender.com) e [API de notas — Aula 08](https://exercicio-express1.onrender.com). Os serviços estão `live`; as rotas GET de PurpleMood e o CRUD da API de notas foram conferidos por capturas reais de navegador.
 
@@ -37,19 +37,19 @@ Este checklist reúne apenas ações que ainda dependem de execução real, aces
 ## Alterações prontas para revisão na Aula 08
 
 - [PR #1 — API de notas: preparação Render](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) — integrado à `main` (commit `92d3584`);
-- [PR #1 — Front-end React: URL configurável](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) — rascunho, não mesclado.
+- [PR #1 — Front-end React: URL configurável](https://github.com/Luizaaaaaah/exercicio_react1/pull/1) — integrado à `main` (commit `18cf156`).
 
-Os dois PRs devem ser revisados e testados antes de finalizar a integração. Os repositórios originais continuam com suas branches main preservadas.
+Ambos os PRs foram revisados e integrados às respectivas branches `main`, e geraram publicações funcionais de API e interface.
 
 ## O que ainda exige participação da estudante
 
 ### Publicações
 
-As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos domínios foram consultados nas contas. Ainda dependem de validação o acesso público sem login, testes das interfaces, a integração CRUD de produção e, quando exigidas, as evidências capturadas no navegador. O vínculo da Aula 09 como trabalho efetivamente entregue ao professor ainda precisa ser confirmado.
+As conexões da Render e da Vercel estão autorizadas; os deploys e respectivos domínios foram consultados nas contas. A versão de produção do React foi aberta sem tela de login e exibiu as duas notas reais da API. O CRUD completo foi validado na prévia; a escrita em produção e o acesso a partir da conta do professor ainda dependem de verificação, se exigidos. O vínculo da Aula 09 como trabalho efetivamente entregue ao professor ainda precisa ser confirmado.
 
 ### Capturas
 
-Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. Os nove prints reais da Aula 05 também foram confirmados na pasta `prints/` do GitHub e incluídos no relatório. Os seis prints reais do ConectaAção foram confirmados na pasta `prints/` da Aula 09 e incluídos no relatório. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
+Não foram criadas capturas fictícias. A pasta **prints da Aula 06** já contém 26 capturas reais: sete do Vue básico, doze do Angular e sete da HoennDex. Os nove prints reais da Aula 05 também foram confirmados na pasta `prints/` do GitHub e incluídos no relatório. Os nove prints reais da Aula 08 estão anexados e vinculados ao relatório; a captura adicional da versão oficial foi enviada na conversa, ainda não no GitHub. Os seis prints reais do ConectaAção foram confirmados na pasta `prints/` da Aula 09 e incluídos no relatório. As demais evidências pendentes devem resultar da execução real dos respectivos projetos.
 
 ### Permissões
 
