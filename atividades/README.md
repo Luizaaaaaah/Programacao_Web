@@ -14,6 +14,10 @@ Relatórios das nove atividades com os enunciados resumidos, os materiais realme
 | 08 | CRUD de notas com Express e React | API Render `live`; CRUD validado na prévia; produção React `READY` aberta e listando 2 notas reais; 9 prints anexados | [Atividade 08](aula-08/README.md) |
 | 09 | ConectaAção criado com Lovable, com quiz de voluntariado | Homepage, quiz com resultado Acolhedor Social, versão móvel e editor Lovable validados; seis prints reais anexados e exibidos; acesso do professor pendente | [Atividade 09](aula-09/README.md) |
 
+## Projeto final da disciplina (além das nove aulas)
+
+**[Itape + — plataforma de eventos culturais e educacionais](../projeto-final/README.md)**: trabalho final coletivo, concluído e apresentado em sala segundo a integrante; repositório público [RafaelRachidd/Itape-plus](https://github.com/RafaelRachidd/Itape-plus) e [release v1.0.0](https://github.com/RafaelRachidd/Itape-plus/releases/tag/v1.0.0). Não é tratado como Atividade 10.
+
 ## Acesso rápido
 
 - [Coleção Postman da Aula 08](aula-08/postman/notas-crud.postman_collection.json)
