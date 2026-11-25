@@ -179,6 +179,16 @@ A estudante abriu os dois endereços da atividade e enviou capturas reais:
 
 As duas capturas estão nesta conversa, **não foram anexadas ainda** à pasta `prints/` no GitHub. A criação, edição e remoção permanecem pendentes.
 
+### Teste de criação — falhou na prévia React
+
+A estudante tentou salvar a nota fictícia com título **“Teste Integracao Aula 08”** e conteúdo **“Verificando a conexao entre React e Express”**. O modal mostrou a mensagem **“Não foi possível salvar a nota.”** A captura comprova a falha da operação, e **não** comprova criação ou sincronização com a API.
+
+**Hipótese técnica fundamentada no código:** na `main` do back-end, o middleware CORS define somente `Access-Control-Allow-Origin: *`. O POST do React utiliza `Content-Type: application/json`, que exige uma requisição preflight `OPTIONS` entre origens diferentes. Sem os cabeçalhos apropriados para métodos e cabeçalhos permitidos, o navegador pode bloquear esse POST. O [PR de revisão da API](https://github.com/Luizaaaaaah/exercicio_express1/pull/1) já contém a substituição pelo middleware `cors()`, bem como porta `PORT` configurável. O PR está aberto, em rascunho, **não foi mesclado nem publicado no serviço de produção**. É necessário validar a causa exata na aba Rede/Console ou nos logs do serviço, revisar a alteração e fazer novo teste após eventual deploy.
+
+**Outra divergência observada:** os títulos e conteúdos das duas notas visíveis na interface da prévia diferem dos dados da API exibidos diretamente no navegador. Mesmo que o CORS seja corrigido, é preciso confirmar que a variável de ambiente `VITE_API_URL` aponta realmente para o serviço Render desejado.
+
+A imagem da falha ainda está na conversa e não foi anexada ao GitHub.
+
 ## 10. Evidências
 
 Capturas reais a incluir em [prints](prints/README.md):
@@ -207,7 +217,8 @@ Capturas reais a incluir em [prints](prints/README.md):
 - [x] Confirmar URL do serviço Render e histórico do deploy (sem validar respostas HTTP).
 - [x] Confirmar build `READY` da interface em preview da branch de revisão.
 - [x] Conferir abertura da prévia React e resposta GET da API por capturas reais.
-- [ ] Validar sincronização da prévia React com a API; testar criar, editar e excluir notas, e só então publicar uma versão aprovada em produção.
+- [x] Testar tentativa de criação pelo formulário e documentar a falha real observada.
+- [ ] Diagnosticar CORS e URL efetiva usada pela prévia, revisar/deployar correção e retestar criar, editar e excluir antes de publicar versão aprovada.
 - [ ] Adicionar evidências reais.
 
 ## 12. Conclusão
