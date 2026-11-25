@@ -109,7 +109,7 @@ Capturas recomendadas para a pasta [prints](prints/README.md):
 - **05-frases.png** — lista de frases;
 - **06-deploy-render.png** — serviço publicado, se houver.
 
-As capturas **02**, **04** e **05** foram fornecidas na conversa e preparadas em ZIP para upload. Ainda não foram anexadas ao GitHub. As demais evidências são complementares.
+As capturas **02**, **04** e **05** foram enviadas e verificadas no GitHub. As demais evidências permanecem pendentes conforme os requisitos da aula.
 
 ### Testes manuais da API publicada — 25/11/2026
 
@@ -121,7 +121,21 @@ As capturas **02**, **04** e **05** foram fornecidas na conversa e preparadas em
 
 Esses registros comprovam o funcionamento das **consultas GET** na sessão da estudante. Não comprovam a criação, alteração ou exclusão de registros na API publicada nem a persistência após reiniciar o serviço.
 
-**Capturas reais recebidas, prontas para upload:** `02-lista-humores.png`, `04-estatisticas.png` e `05-frases.png`. Os arquivos ainda não foram anexados ao GitHub.
+**Capturas reais confirmadas no GitHub:** [`02-lista-humores.png`](prints/02-lista-humores.png), [`04-estatisticas.png`](prints/04-estatisticas.png) e [`05-frases.png`](prints/05-frases.png).
+
+### Galeria de evidências da API
+
+**Listagem de humores — GET /humores**
+
+![Listagem real dos três humores da API PurpleMood](prints/02-lista-humores.png)
+
+**Estatísticas — GET /estatisticas**
+
+![Resposta real de total de registros e média de intensidade](prints/04-estatisticas.png)
+
+**Frases motivacionais — GET /frases**
+
+![Resposta real da rota de frases motivacionais](prints/05-frases.png)
 
 ## 7. Aprendizados
 
@@ -135,7 +149,7 @@ A atividade mostra que os conhecimentos de Express podem ser aplicados a um tema
 - [x] Código-fonte e funcionalidades analisados.
 - [x] Métodos e rotas documentados.
 - [x] Obter e organizar três capturas reais dos endpoints GET.
-- [ ] Anexar as três imagens à pasta `prints/` no GitHub.
+- [x] Anexar as três imagens GET à pasta `prints/` no GitHub.
 - [x] Confirmar publicação no painel Render (deploy `live` em 15/09/2026).
 - [x] Confirmar respostas atuais GET de três rotas públicas com capturas no navegador.
 - [ ] Testar requisições de escrita POST, PUT e DELETE, se exigidas para a avaliação.
