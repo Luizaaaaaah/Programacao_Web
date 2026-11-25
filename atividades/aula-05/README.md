@@ -138,21 +138,21 @@ As capturas reais devem ser armazenadas na pasta [prints](prints/README.md).
 | 11-todo-concluido.png | Tarefa Estudar React concluída |
 | 12-todo-removido.png | Lista vazia após a exclusão |
 
-As nove capturas dos testes foram fornecidas nesta conversa e estão prontas para upload em um único ZIP. **Ainda precisam ser anexadas ao GitHub.** Os itens 07 e 08 (GitHub e Vercel) também permanecem pendentes, se exigidos pelo enunciado.
+As nove capturas reais foram **anexadas e verificadas** na pasta [prints](prints/) da branch `reorganizacao`. Os itens 07 e 08 (histórico GitHub e tela da Vercel) permanecem pendentes, caso sejam exigidos no enunciado.
 
 ## Validação manual da aplicação publicada — 24/11/2026
 
 **Teste 1 — Abertura da página inicial:** a estudante acessou [o site React na Vercel](https://exercicio-react-ecru.vercel.app) e enviou uma captura real da interface. O print mostra o cabeçalho **React App**, o título **“Bem-vindo ao meu projeto React!”**, cinco cartões de funcionalidades (**To-Do List**, **Contador de Cliques**, **Jogo da Velha**, **Calculadora** e **Buscador de CEP**), os botões **Acessar** e o rodapé.
 
-**Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura ainda está na conversa e **não foi anexada ao GitHub**. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
+**Resultado:** página inicial publicada e renderização dos elementos principais confirmadas visualmente. A captura foi anexada ao GitHub. O funcionamento individual das cinco funcionalidades permanece pendente de testes.
 
-**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Nesse momento, o cadastro, a conclusão e a remoção ainda não tinham sido testados. A captura foi recebida nesta conversa e ainda precisa ser anexada ao GitHub.
+**Teste 2 — Abertura do To-Do List:** ao selecionar a opção **To-Do List** na aplicação publicada, a estudante enviou um print mostrando o título, o campo **“Digite uma tarefa...”**, o botão **Adicionar** e a mensagem **“Nenhuma tarefa cadastrada.”**. A navegação para a funcionalidade e a renderização do estado inicial vazio foram confirmadas. Nesse momento, o cadastro, a conclusão e a remoção ainda não tinham sido testados. A captura foi anexada ao GitHub.
 
-**Teste 3 — Cadastro no To-Do List:** a estudante digitou **“Estudar React”** e clicou em **Adicionar**. A captura mostra a tarefa cadastrada, o campo de entrada novamente vazio e o botão **Remover** ao lado da tarefa. O cadastro foi confirmado visualmente; a conclusão e a exclusão ainda precisam ser verificadas. A imagem está na conversa e ainda não foi anexada à pasta `prints/` do GitHub.
+**Teste 3 — Cadastro no To-Do List:** a estudante digitou **“Estudar React”** e clicou em **Adicionar**. A captura mostra a tarefa cadastrada, o campo de entrada novamente vazio e o botão **Remover** ao lado da tarefa. O cadastro foi confirmado visualmente; a conclusão e a exclusão ainda precisam ser verificadas. A imagem foi anexada à pasta `prints/` do GitHub.
 
-**Teste 4 — Conclusão da tarefa:** após clicar no texto **Estudar React**, a captura mostra a tarefa com o texto riscado e o botão **Remover** ainda disponível. A alteração visual confirma que a tarefa foi marcada como concluída. A captura foi enviada nesta conversa e ainda não foi anexada à pasta `prints/` no GitHub; a remoção permanece pendente de teste.
+**Teste 4 — Conclusão da tarefa:** após clicar no texto **Estudar React**, a captura mostra a tarefa com o texto riscado e o botão **Remover** ainda disponível. A alteração visual confirma que a tarefa foi marcada como concluída. A captura foi anexada à pasta `prints/`; a remoção foi validada no teste seguinte.
 
-**Teste 5 — Remoção da tarefa:** após selecionar **Remover** na tarefa **Estudar React**, a captura mostrou novamente o estado vazio com a mensagem **“Nenhuma tarefa cadastrada.”** O desaparecimento da tarefa confirma visualmente a remoção. Esta captura foi enviada na conversa; o upload para `prints/` está pendente.
+**Teste 5 — Remoção da tarefa:** após selecionar **Remover** na tarefa **Estudar React**, a captura mostrou novamente o estado vazio com a mensagem **“Nenhuma tarefa cadastrada.”** O desaparecimento da tarefa confirma visualmente a remoção. A captura foi anexada à pasta `prints/`.
 
 **Teste 6 — Contador de Cliques:** após três cliques no botão **Clique aqui**, a interface mostra **Quantidade de cliques: 3**. A ação de incremento foi confirmada; o botão **Zerar** ainda não foi testado em captura.
 
@@ -162,7 +162,45 @@ As nove capturas dos testes foram fornecidas nesta conversa e estão prontas par
 
 **Teste 9 — Buscador de CEP:** após consulta de **18211-210** (entrada 18211210), a interface apresentou **Rua Ricardo Martins, Vila Belo Horizonte, Itapetininga — SP** e o CEP formatado. O print comprova que a interface exibiu um retorno de endereço; a precisão do cadastro externo não foi verificada independentemente nesta etapa.
 
-**Situação das evidências:** os nove prints reais da página inicial, To-Do List, contador, jogo, calculadora e busca de CEP foram reunidos em um arquivo ZIP e aguardam upload na pasta `prints/` do GitHub.
+**Situação das evidências:** os nove prints reais da página inicial, To-Do List, contador, jogo, calculadora e busca de CEP foram confirmados na pasta [prints](prints/) do GitHub.
+
+### Capturas reais da validação — React
+
+**Página inicial do React**
+
+![Página inicial do React](prints/01-menu-inicial.png)
+
+**Lista inicialmente vazia**
+
+![Lista inicialmente vazia](prints/10-todo-vazio.png)
+
+**Tarefa Estudar React adicionada**
+
+![Tarefa Estudar React adicionada](prints/02-todo-list.png)
+
+**Tarefa marcada como concluída**
+
+![Tarefa marcada como concluída](prints/11-todo-concluido.png)
+
+**Tarefa removida e lista vazia**
+
+![Tarefa removida e lista vazia](prints/12-todo-removido.png)
+
+**Contador após três cliques**
+
+![Contador após três cliques](prints/03-contador.png)
+
+**Vitória do jogador X**
+
+![Vitória do jogador X](prints/04-jogo-da-velha.png)
+
+**Calculadora: 10 + 5 = 15**
+
+![Calculadora: 10 + 5 = 15](prints/05-calculadora.png)
+
+**Busca de endereço pelo CEP 18211-210**
+
+![Busca de endereço pelo CEP 18211-210](prints/06-buscador-cep.png)
 
 ## 9. Verificação da atividade
 
@@ -176,7 +214,8 @@ As nove capturas dos testes foram fornecidas nesta conversa e estão prontas par
 - [ ] Testar situações adicionais (reset, empate, operações alternativas, entradas inválidas e responsividade).
 - [x] Localizar URL de produção e confirmar deploy `READY` no painel da Vercel.
 - [x] Confirmar acesso e funcionamento dos cenários principais na versão publicada por capturas da estudante.
-- [ ] Inserir capturas reais das cinco funcionalidades, do GitHub e do deploy.
+- [x] Anexar ao GitHub nove capturas reais das cinco funcionalidades testadas.
+- [ ] Adicionar imagens do histórico de commits e painel Vercel, se exigidas no enunciado.
 
 ## 10. Conclusão
 
@@ -184,4 +223,4 @@ O exercício reúne, em uma interface React, cinco situações práticas de inte
 
 A análise do código permitiu identificar o uso de estados, tratamento de eventos, renderização condicional, validação de dados e CSS responsivo. O projeto oferece uma base para compreender como recursos independentes podem ser apresentados dentro de uma aplicação front-end.
 
-A documentação foi elaborada a partir do código disponível no repositório próprio, sem reaproveitar o texto do relatório de outro estudante. Os cenários principais foram validados visualmente na versão publicada; ainda falta anexar as capturas e completar eventuais evidências adicionais exigidas.
+A documentação foi elaborada a partir do código disponível no repositório próprio, sem reaproveitar o texto do relatório de outro estudante. Os cenários principais foram validados visualmente na versão publicada; as capturas foram anexadas e ainda faltam eventuais evidências adicionais exigidas.
